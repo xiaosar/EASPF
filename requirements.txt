@@ -1,0 +1,23 @@
+# dependencies for EASPF
+# install:  python -m pip install -r requirements.txt
+
+# --- core numerics ---
+numpy>=1.17
+scipy>=1.4
+shapely>=1.7
+
+# --- ROI statistics and table output ---
+pandas>=1.0
+openpyxl>=3.0
+rasterio>=1.2
+matplotlib>=3.1
+
+# --- GPU registration ---
+# cupy must match the local CUDA version, so it is intentionally not pinned:
+#     pip install cupy-cuda11x      # CUDA 11.x
+#     pip install cupy-cuda12x      # CUDA 12.x
+
+# --- external commands (not installable via pip) ---
+#   interferometry: mk_tab, base_calc, SLC_corners, create_offset, multi_look,
+#                   phase_sim_orb, SLC_diff_intf, adf, mcf, dispmap, ...
+#   GDAL          : ogr2ogr

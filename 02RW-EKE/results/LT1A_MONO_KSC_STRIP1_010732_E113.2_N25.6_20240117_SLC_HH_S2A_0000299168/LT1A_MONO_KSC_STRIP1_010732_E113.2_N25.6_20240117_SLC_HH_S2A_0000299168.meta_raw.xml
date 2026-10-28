@@ -1,0 +1,3763 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<level1Product>
+  <generalHeader>
+    <itemName>LEVEL2A</itemName>
+    <mission>LT1A</mission>
+    <sensorMode>Master</sensorMode>
+    <satelliteMode>MONOSTATIC</satelliteMode>
+    <source>PGS</source>
+    <destination>User</destination>
+    <generationSystem>PGS</generationSystem>
+    <generationTime>2024-01-17T22:14:38</generationTime>
+    <referenceDocument>V1.2.1</referenceDocument>
+  </generalHeader>
+  <productInfo>
+    <generationInfo>
+      <logicalProductID>299168</logicalProductID>
+      <receivingStation>KSC</receivingStation>
+      <level0ProcessingFacility>DIS</level0ProcessingFacility>
+      <level1ProcessingFacility>PGS</level1ProcessingFacility>
+      <groundOperationsType>OPERATIONAL</groundOperationsType>
+      <deliveryInfo>NOMINAL</deliveryInfo>
+      <copyrightInfo>LuTan-1 Project</copyrightInfo>
+    </generationInfo>
+    <missionInfo>
+      <mission>LT1A</mission>
+      <absOrbit>10732</absOrbit>
+      <relOrbit>54</relOrbit>
+      <orbitDirection>ASCENDING</orbitDirection>
+    </missionInfo>
+    <acquisitionInfo>
+      <sensor>SAR</sensor>
+      <imagingMode>STRIP1</imagingMode>
+      <lookDirection>RIGHT</lookDirection>
+      <antennaReceiveConfiguration>DRA</antennaReceiveConfiguration>
+      <polarisationMode>HH</polarisationMode>
+      <polarisationList>
+        <polLayer>HH</polLayer>
+      </polarisationList>
+      <elevationBeamConfiguration>8</elevationBeamConfiguration>
+      <imagingModeSpecificInfo>
+        <stripMap>
+          <azimuthBeamID>NULL</azimuthBeamID>
+        </stripMap>
+      </imagingModeSpecificInfo>
+    </acquisitionInfo>
+    <imageDataInfo>
+      <pixelValueID>SIGMMA</pixelValueID>
+      <imageDataType>COMPLEX</imageDataType>
+      <imageDataFormat>TIFF</imageDataFormat>
+      <numberOfLayers>1</numberOfLayers>
+      <imageDataDepth>16</imageDataDepth>
+      <imageStorageOrder>ROWBYROW</imageStorageOrder>
+      <rowContent>RANGELINES</rowContent>
+      <columnContent>AZIMUTHLINES</columnContent>
+      <imageRaster>
+        <numberOfRows>40396</numberOfRows>
+        <numberOfColumns>20372</numberOfColumns>
+        <rowSpacing units="m">1.41755995884773034E+00</rowSpacing>
+        <columnSpacing units="m">1.66551365555555564E+00</columnSpacing>
+        <groundRangeResolution>3.24810622988020015E+00</groundRangeResolution>
+        <azimuthResolution>2.69465754177303074E+00</azimuthResolution>
+        <azimuthLooks>1</azimuthLooks>
+        <rangeLooks>1</rangeLooks>
+      </imageRaster>
+    </imageDataInfo>
+    <sceneInfo>
+      <sceneID>297769</sceneID>
+      <start>
+        <timeUTC>2024-01-17T10:30:21.897794</timeUTC>
+      </start>
+      <stop>
+        <timeUTC>2024-01-17T10:30:30.125582</timeUTC>
+      </stop>
+      <rangeTime>
+        <firstPixel>4.95439444451439750E-03</firstPixel>
+        <lastPixel>5.18073888895884214E-03</lastPixel>
+      </rangeTime>
+      <sceneAzimuthExtent>5.72637520976129163E+04</sceneAzimuthExtent>
+      <sceneRangeExtent>3.39298441909777830E+04</sceneRangeExtent>
+      <sceneCenterCoord>
+        <refRow>20198</refRow>
+        <refColumn>10186</refColumn>
+        <lat>25.5665744643</lat>
+        <lon>113.1817829019</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:26.011790</azimuthTimeUTC>
+        <rangeTime>5.06757222229217534E-03</rangeTime>
+        <incidenceAngle>3.92072108199223663E+01</incidenceAngle>
+      </sceneCenterCoord>
+      <sceneAverageHeight>6.18778427148038077E+02</sceneAverageHeight>
+      <headingAngle>3.49793761119272119E+02</headingAngle>
+      <sceneCornerCoord1 name="bottomLeft">
+        <refRow>1</refRow>
+        <refColumn>1</refColumn>
+        <lat>25.2690500893</lat>
+        <lon>112.9649847676</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:21.897794</azimuthTimeUTC>
+        <rangeTime>4.95439444451439750E-03</rangeTime>
+        <incidenceAngle>3.73218714382081913E+01</incidenceAngle>
+      </sceneCornerCoord1>
+      <sceneCornerCoord2 name="bottomRight">
+        <refRow>1</refRow>
+        <refColumn>20372</refColumn>
+        <lat>25.3551035468</lat>
+        <lon>113.4898653940</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:21.897794</azimuthTimeUTC>
+        <rangeTime>5.18073888895884214E-03</rangeTime>
+        <incidenceAngle>4.09465655361494214E+01</incidenceAngle>
+      </sceneCornerCoord2>
+      <sceneCornerCoord3 name="topLeft">
+        <refRow>40396</refRow>
+        <refColumn>1</refColumn>
+        <lat>25.7759692825</lat>
+        <lon>112.8624457162</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:30.125582</azimuthTimeUTC>
+        <rangeTime>4.95439444451439750E-03</rangeTime>
+        <incidenceAngle>3.73218714382081913E+01</incidenceAngle>
+      </sceneCornerCoord3>
+      <sceneCornerCoord4 name="topRight">
+        <refRow>40396</refRow>
+        <refColumn>20372</refColumn>
+        <lat>25.8618600349</lat>
+        <lon>113.3896515009</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:30.125582</azimuthTimeUTC>
+        <rangeTime>5.18073888895884214E-03</rangeTime>
+        <incidenceAngle>4.09465655361494214E+01</incidenceAngle>
+      </sceneCornerCoord4>
+    </sceneInfo>
+  </productInfo>
+  <productSpecific>
+    <complexImageInfo>
+      <slantRangeResolution>1.87370286250000007E+00</slantRangeResolution>
+      <projectedSpacingAzimuth>1.41755995884773034E+00</projectedSpacingAzimuth>
+      <projectedSpacingRange>
+        <groundNear>2.74704865821184852E+00</groundNear>
+        <groundFar>2.54139194726853690E+00</groundFar>
+        <slantRange>1.66551365555555564E+00</slantRange>
+      </projectedSpacingRange>
+      <imageCoordinateType>ZERODOPPLER</imageCoordinateType>
+      <imageDataStartWith>EARLYAZNEARRG</imageDataStartWith>
+      <quicklookDataStartWith>EARLYAZNEARRG</quicklookDataStartWith>
+    </complexImageInfo>
+  </productSpecific>
+  <setup>
+    <orderInfo>
+      <orderType>PROD_STD</orderType>
+      <processingPriority>NOMINAL</processingPriority>
+      <orbitAccuracy>RT</orbitAccuracy>
+      <sceneSpecification>TIME</sceneSpecification>
+      <orderedScene>
+        <sceneExtent>
+          <startTimeUTC>2024-01-17T10:30:19.698627</startTimeUTC>
+          <stopTimeUTC>2024-01-17T10:30:32.329438</stopTimeUTC>
+        </sceneExtent>
+      </orderedScene>
+      <imagingMode>STRIP1</imagingMode>
+      <lookDirection>RIGHT</lookDirection>
+      <antennaReceiveConfiguration>DRA</antennaReceiveConfiguration>
+      <polarisationMode>HH</polarisationMode>
+      <polList>
+        <polLayer>HH</polLayer>
+      </polList>
+      <elevationBeamConfiguration>8</elevationBeamConfiguration>
+      <productVariant>SSC</productVariant>
+      <projection>SLANTRANGE</projection>
+    </orderInfo>
+  </setup>
+  <processing>
+    <geometry>
+      <geometryCoordinateType>ZERODOPPLER</geometryCoordinateType>
+      <velocityParameter>
+        <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+        <velocityParameterPolynomial>
+          <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+          <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+          <referencePoint>5.06787098676609715E-03</referencePoint>
+          <polynomialDegree>3</polynomialDegree>
+          <coefficient exponent="0">7.28069173658890850E+03</coefficient>
+          <coefficient exponent="1">-1.69399871953493785E+04</coefficient>
+          <coefficient exponent="2">3.66175834780694393E+05</coefficient>
+          <coefficient exponent="3">-7.04562480469355583E+08</coefficient>
+        </velocityParameterPolynomial>
+      </velocityParameter>
+      <zeroDopplerVelocity>
+        <velocity>6.95962690324147661E+03</velocity>
+      </zeroDopplerVelocity>
+      <dopplerRate>
+        <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+        <dopplerRatePolynomial>
+          <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+          <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+          <referencePoint>5.06787098676609715E-03</referencePoint>
+          <polynomialDegree>3</polynomialDegree>
+          <coefficient exponent="0">5.86555156802478450E+02</coefficient>
+          <coefficient exponent="1">-1.18469425399458923E+05</coefficient>
+          <coefficient exponent="2">2.34490175910693817E+07</coefficient>
+          <coefficient exponent="3">-4.74132423893729591E+09</coefficient>
+        </dopplerRatePolynomial>
+      </dopplerRate>
+    </geometry>
+    <doppler>
+      <azDeskew>TRUE</azDeskew>
+      <dopplerBasebandEstimationMethod>azimuth cross correlation</dopplerBasebandEstimationMethod>
+      <dopplerGeometricEstimationMethod>orbit and attitude data evaluation</dopplerGeometricEstimationMethod>
+      <dopplerCentroidCoordinateType>RAW</dopplerCentroidCoordinateType>
+      <dopplerCentroid>
+        <numberOfBlocks>0</numberOfBlocks>
+        <numberOfRejectedBlocks>0</numberOfRejectedBlocks>
+        <numberOfDopplerRecords>0</numberOfDopplerRecords>
+        <dopplerRecordAzimuthSpacing>0.00000000000000000E+00</dopplerRecordAzimuthSpacing>
+        <dopplerEstimate>
+          <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+          <dopplerAtMidRange>1.39127735631122107E+00</dopplerAtMidRange>
+          <basebandDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </basebandDoppler>
+          <geometricDopplerFlag>true</geometricDopplerFlag>
+          <geometricDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </geometricDoppler>
+          <dopplerAmbiguity>0</dopplerAmbiguity>
+          <dopplerConsistencyFlag>true</dopplerConsistencyFlag>
+          <dopplerEstimateConfidence>0.00000000000000000E+00</dopplerEstimateConfidence>
+          <combinedDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </combinedDoppler>
+        </dopplerEstimate>
+      </dopplerCentroid>
+    </doppler>
+    <processingParameter>
+      <rangeLooks>1</rangeLooks>
+      <azimuthLooks>1</azimuthLooks>
+      <rangeLookBandwidth>8.00000000000000000E+07</rangeLookBandwidth>
+      <azimuthLookBandwidth>4.90958203200000025E+03</azimuthLookBandwidth>
+      <totalProcessedRangeBandwidth>8.00000000000000000E+07</totalProcessedRangeBandwidth>
+      <totalProcessedAzimuthBandwidth>2.58275005092564788E+03</totalProcessedAzimuthBandwidth>
+      <rangeWindowID>Taylor window</rangeWindowID>
+      <rangeWindowCoefficient>-1.70000000000000000E+01,0.00000000000000000E+00</rangeWindowCoefficient>
+      <azimuthWindowID>Taylor window</azimuthWindowID>
+      <azimuthWindowCoefficient>-2.00000000000000000E+01,0.00000000000000000E+00</azimuthWindowCoefficient>
+      <rangeCompression>
+        <segmentInfo>
+          <polLayer>HH</polLayer>
+          <dataSegment segmentID="35634">
+            <startTimeUTC>2024-01-17T10:29:13.000076</startTimeUTC>
+            <stopTimeUTC>2024-01-17T10:33:14.133034</stopTimeUTC>
+            <numberOfRows>591932</numberOfRows>
+          </dataSegment>
+        </segmentInfo>
+        <chirps>
+          <referenceChirp>
+            <chirpSlope>DOWN</chirpSlope>
+            <pulseLength>5.99999999999999947E-05</pulseLength>
+            <pulseBandwidth>8.00000000000000000E+07</pulseBandwidth>
+            <centerFrequency>1.26000000000000000E+09</centerFrequency>
+          </referenceChirp>
+        </chirps>
+      </rangeCompression>
+      <correctedInstrumentDelay>
+        <totalTimeDelay>0.00000000000000000E+00</totalTimeDelay>
+      </correctedInstrumentDelay>
+      <calibrationConst>
+        <HH>0.00000000000000000E+00</HH>
+        <HV>0.00000000000000000E+00</HV>
+        <VH>0.00000000000000000E+00</VH>
+        <VV>0.00000000000000000E+00</VV>
+      </calibrationConst>
+      <quantifyValue>
+        <HH>1.40428588867187500E+02</HH>
+        <HV>0.00000000000000000E+00</HV>
+        <VH>0.00000000000000000E+00</VH>
+        <VV>0.00000000000000000E+00</VV>
+      </quantifyValue>
+    </processingParameter>
+    <processingFlags>
+      <RXGainCorrectedFlag>true</RXGainCorrectedFlag>
+      <DRAChannelSyncFlag>false</DRAChannelSyncFlag>
+      <DRAChannelDemixingPerformedFlag>true</DRAChannelDemixingPerformedFlag>
+      <chirpDriftCorrectedFlag>false</chirpDriftCorrectedFlag>
+      <chirpReplicaUsedFlag>false</chirpReplicaUsedFlag>
+      <geometricDopplerUsedFlag>true</geometricDopplerUsedFlag>
+      <rangeSpreadingLossCorrectedFlag>false</rangeSpreadingLossCorrectedFlag>
+      <scanSARBeamCorrectedFlag>false</scanSARBeamCorrectedFlag>
+      <spotLightBeamCorrectedFlag>false</spotLightBeamCorrectedFlag>
+      <azimuthPatternCorrectedFlag>false</azimuthPatternCorrectedFlag>
+      <elevationPatternCorrectedFlag>true</elevationPatternCorrectedFlag>
+      <polarisationCorrectedFlag>false</polarisationCorrectedFlag>
+      <multiLookedFlag>false</multiLookedFlag>
+      <propagationEffectsCorrectedFlag>true</propagationEffectsCorrectedFlag>
+      <geocodedFlag>false</geocodedFlag>
+    </processingFlags>
+  </processing>
+  <instrument>
+    <radarParameters>
+      <centerFrequency>1.26000000000000000E+09</centerFrequency>
+    </radarParameters>
+    <settings>
+      <rxGainSetting>
+        <Type>MGC</Type>
+        <rxGain>3.60000000000000000E+01</rxGain>
+      </rxGainSetting>
+      <quantisationID>BAQ</quantisationID>
+      <quantisationControl>10:6BAQ</quantisationControl>
+      <rxBandwidth>8.00000000000000000E+07</rxBandwidth>
+      <RSF>9.00000000000000000E+07</RSF>
+      <settingRecord>
+        <dataSegment segmentID="35634">
+          <startTimeUTC>2024-01-17T10:29:13.000076</startTimeUTC>
+          <stopTimeUTC>2024-01-17T10:33:14.133034</stopTimeUTC>
+          <numberOfRows>591932</numberOfRows>
+        </dataSegment>
+        <PRF>4.90958203200000025E+03</PRF>
+      </settingRecord>
+    </settings>
+  </instrument>
+  <platform>
+    <orbit>
+      <orbitHeader>
+        <generationSystem>PGS</generationSystem>
+        <sensor>GNSS</sensor>
+        <accuracy>RT</accuracy>
+        <stateVectorRefFrame>WGS84</stateVectorRefFrame>
+        <stateVectorRefTime>GPS</stateVectorRefTime>
+        <stateVecFormat>pos(m),vel(m/s)</stateVecFormat>
+        <numStateVectors>247</numStateVectors>
+        <firstStateTime>
+          <firstStateTimeUTC>2024-01-17T10:29:06.000000</firstStateTimeUTC>
+        </firstStateTime>
+        <lastStateTime>
+          <lastStateTimeUTC>2024-01-17T10:33:13.000000</lastStateTimeUTC>
+        </lastStateTime>
+        <stateVectorTimeSpacing>1.00000000000000000E+00</stateVectorTimeSpacing>
+      </orbitHeader>
+      <stateVec num="1">
+        <timeUTC>2024-01-17T10:29:06.000000</timeUTC>
+        <posX>-2.25034631000000006E+06</posX>
+        <posY>6.17273203000000026E+06</posY>
+        <posZ>2.35932533000000007E+06</posZ>
+        <velX>2.34431399999999985E+03</velX>
+        <velY>-1.84683600000000001E+03</velY>
+        <velZ>7.03576100000000042E+03</velZ>
+      </stateVec>
+      <stateVec num="2">
+        <timeUTC>2024-01-17T10:29:07.000000</timeUTC>
+        <posX>-2.24800087000000011E+06</posX>
+        <posY>6.17088137999999989E+06</posY>
+        <posZ>2.36636016000000015E+06</posZ>
+        <velX>2.34668299999999999E+03</velX>
+        <velY>-1.85439499999999998E+03</velY>
+        <velZ>7.03296600000000035E+03</velZ>
+      </stateVec>
+      <stateVec num="3">
+        <timeUTC>2024-01-17T10:29:08.000000</timeUTC>
+        <posX>-2.24565075999999978E+06</posX>
+        <posY>6.16901833000000007E+06</posY>
+        <posZ>2.37338793000000017E+06</posZ>
+        <velX>2.34905699999999979E+03</velX>
+        <velY>-1.86204299999999989E+03</velY>
+        <velZ>7.03013400000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="4">
+        <timeUTC>2024-01-17T10:29:09.000000</timeUTC>
+        <posX>-2.24330043000000017E+06</posX>
+        <posY>6.16715266000000015E+06</posY>
+        <posZ>2.38041702999999980E+06</posZ>
+        <velX>2.35137899999999991E+03</velX>
+        <velY>-1.86953899999999999E+03</velY>
+        <velZ>7.02735900000000038E+03</velZ>
+      </stateVec>
+      <stateVec num="5">
+        <timeUTC>2024-01-17T10:29:10.000000</timeUTC>
+        <posX>-2.24095033000000007E+06</posX>
+        <posY>6.16528394000000041E+06</posY>
+        <posZ>2.38744637999999989E+06</posZ>
+        <velX>2.35369700000000012E+03</velX>
+        <velY>-1.87700000000000000E+03</velY>
+        <velZ>7.02459599999999955E+03</velZ>
+      </stateVec>
+      <stateVec num="6">
+        <timeUTC>2024-01-17T10:29:12.000000</timeUTC>
+        <posX>-2.23623816000000015E+06</posX>
+        <posY>6.16151496999999974E+06</posY>
+        <posZ>2.40149008999999985E+06</posZ>
+        <velX>2.35839199999999983E+03</velX>
+        <velY>-1.89213400000000001E+03</velY>
+        <velZ>7.01893900000000031E+03</velZ>
+      </stateVec>
+      <stateVec num="7">
+        <timeUTC>2024-01-17T10:29:13.000000</timeUTC>
+        <posX>-2.23387889000000013E+06</posX>
+        <posY>6.15961967999999970E+06</posY>
+        <posZ>2.40850791000000015E+06</posZ>
+        <velX>2.36075100000000020E+03</velX>
+        <velY>-1.89966699999999992E+03</velY>
+        <velZ>7.01610000000000036E+03</velZ>
+      </stateVec>
+      <stateVec num="8">
+        <timeUTC>2024-01-17T10:29:14.000000</timeUTC>
+        <posX>-2.23151354999999981E+06</posX>
+        <posY>6.15771000000000000E+06</posY>
+        <posZ>2.41551829000000004E+06</posZ>
+        <velX>2.36302700000000004E+03</velX>
+        <velY>-1.90715699999999993E+03</velY>
+        <velZ>7.01330299999999988E+03</velZ>
+      </stateVec>
+      <stateVec num="9">
+        <timeUTC>2024-01-17T10:29:15.000000</timeUTC>
+        <posX>-2.22915004000000004E+06</posX>
+        <posY>6.15579995000000019E+06</posY>
+        <posZ>2.42253066999999993E+06</posZ>
+        <velX>2.36534700000000021E+03</velX>
+        <velY>-1.91468900000000008E+03</velY>
+        <velZ>7.01044200000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="10">
+        <timeUTC>2024-01-17T10:29:16.000000</timeUTC>
+        <posX>-2.22678327000000002E+06</posX>
+        <posY>6.15388117999999970E+06</posY>
+        <posZ>2.42953981000000006E+06</posZ>
+        <velX>2.36769799999999987E+03</velX>
+        <velY>-1.92220000000000005E+03</velY>
+        <velZ>7.00760000000000036E+03</velZ>
+      </stateVec>
+      <stateVec num="11">
+        <timeUTC>2024-01-17T10:29:17.000000</timeUTC>
+        <posX>-2.22441445999999996E+06</posX>
+        <posY>6.15195504999999981E+06</posY>
+        <posZ>2.43654556000000006E+06</posZ>
+        <velX>2.37001999999999998E+03</velX>
+        <velY>-1.92979700000000003E+03</velY>
+        <velZ>7.00470700000000033E+03</velZ>
+      </stateVec>
+      <stateVec num="12">
+        <timeUTC>2024-01-17T10:29:18.000000</timeUTC>
+        <posX>-2.22204320000000019E+06</posX>
+        <posY>6.15002133999999985E+06</posY>
+        <posZ>2.44354902999999980E+06</posZ>
+        <velX>2.37236200000000008E+03</velX>
+        <velY>-1.93734300000000007E+03</velY>
+        <velZ>7.00183799999999974E+03</velZ>
+      </stateVec>
+      <stateVec num="13">
+        <timeUTC>2024-01-17T10:29:19.000000</timeUTC>
+        <posX>-2.21966974000000022E+06</posX>
+        <posY>6.14808020000000019E+06</posY>
+        <posZ>2.45054931000000006E+06</posZ>
+        <velX>2.37464600000000019E+03</velX>
+        <velY>-1.94481400000000008E+03</velY>
+        <velZ>6.99898499999999967E+03</velZ>
+      </stateVec>
+      <stateVec num="14">
+        <timeUTC>2024-01-17T10:29:20.000000</timeUTC>
+        <posX>-2.21729400000000000E+06</posX>
+        <posY>6.14613182000000030E+06</posY>
+        <posZ>2.45754716999999993E+06</posZ>
+        <velX>2.37693100000000004E+03</velX>
+        <velY>-1.95229999999999995E+03</velY>
+        <velZ>6.99612399999999980E+03</velZ>
+      </stateVec>
+      <stateVec num="15">
+        <timeUTC>2024-01-17T10:29:21.000000</timeUTC>
+        <posX>-2.21491597999999998E+06</posX>
+        <posY>6.14417584999999963E+06</posY>
+        <posZ>2.46454193999999994E+06</posZ>
+        <velX>2.37923700000000008E+03</velX>
+        <velY>-1.95984999999999991E+03</velY>
+        <velZ>6.99321000000000004E+03</velZ>
+      </stateVec>
+      <stateVec num="16">
+        <timeUTC>2024-01-17T10:29:22.000000</timeUTC>
+        <posX>-2.21253537000000011E+06</posX>
+        <posY>6.14221203000000026E+06</posY>
+        <posZ>2.47153360999999987E+06</posZ>
+        <velX>2.38150799999999981E+03</velX>
+        <velY>-1.96732300000000009E+03</velY>
+        <velZ>6.99031700000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="17">
+        <timeUTC>2024-01-17T10:29:23.000000</timeUTC>
+        <posX>-2.21015237999999989E+06</posX>
+        <posY>6.14024025999999978E+06</posY>
+        <posZ>2.47852179000000004E+06</posZ>
+        <velX>2.38381800000000021E+03</velX>
+        <velY>-1.97487200000000007E+03</velY>
+        <velZ>6.98739500000000044E+03</velZ>
+      </stateVec>
+      <stateVec num="18">
+        <timeUTC>2024-01-17T10:29:24.000000</timeUTC>
+        <posX>-2.20776752000000002E+06</posX>
+        <posY>6.13826170999999996E+06</posY>
+        <posZ>2.48550835000000009E+06</posZ>
+        <velX>2.38612899999999991E+03</velX>
+        <velY>-1.98240400000000000E+03</velY>
+        <velZ>6.98446100000000024E+03</velZ>
+      </stateVec>
+      <stateVec num="19">
+        <timeUTC>2024-01-17T10:29:25.000000</timeUTC>
+        <posX>-2.20538318999999994E+06</posX>
+        <posY>6.13628112999999989E+06</posY>
+        <posZ>2.49249524000000022E+06</posZ>
+        <velX>2.38839100000000008E+03</velX>
+        <velY>-1.98991499999999996E+03</velY>
+        <velZ>6.98154399999999987E+03</velZ>
+      </stateVec>
+      <stateVec num="20">
+        <timeUTC>2024-01-17T10:29:26.000000</timeUTC>
+        <posX>-2.20299362000000011E+06</posX>
+        <posY>6.13428738999999966E+06</posY>
+        <posZ>2.49947525999999978E+06</posZ>
+        <velX>2.39067999999999984E+03</velX>
+        <velY>-1.99741300000000001E+03</velY>
+        <velZ>6.97860499999999956E+03</velZ>
+      </stateVec>
+      <stateVec num="21">
+        <timeUTC>2024-01-17T10:29:27.000000</timeUTC>
+        <posX>-2.20060189000000013E+06</posX>
+        <posY>6.13228599000000022E+06</posY>
+        <posZ>2.50645237999999989E+06</posZ>
+        <velX>2.39297499999999991E+03</velX>
+        <velY>-2.00495900000000006E+03</velY>
+        <velZ>6.97565700000000015E+03</velZ>
+      </stateVec>
+      <stateVec num="22">
+        <timeUTC>2024-01-17T10:29:28.000000</timeUTC>
+        <posX>-2.19820764000000013E+06</posX>
+        <posY>6.13027655999999959E+06</posY>
+        <posZ>2.51342618000000017E+06</posZ>
+        <velX>2.39523000000000002E+03</velX>
+        <velY>-2.01245299999999997E+03</velY>
+        <velZ>6.97269800000000032E+03</velZ>
+      </stateVec>
+      <stateVec num="23">
+        <timeUTC>2024-01-17T10:29:29.000000</timeUTC>
+        <posX>-2.19581085999999987E+06</posX>
+        <posY>6.12825999000000022E+06</posY>
+        <posZ>2.52039725999999978E+06</posZ>
+        <velX>2.39753699999999981E+03</velX>
+        <velY>-2.01994599999999991E+03</velY>
+        <velZ>6.96975399999999991E+03</velZ>
+      </stateVec>
+      <stateVec num="24">
+        <timeUTC>2024-01-17T10:29:30.000000</timeUTC>
+        <posX>-2.19341279999999981E+06</posX>
+        <posY>6.12623750999999978E+06</posY>
+        <posZ>2.52736654999999981E+06</posZ>
+        <velX>2.39977100000000019E+03</velX>
+        <velY>-2.02742699999999991E+03</velY>
+        <velZ>6.96677599999999984E+03</velZ>
+      </stateVec>
+      <stateVec num="25">
+        <timeUTC>2024-01-17T10:29:31.000000</timeUTC>
+        <posX>-2.19101114000000013E+06</posX>
+        <posY>6.12420504000000004E+06</posY>
+        <posZ>2.53433106999999983E+06</posZ>
+        <velX>2.40203200000000015E+03</velX>
+        <velY>-2.03490499999999997E+03</velY>
+        <velZ>6.96382999999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="26">
+        <timeUTC>2024-01-17T10:29:32.000000</timeUTC>
+        <posX>-2.18860566000000015E+06</posX>
+        <posY>6.12216179999999981E+06</posY>
+        <posZ>2.54129010000000009E+06</posZ>
+        <velX>2.40429399999999987E+03</velX>
+        <velY>-2.04241900000000010E+03</velY>
+        <velZ>6.96082999999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="27">
+        <timeUTC>2024-01-17T10:29:33.000000</timeUTC>
+        <posX>-2.18620287000000011E+06</posX>
+        <posY>6.12012058999999985E+06</posY>
+        <posZ>2.54825293000000017E+06</posZ>
+        <velX>2.40655600000000004E+03</velX>
+        <velY>-2.04992399999999998E+03</velY>
+        <velZ>6.95785599999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="28">
+        <timeUTC>2024-01-17T10:29:34.000000</timeUTC>
+        <posX>-2.18379229000000004E+06</posX>
+        <posY>6.11806171999999974E+06</posY>
+        <posZ>2.55520562000000011E+06</posZ>
+        <velX>2.40881599999999980E+03</velX>
+        <velY>-2.05742500000000018E+03</velY>
+        <velZ>6.95484699999999975E+03</velZ>
+      </stateVec>
+      <stateVec num="29">
+        <timeUTC>2024-01-17T10:29:35.000000</timeUTC>
+        <posX>-2.18138231000000006E+06</posX>
+        <posY>6.11600091000000015E+06</posY>
+        <posZ>2.56215910000000009E+06</posZ>
+        <velX>2.41103600000000006E+03</velX>
+        <velY>-2.06488700000000017E+03</velY>
+        <velZ>6.95186599999999999E+03</velZ>
+      </stateVec>
+      <stateVec num="30">
+        <timeUTC>2024-01-17T10:29:36.000000</timeUTC>
+        <posX>-2.17897343000000017E+06</posX>
+        <posY>6.11393805999999959E+06</posY>
+        <posZ>2.56911387000000011E+06</posZ>
+        <velX>2.41326899999999978E+03</velX>
+        <velY>-2.07238200000000006E+03</velY>
+        <velZ>6.94881400000000031E+03</velZ>
+      </stateVec>
+      <stateVec num="31">
+        <timeUTC>2024-01-17T10:29:37.000000</timeUTC>
+        <posX>-2.17655560000000009E+06</posX>
+        <posY>6.11185525999999978E+06</posY>
+        <posZ>2.57605656999999983E+06</posZ>
+        <velX>2.41550700000000006E+03</velX>
+        <velY>-2.07983599999999979E+03</velY>
+        <velZ>6.94582499999999982E+03</velZ>
+      </stateVec>
+      <stateVec num="32">
+        <timeUTC>2024-01-17T10:29:38.000000</timeUTC>
+        <posX>-2.17413935000000009E+06</posX>
+        <posY>6.10977245000000019E+06</posY>
+        <posZ>2.58300127000000002E+06</posZ>
+        <velX>2.41775900000000001E+03</velX>
+        <velY>-2.08731199999999990E+03</velY>
+        <velZ>6.94280199999999968E+03</velZ>
+      </stateVec>
+      <stateVec num="33">
+        <timeUTC>2024-01-17T10:29:39.000000</timeUTC>
+        <posX>-2.17172377000000002E+06</posX>
+        <posY>6.10768690000000037E+06</posY>
+        <posZ>2.58994668000000017E+06</posZ>
+        <velX>2.41998199999999997E+03</velX>
+        <velY>-2.09482600000000002E+03</velY>
+        <velZ>6.93974600000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="34">
+        <timeUTC>2024-01-17T10:29:40.000000</timeUTC>
+        <posX>-2.16929941000000015E+06</posX>
+        <posY>6.10558225999999978E+06</posY>
+        <posZ>2.59688052000000002E+06</posZ>
+        <velX>2.42221500000000015E+03</velX>
+        <velY>-2.10230000000000018E+03</velY>
+        <velZ>6.93669099999999980E+03</velZ>
+      </stateVec>
+      <stateVec num="35">
+        <timeUTC>2024-01-17T10:29:41.000000</timeUTC>
+        <posX>-2.16687645999999996E+06</posX>
+        <posY>6.10347691000000015E+06</posY>
+        <posZ>2.60381608999999985E+06</posZ>
+        <velX>2.42445200000000023E+03</velX>
+        <velY>-2.10982000000000016E+03</velY>
+        <velZ>6.93361200000000008E+03</velZ>
+      </stateVec>
+      <stateVec num="36">
+        <timeUTC>2024-01-17T10:29:42.000000</timeUTC>
+        <posX>-2.16445037999999989E+06</posX>
+        <posY>6.10136337000000011E+06</posY>
+        <posZ>2.61074806000000006E+06</posZ>
+        <velX>2.42665099999999984E+03</velX>
+        <velY>-2.11722299999999996E+03</velY>
+        <velZ>6.93057600000000002E+03</velZ>
+      </stateVec>
+      <stateVec num="37">
+        <timeUTC>2024-01-17T10:29:43.000000</timeUTC>
+        <posX>-2.16202535000000009E+06</posX>
+        <posY>6.09924716999999993E+06</posY>
+        <posZ>2.61768081000000006E+06</posZ>
+        <velX>2.42884900000000016E+03</velX>
+        <velY>-2.12469599999999991E+03</velY>
+        <velZ>6.92751699999999983E+03</velZ>
+      </stateVec>
+      <stateVec num="38">
+        <timeUTC>2024-01-17T10:29:44.000000</timeUTC>
+        <posX>-2.15959529999999981E+06</posX>
+        <posY>6.09711829999999981E+06</posY>
+        <posZ>2.62460645000000019E+06</posZ>
+        <velX>2.43107700000000023E+03</velX>
+        <velY>-2.13219999999999982E+03</velY>
+        <velZ>6.92440800000000036E+03</velZ>
+      </stateVec>
+      <stateVec num="39">
+        <timeUTC>2024-01-17T10:29:45.000000</timeUTC>
+        <posX>-2.15716049000000022E+06</posX>
+        <posY>6.09497708000000007E+06</posY>
+        <posZ>2.63152552999999980E+06</posZ>
+        <velX>2.43332099999999991E+03</velX>
+        <velY>-2.13972899999999981E+03</velY>
+        <velZ>6.92128999999999996E+03</velZ>
+      </stateVec>
+      <stateVec num="40">
+        <timeUTC>2024-01-17T10:29:46.000000</timeUTC>
+        <posX>-2.15472508999999985E+06</posX>
+        <posY>6.09283229000000004E+06</posY>
+        <posZ>2.63844470000000019E+06</posZ>
+        <velX>2.43546000000000004E+03</velX>
+        <velY>-2.14707099999999991E+03</velY>
+        <velZ>6.91826100000000042E+03</velZ>
+      </stateVec>
+      <stateVec num="41">
+        <timeUTC>2024-01-17T10:29:47.000000</timeUTC>
+        <posX>-2.15228883000000007E+06</posX>
+        <posY>6.09068183999999985E+06</posY>
+        <posZ>2.64536156999999983E+06</posZ>
+        <velX>2.43772100000000000E+03</velX>
+        <velY>-2.15463799999999992E+03</velY>
+        <velZ>6.91511899999999969E+03</velZ>
+      </stateVec>
+      <stateVec num="42">
+        <timeUTC>2024-01-17T10:29:48.000000</timeUTC>
+        <posX>-2.14985039000000013E+06</posX>
+        <posY>6.08852416999999993E+06</posY>
+        <posZ>2.65227575000000000E+06</posZ>
+        <velX>2.43987399999999980E+03</velX>
+        <velY>-2.16205400000000009E+03</velY>
+        <velZ>6.91201699999999983E+03</velZ>
+      </stateVec>
+      <stateVec num="43">
+        <timeUTC>2024-01-17T10:29:49.000000</timeUTC>
+        <posX>-2.14740929999999981E+06</posX>
+        <posY>6.08635800000000000E+06</posY>
+        <posZ>2.65918606999999983E+06</posZ>
+        <velX>2.44209200000000010E+03</velX>
+        <velY>-2.16951800000000003E+03</velY>
+        <velZ>6.90888900000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="44">
+        <timeUTC>2024-01-17T10:29:50.000000</timeUTC>
+        <posX>-2.14496887999999989E+06</posX>
+        <posY>6.08419016000000015E+06</posY>
+        <posZ>2.66609752000000002E+06</posZ>
+        <velX>2.44424699999999984E+03</velX>
+        <velY>-2.17695699999999988E+03</velY>
+        <velZ>6.90575500000000011E+03</velZ>
+      </stateVec>
+      <stateVec num="45">
+        <timeUTC>2024-01-17T10:29:51.000000</timeUTC>
+        <posX>-2.14252372999999998E+06</posX>
+        <posY>6.08200895999999996E+06</posY>
+        <posZ>2.67300137000000011E+06</posZ>
+        <velX>2.44645600000000013E+03</velX>
+        <velY>-2.18446300000000019E+03</velY>
+        <velZ>6.90263199999999961E+03</velZ>
+      </stateVec>
+      <stateVec num="46">
+        <timeUTC>2024-01-17T10:29:52.000000</timeUTC>
+        <posX>-2.14007350999999978E+06</posX>
+        <posY>6.07981545000000019E+06</posY>
+        <posZ>2.67989831999999983E+06</posZ>
+        <velX>2.44859200000000010E+03</velX>
+        <velY>-2.19183599999999979E+03</velY>
+        <velZ>6.89949600000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="47">
+        <timeUTC>2024-01-17T10:29:53.000000</timeUTC>
+        <posX>-2.13762325999999978E+06</posX>
+        <posY>6.07761916999999993E+06</posY>
+        <posZ>2.68679608000000007E+06</posZ>
+        <velX>2.45080200000000013E+03</velX>
+        <velY>-2.19932099999999991E+03</velY>
+        <velZ>6.89633399999999983E+03</velZ>
+      </stateVec>
+      <stateVec num="48">
+        <timeUTC>2024-01-17T10:29:54.000000</timeUTC>
+        <posX>-2.13517162000000011E+06</posX>
+        <posY>6.07541608000000007E+06</posY>
+        <posZ>2.69369077999999980E+06</posZ>
+        <velX>2.45295499999999993E+03</velX>
+        <velY>-2.20672899999999981E+03</velY>
+        <velZ>6.89318000000000029E+03</velZ>
+      </stateVec>
+      <stateVec num="49">
+        <timeUTC>2024-01-17T10:29:55.000000</timeUTC>
+        <posX>-2.13271727000000002E+06</posX>
+        <posY>6.07320562999999989E+06</posY>
+        <posZ>2.70058252000000002E+06</posZ>
+        <velX>2.45519700000000012E+03</velX>
+        <velY>-2.21431899999999996E+03</velY>
+        <velZ>6.88994200000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="50">
+        <timeUTC>2024-01-17T10:29:56.000000</timeUTC>
+        <posX>-2.13026095000000019E+06</posX>
+        <posY>6.07098711000000034E+06</posY>
+        <posZ>2.70747072000000020E+06</posZ>
+        <velX>2.45731100000000015E+03</velX>
+        <velY>-2.22169999999999982E+03</velY>
+        <velZ>6.88681700000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="51">
+        <timeUTC>2024-01-17T10:29:57.000000</timeUTC>
+        <posX>-2.12780297999999998E+06</posX>
+        <posY>6.06876234999999963E+06</posY>
+        <posZ>2.71435610999999987E+06</posZ>
+        <velX>2.45948799999999983E+03</velX>
+        <velY>-2.22914100000000008E+03</velY>
+        <velZ>6.88362299999999959E+03</velZ>
+      </stateVec>
+      <stateVec num="52">
+        <timeUTC>2024-01-17T10:29:58.000000</timeUTC>
+        <posX>-2.12534227000000002E+06</posX>
+        <posY>6.06652930999999959E+06</posY>
+        <posZ>2.72123802999999980E+06</posZ>
+        <velX>2.46166199999999981E+03</velX>
+        <velY>-2.23660500000000002E+03</velY>
+        <velZ>6.88041200000000026E+03</velZ>
+      </stateVec>
+      <stateVec num="53">
+        <timeUTC>2024-01-17T10:29:59.000000</timeUTC>
+        <posX>-2.12287958000000007E+06</posX>
+        <posY>6.06428894000000041E+06</posY>
+        <posZ>2.72811702000000002E+06</posZ>
+        <velX>2.46377799999999979E+03</velX>
+        <velY>-2.24399899999999980E+03</velY>
+        <velZ>6.87722599999999966E+03</velZ>
+      </stateVec>
+      <stateVec num="54">
+        <timeUTC>2024-01-17T10:30:00.000000</timeUTC>
+        <posX>-2.12041495999999996E+06</posX>
+        <posY>6.06204154999999981E+06</posY>
+        <posZ>2.73499293000000017E+06</posZ>
+        <velX>2.46593899999999985E+03</velX>
+        <velY>-2.25146500000000015E+03</velY>
+        <velZ>6.87400600000000031E+03</velZ>
+      </stateVec>
+      <stateVec num="55">
+        <timeUTC>2024-01-17T10:30:01.000000</timeUTC>
+        <posX>-2.11794804000000004E+06</posX>
+        <posY>6.05978625000000000E+06</posY>
+        <posZ>2.74186518999999994E+06</posZ>
+        <velX>2.46810300000000007E+03</velX>
+        <velY>-2.25889600000000019E+03</velY>
+        <velZ>6.87078399999999965E+03</velZ>
+      </stateVec>
+      <stateVec num="56">
+        <timeUTC>2024-01-17T10:30:02.000000</timeUTC>
+        <posX>-2.11547883000000007E+06</posX>
+        <posY>6.05752355999999959E+06</posY>
+        <posZ>2.74873427999999980E+06</posZ>
+        <velX>2.47021099999999979E+03</velX>
+        <velY>-2.26627199999999993E+03</velY>
+        <velZ>6.86757499999999982E+03</velZ>
+      </stateVec>
+      <stateVec num="57">
+        <timeUTC>2024-01-17T10:30:03.000000</timeUTC>
+        <posX>-2.11300710999999987E+06</posX>
+        <posY>6.05525255999999959E+06</posY>
+        <posZ>2.75559995000000019E+06</posZ>
+        <velX>2.47236299999999983E+03</velX>
+        <velY>-2.27373399999999992E+03</velY>
+        <velZ>6.86431900000000041E+03</velZ>
+      </stateVec>
+      <stateVec num="58">
+        <timeUTC>2024-01-17T10:30:04.000000</timeUTC>
+        <posX>-2.11053368999999994E+06</posX>
+        <posY>6.05297550000000000E+06</posY>
+        <posZ>2.76246256999999983E+06</posZ>
+        <velX>2.47449800000000005E+03</velX>
+        <velY>-2.28116300000000001E+03</velY>
+        <velZ>6.86110300000000007E+03</velZ>
+      </stateVec>
+      <stateVec num="59">
+        <timeUTC>2024-01-17T10:30:05.000000</timeUTC>
+        <posX>-2.10805768999999994E+06</posX>
+        <posY>6.05069000000000000E+06</posY>
+        <posZ>2.76932162999999989E+06</posZ>
+        <velX>2.47662699999999995E+03</velX>
+        <velY>-2.28860500000000002E+03</velY>
+        <velZ>6.85782200000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="60">
+        <timeUTC>2024-01-17T10:30:06.000000</timeUTC>
+        <posX>-2.10557995000000019E+06</posX>
+        <posY>6.04839658000000007E+06</posY>
+        <posZ>2.77617750000000000E+06</posZ>
+        <velX>2.47872299999999996E+03</velX>
+        <velY>-2.29599200000000019E+03</velY>
+        <velZ>6.85458700000000044E+03</velZ>
+      </stateVec>
+      <stateVec num="61">
+        <timeUTC>2024-01-17T10:30:07.000000</timeUTC>
+        <posX>-2.10310047000000020E+06</posX>
+        <posY>6.04609740000000037E+06</posY>
+        <posZ>2.78303095000000019E+06</posZ>
+        <velX>2.48086499999999978E+03</velX>
+        <velY>-2.30338999999999987E+03</velY>
+        <velZ>6.85134500000000025E+03</velZ>
+      </stateVec>
+      <stateVec num="62">
+        <timeUTC>2024-01-17T10:30:08.000000</timeUTC>
+        <posX>-2.10061833999999985E+06</posX>
+        <posY>6.04379012000000011E+06</posY>
+        <posZ>2.78988047999999998E+06</posZ>
+        <velX>2.48296000000000004E+03</velX>
+        <velY>-2.31080499999999984E+03</velY>
+        <velZ>6.84808200000000033E+03</velZ>
+      </stateVec>
+      <stateVec num="63">
+        <timeUTC>2024-01-17T10:30:09.000000</timeUTC>
+        <posX>-2.09813416999999993E+06</posX>
+        <posY>6.04147515000000037E+06</posY>
+        <posZ>2.79672654000000004E+06</posZ>
+        <velX>2.48504100000000017E+03</velX>
+        <velY>-2.31822499999999991E+03</velY>
+        <velZ>6.84477099999999973E+03</velZ>
+      </stateVec>
+      <stateVec num="64">
+        <timeUTC>2024-01-17T10:30:10.000000</timeUTC>
+        <posX>-2.09564823999999999E+06</posX>
+        <posY>6.03915324000000022E+06</posY>
+        <posZ>2.80356981999999983E+06</posZ>
+        <velX>2.48717099999999982E+03</velX>
+        <velY>-2.32562899999999991E+03</velY>
+        <velZ>6.84149200000000019E+03</velZ>
+      </stateVec>
+      <stateVec num="65">
+        <timeUTC>2024-01-17T10:30:11.000000</timeUTC>
+        <posX>-2.09316022999999998E+06</posX>
+        <posY>6.03682466000000015E+06</posY>
+        <posZ>2.81040993999999994E+06</posZ>
+        <velX>2.48932799999999997E+03</velX>
+        <velY>-2.33309299999999985E+03</velY>
+        <velZ>6.83817799999999988E+03</velZ>
+      </stateVec>
+      <stateVec num="66">
+        <timeUTC>2024-01-17T10:30:12.000000</timeUTC>
+        <posX>-2.09066962999999989E+06</posX>
+        <posY>6.03448728000000026E+06</posY>
+        <posZ>2.81724627999999980E+06</posZ>
+        <velX>2.49140299999999979E+03</velX>
+        <velY>-2.34046300000000019E+03</velY>
+        <velZ>6.83486200000000008E+03</velZ>
+      </stateVec>
+      <stateVec num="67">
+        <timeUTC>2024-01-17T10:30:13.000000</timeUTC>
+        <posX>-2.08817737000000011E+06</posX>
+        <posY>6.03214301999999955E+06</posY>
+        <posZ>2.82407943999999994E+06</posZ>
+        <velX>2.49347499999999991E+03</velX>
+        <velY>-2.34784099999999989E+03</velY>
+        <velZ>6.83156499999999960E+03</velZ>
+      </stateVec>
+      <stateVec num="68">
+        <timeUTC>2024-01-17T10:30:14.000000</timeUTC>
+        <posX>-2.08568289999999991E+06</posX>
+        <posY>6.02979166999999993E+06</posY>
+        <posZ>2.83090937000000011E+06</posZ>
+        <velX>2.49561799999999994E+03</velX>
+        <velY>-2.35531599999999980E+03</velY>
+        <velZ>6.82821399999999994E+03</velZ>
+      </stateVec>
+      <stateVec num="69">
+        <timeUTC>2024-01-17T10:30:15.000000</timeUTC>
+        <posX>-2.08318602000000002E+06</posX>
+        <posY>6.02743188999999966E+06</posY>
+        <posZ>2.83773556999999983E+06</posZ>
+        <velX>2.49769399999999996E+03</velX>
+        <velY>-2.36272800000000007E+03</velY>
+        <velZ>6.82488900000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="70">
+        <timeUTC>2024-01-17T10:30:16.000000</timeUTC>
+        <posX>-2.08068714999999991E+06</posX>
+        <posY>6.02506505999999959E+06</posY>
+        <posZ>2.84455870000000019E+06</posZ>
+        <velX>2.49973300000000017E+03</velX>
+        <velY>-2.37005000000000018E+03</velY>
+        <velZ>6.82158299999999963E+03</velZ>
+      </stateVec>
+      <stateVec num="71">
+        <timeUTC>2024-01-17T10:30:17.000000</timeUTC>
+        <posX>-2.07818659000000008E+06</posX>
+        <posY>6.02269150000000000E+06</posY>
+        <posZ>2.85137845000000019E+06</posZ>
+        <velX>2.50182900000000018E+03</velX>
+        <velY>-2.37743199999999979E+03</velY>
+        <velZ>6.81822999999999956E+03</velZ>
+      </stateVec>
+      <stateVec num="72">
+        <timeUTC>2024-01-17T10:30:18.000000</timeUTC>
+        <posX>-2.07568350000000000E+06</posX>
+        <posY>6.02030998000000045E+06</posY>
+        <posZ>2.85819510999999987E+06</posZ>
+        <velX>2.50393699999999990E+03</velX>
+        <velY>-2.38490999999999985E+03</velY>
+        <velZ>6.81482899999999972E+03</velZ>
+      </stateVec>
+      <stateVec num="73">
+        <timeUTC>2024-01-17T10:30:19.000000</timeUTC>
+        <posX>-2.07317873999999999E+06</posX>
+        <posY>6.01792142999999970E+06</posY>
+        <posZ>2.86500825000000000E+06</posZ>
+        <velX>2.50600300000000016E+03</velX>
+        <velY>-2.39225000000000000E+03</velY>
+        <velZ>6.81150399999999991E+03</velZ>
+      </stateVec>
+      <stateVec num="74">
+        <timeUTC>2024-01-17T10:30:20.000000</timeUTC>
+        <posX>-2.07067157000000007E+06</posX>
+        <posY>6.01552541000000015E+06</posY>
+        <posZ>2.87181812000000011E+06</posZ>
+        <velX>2.50804100000000017E+03</velX>
+        <velY>-2.39960300000000007E+03</velY>
+        <velZ>6.80814000000000033E+03</velZ>
+      </stateVec>
+      <stateVec num="75">
+        <timeUTC>2024-01-17T10:30:21.000000</timeUTC>
+        <posX>-2.06816264999999991E+06</posX>
+        <posY>6.01312233999999985E+06</posY>
+        <posZ>2.87862437999999989E+06</posZ>
+        <velX>2.51012500000000000E+03</velX>
+        <velY>-2.40701800000000003E+03</velY>
+        <velZ>6.80474600000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="76">
+        <timeUTC>2024-01-17T10:30:22.000000</timeUTC>
+        <posX>-2.06565110000000009E+06</posX>
+        <posY>6.01071129999999981E+06</posY>
+        <posZ>2.88542725000000000E+06</posZ>
+        <velX>2.51219099999999980E+03</velX>
+        <velY>-2.41447100000000000E+03</velY>
+        <velZ>6.80131599999999980E+03</velZ>
+      </stateVec>
+      <stateVec num="77">
+        <timeUTC>2024-01-17T10:30:23.000000</timeUTC>
+        <posX>-2.06313811000000010E+06</posX>
+        <posY>6.00829312000000011E+06</posY>
+        <posZ>2.89222689999999991E+06</posZ>
+        <velX>2.51422299999999996E+03</velX>
+        <velY>-2.42177100000000019E+03</velY>
+        <velZ>6.79798099999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="78">
+        <timeUTC>2024-01-17T10:30:24.000000</timeUTC>
+        <posX>-2.06062311000000010E+06</posX>
+        <posY>6.00586816999999993E+06</posY>
+        <posZ>2.89902345999999996E+06</posZ>
+        <velX>2.51629300000000012E+03</velX>
+        <velY>-2.42915599999999995E+03</velY>
+        <velZ>6.79455599999999959E+03</velZ>
+      </stateVec>
+      <stateVec num="79">
+        <timeUTC>2024-01-17T10:30:25.000000</timeUTC>
+        <posX>-2.05810545999999996E+06</posX>
+        <posY>6.00343501999999955E+06</posY>
+        <posZ>2.90581581999999983E+06</posZ>
+        <velX>2.51835600000000022E+03</velX>
+        <velY>-2.43651099999999997E+03</velY>
+        <velZ>6.79118199999999979E+03</velZ>
+      </stateVec>
+      <stateVec num="80">
+        <timeUTC>2024-01-17T10:30:26.000000</timeUTC>
+        <posX>-2.05558643999999994E+06</posX>
+        <posY>6.00099475000000000E+06</posY>
+        <posZ>2.91260552999999980E+06</posZ>
+        <velX>2.52040599999999995E+03</velX>
+        <velY>-2.44394900000000007E+03</velY>
+        <velZ>6.78770899999999983E+03</velZ>
+      </stateVec>
+      <stateVec num="81">
+        <timeUTC>2024-01-17T10:30:27.000000</timeUTC>
+        <posX>-2.05306540999999992E+06</posX>
+        <posY>5.99854757000000030E+06</posY>
+        <posZ>2.91939185999999987E+06</posZ>
+        <velX>2.52243299999999999E+03</velX>
+        <velY>-2.45132600000000002E+03</velY>
+        <velZ>6.78429399999999987E+03</velZ>
+      </stateVec>
+      <stateVec num="82">
+        <timeUTC>2024-01-17T10:30:28.000000</timeUTC>
+        <posX>-2.05054180000000005E+06</posX>
+        <posY>5.99609254000000004E+06</posY>
+        <posZ>2.92617427000000002E+06</posZ>
+        <velX>2.52444799999999987E+03</velX>
+        <velY>-2.45859799999999996E+03</velY>
+        <velZ>6.78086300000000028E+03</velZ>
+      </stateVec>
+      <stateVec num="83">
+        <timeUTC>2024-01-17T10:30:29.000000</timeUTC>
+        <posX>-2.04801617999999993E+06</posX>
+        <posY>5.99363003000000026E+06</posY>
+        <posZ>2.93295333000000007E+06</posZ>
+        <velX>2.52652700000000004E+03</velX>
+        <velY>-2.46602900000000000E+03</velY>
+        <velZ>6.77740400000000045E+03</velZ>
+      </stateVec>
+      <stateVec num="84">
+        <timeUTC>2024-01-17T10:30:30.000000</timeUTC>
+        <posX>-2.04548830000000005E+06</posX>
+        <posY>5.99115965000000037E+06</posY>
+        <posZ>2.93972862999999989E+06</posZ>
+        <velX>2.52848799999999983E+03</velX>
+        <velY>-2.47334700000000021E+03</velY>
+        <velZ>6.77398499999999967E+03</velZ>
+      </stateVec>
+      <stateVec num="85">
+        <timeUTC>2024-01-17T10:30:31.000000</timeUTC>
+        <posX>-2.04295886000000010E+06</posX>
+        <posY>5.98868224000000022E+06</posY>
+        <posZ>2.94650087999999989E+06</posZ>
+        <velX>2.53054599999999982E+03</velX>
+        <velY>-2.48070899999999983E+03</velY>
+        <velZ>6.77050900000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="86">
+        <timeUTC>2024-01-17T10:30:32.000000</timeUTC>
+        <posX>-2.04042684000000008E+06</posX>
+        <posY>5.98619726999999955E+06</posY>
+        <posZ>2.95326929999999981E+06</posZ>
+        <velX>2.53258599999999979E+03</velX>
+        <velY>-2.48814199999999983E+03</velY>
+        <velZ>6.76702700000000004E+03</velZ>
+      </stateVec>
+      <stateVec num="87">
+        <timeUTC>2024-01-17T10:30:33.000000</timeUTC>
+        <posX>-2.03789367999999993E+06</posX>
+        <posY>5.98370586000000034E+06</posY>
+        <posZ>2.96003458000000007E+06</posZ>
+        <velX>2.53460899999999992E+03</velX>
+        <velY>-2.49544500000000016E+03</velY>
+        <velZ>6.76353899999999976E+03</velZ>
+      </stateVec>
+      <stateVec num="88">
+        <timeUTC>2024-01-17T10:30:34.000000</timeUTC>
+        <posX>-2.03535797999999998E+06</posX>
+        <posY>5.98120623000000045E+06</posY>
+        <posZ>2.96679608999999985E+06</posZ>
+        <velX>2.53658599999999979E+03</velX>
+        <velY>-2.50277700000000004E+03</velY>
+        <velZ>6.76009100000000035E+03</velZ>
+      </stateVec>
+      <stateVec num="89">
+        <timeUTC>2024-01-17T10:30:35.000000</timeUTC>
+        <posX>-2.03282071999999997E+06</posX>
+        <posY>5.97870055999999959E+06</posY>
+        <posZ>2.97355479999999981E+06</posZ>
+        <velX>2.53858500000000004E+03</velX>
+        <velY>-2.51010199999999986E+03</velY>
+        <velZ>6.75661999999999989E+03</velZ>
+      </stateVec>
+      <stateVec num="90">
+        <timeUTC>2024-01-17T10:30:36.000000</timeUTC>
+        <posX>-2.03028101000000001E+06</posX>
+        <posY>5.97618641999999993E+06</posY>
+        <posZ>2.98030935000000009E+06</posZ>
+        <velX>2.54060899999999992E+03</velX>
+        <velY>-2.51749400000000014E+03</velY>
+        <velZ>6.75307300000000032E+03</velZ>
+      </stateVec>
+      <stateVec num="91">
+        <timeUTC>2024-01-17T10:30:37.000000</timeUTC>
+        <posX>-2.02773865999999992E+06</posX>
+        <posY>5.97366441000000015E+06</posY>
+        <posZ>2.98706043999999994E+06</posZ>
+        <velX>2.54260500000000002E+03</velX>
+        <velY>-2.52483800000000019E+03</velY>
+        <velZ>6.74959199999999964E+03</velZ>
+      </stateVec>
+      <stateVec num="92">
+        <timeUTC>2024-01-17T10:30:38.000000</timeUTC>
+        <posX>-2.02519560000000009E+06</posX>
+        <posY>5.97113592999999970E+06</posY>
+        <posZ>2.99380835000000009E+06</posZ>
+        <velX>2.54463799999999992E+03</velX>
+        <velY>-2.53221000000000004E+03</velY>
+        <velZ>6.74606499999999960E+03</velZ>
+      </stateVec>
+      <stateVec num="93">
+        <timeUTC>2024-01-17T10:30:39.000000</timeUTC>
+        <posX>-2.02265035000000009E+06</posX>
+        <posY>5.96860074000000022E+06</posY>
+        <posZ>3.00055268999999994E+06</posZ>
+        <velX>2.54660100000000011E+03</velX>
+        <velY>-2.53953999999999996E+03</velY>
+        <velZ>6.74251500000000033E+03</velZ>
+      </stateVec>
+      <stateVec num="94">
+        <timeUTC>2024-01-17T10:30:40.000000</timeUTC>
+        <posX>-2.02010228000000003E+06</posX>
+        <posY>5.96605720000000019E+06</posY>
+        <posZ>3.00729327000000002E+06</posZ>
+        <velX>2.54860500000000002E+03</velX>
+        <velY>-2.54689699999999993E+03</velY>
+        <velZ>6.73900500000000011E+03</velZ>
+      </stateVec>
+      <stateVec num="95">
+        <timeUTC>2024-01-17T10:30:41.000000</timeUTC>
+        <posX>-2.01755307000000007E+06</posX>
+        <posY>5.96350626999999955E+06</posY>
+        <posZ>3.01403037000000011E+06</posZ>
+        <velX>2.55055600000000004E+03</velX>
+        <velY>-2.55416199999999981E+03</velY>
+        <velZ>6.73548199999999997E+03</velZ>
+      </stateVec>
+      <stateVec num="96">
+        <timeUTC>2024-01-17T10:30:42.000000</timeUTC>
+        <posX>-2.01500160000000009E+06</posX>
+        <posY>5.96094833000000007E+06</posY>
+        <posZ>3.02076443000000017E+06</posZ>
+        <velX>2.55256899999999996E+03</velX>
+        <velY>-2.56154500000000007E+03</velY>
+        <velZ>6.73190700000000015E+03</velZ>
+      </stateVec>
+      <stateVec num="97">
+        <timeUTC>2024-01-17T10:30:43.000000</timeUTC>
+        <posX>-2.01244803000000003E+06</posX>
+        <posY>5.95838295999999996E+06</posY>
+        <posZ>3.02749431000000006E+06</posZ>
+        <velX>2.55451200000000017E+03</velX>
+        <velY>-2.56882400000000007E+03</velY>
+        <velZ>6.72838400000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="98">
+        <timeUTC>2024-01-17T10:30:44.000000</timeUTC>
+        <posX>-2.00989214999999991E+06</posX>
+        <posY>5.95580994000000041E+06</posY>
+        <posZ>3.03422060999999987E+06</posZ>
+        <velX>2.55651200000000017E+03</velX>
+        <velY>-2.57617200000000003E+03</velY>
+        <velZ>6.72480900000000020E+03</velZ>
+      </stateVec>
+      <stateVec num="99">
+        <timeUTC>2024-01-17T10:30:45.000000</timeUTC>
+        <posX>-2.00733456000000006E+06</posX>
+        <posY>5.95323007000000030E+06</posY>
+        <posZ>3.04094362000000011E+06</posZ>
+        <velX>2.55847800000000007E+03</velX>
+        <velY>-2.58349699999999984E+03</velY>
+        <velZ>6.72122199999999975E+03</velZ>
+      </stateVec>
+      <stateVec num="100">
+        <timeUTC>2024-01-17T10:30:46.000000</timeUTC>
+        <posX>-2.00477533000000007E+06</posX>
+        <posY>5.95064325999999978E+06</posY>
+        <posZ>3.04766308000000007E+06</posZ>
+        <velX>2.56043299999999999E+03</velX>
+        <velY>-2.59087899999999991E+03</velY>
+        <velZ>6.71764999999999964E+03</velZ>
+      </stateVec>
+      <stateVec num="101">
+        <timeUTC>2024-01-17T10:30:47.000000</timeUTC>
+        <posX>-2.00221381000000006E+06</posX>
+        <posY>5.94804836000000034E+06</posY>
+        <posZ>3.05437847999999998E+06</posZ>
+        <velX>2.56238799999999992E+03</velX>
+        <velY>-2.59815700000000015E+03</velY>
+        <velZ>6.71408100000000013E+03</velZ>
+      </stateVec>
+      <stateVec num="102">
+        <timeUTC>2024-01-17T10:30:48.000000</timeUTC>
+        <posX>-1.99965080000000005E+06</posX>
+        <posY>5.94544696999999974E+06</posY>
+        <posZ>3.06109118999999994E+06</posZ>
+        <velX>2.56433899999999994E+03</velX>
+        <velY>-2.60549400000000014E+03</velY>
+        <velZ>6.71045100000000002E+03</velZ>
+      </stateVec>
+      <stateVec num="103">
+        <timeUTC>2024-01-17T10:30:49.000000</timeUTC>
+        <posX>-1.99708510000000009E+06</posX>
+        <posY>5.94283795999999996E+06</posY>
+        <posZ>3.06779987000000011E+06</posZ>
+        <velX>2.56630400000000009E+03</velX>
+        <velY>-2.61275000000000000E+03</velY>
+        <velZ>6.70688199999999961E+03</velZ>
+      </stateVec>
+      <stateVec num="104">
+        <timeUTC>2024-01-17T10:30:50.000000</timeUTC>
+        <posX>-1.99451816999999993E+06</posX>
+        <posY>5.94022157000000030E+06</posY>
+        <posZ>3.07450479999999981E+06</posZ>
+        <velX>2.56820499999999993E+03</velX>
+        <velY>-2.62002599999999984E+03</velY>
+        <velZ>6.70327499999999964E+03</velZ>
+      </stateVec>
+      <stateVec num="105">
+        <timeUTC>2024-01-17T10:30:51.000000</timeUTC>
+        <posX>-1.99194836000000010E+06</posX>
+        <posY>5.93759699000000022E+06</posY>
+        <posZ>3.08120589000000013E+06</posZ>
+        <velX>2.57020600000000013E+03</velX>
+        <velY>-2.62738999999999987E+03</velY>
+        <velZ>6.69964300000000003E+03</velZ>
+      </stateVec>
+      <stateVec num="106">
+        <timeUTC>2024-01-17T10:30:52.000000</timeUTC>
+        <posX>-1.98937786000000010E+06</posX>
+        <posY>5.93496663999999966E+06</posY>
+        <posZ>3.08790402999999980E+06</posZ>
+        <velX>2.57211799999999994E+03</velX>
+        <velY>-2.63469200000000001E+03</velY>
+        <velZ>6.69601599999999962E+03</velZ>
+      </stateVec>
+      <stateVec num="107">
+        <timeUTC>2024-01-17T10:30:53.000000</timeUTC>
+        <posX>-1.98680466999999993E+06</posX>
+        <posY>5.93232841000000015E+06</posY>
+        <posZ>3.09459831000000006E+06</posZ>
+        <velX>2.57409900000000016E+03</velX>
+        <velY>-2.64204399999999987E+03</velY>
+        <velZ>6.69236499999999978E+03</velZ>
+      </stateVec>
+      <stateVec num="108">
+        <timeUTC>2024-01-17T10:30:54.000000</timeUTC>
+        <posX>-1.98422948999999999E+06</posX>
+        <posY>5.92968303000000026E+06</posY>
+        <posZ>3.10128902999999980E+06</posZ>
+        <velX>2.57598399999999992E+03</velX>
+        <velY>-2.64925900000000001E+03</velY>
+        <velZ>6.68872599999999966E+03</velZ>
+      </stateVec>
+      <stateVec num="109">
+        <timeUTC>2024-01-17T10:30:55.000000</timeUTC>
+        <posX>-1.98165181000000006E+06</posX>
+        <posY>5.92702879999999981E+06</posY>
+        <posZ>3.10797535999999987E+06</posZ>
+        <velX>2.57794300000000021E+03</velX>
+        <velY>-2.65661400000000003E+03</velY>
+        <velZ>6.68506800000000021E+03</velZ>
+      </stateVec>
+      <stateVec num="110">
+        <timeUTC>2024-01-17T10:30:56.000000</timeUTC>
+        <posX>-1.97907343999999994E+06</posX>
+        <posY>5.92436876999999955E+06</posY>
+        <posZ>3.11465877000000002E+06</posZ>
+        <velX>2.57988999999999987E+03</velX>
+        <velY>-2.66390200000000004E+03</velY>
+        <velZ>6.68140999999999985E+03</velZ>
+      </stateVec>
+      <stateVec num="111">
+        <timeUTC>2024-01-17T10:30:57.000000</timeUTC>
+        <posX>-1.97649305000000005E+06</posX>
+        <posY>5.92170148000000045E+06</posY>
+        <posZ>3.12133852000000002E+06</posZ>
+        <velX>2.58176400000000012E+03</velX>
+        <velY>-2.67115599999999995E+03</velY>
+        <velZ>6.67774799999999959E+03</velZ>
+      </stateVec>
+      <stateVec num="112">
+        <timeUTC>2024-01-17T10:30:58.000000</timeUTC>
+        <posX>-1.97391026000000001E+06</posX>
+        <posY>5.91902659999999963E+06</posY>
+        <posZ>3.12801424000000022E+06</posZ>
+        <velX>2.58370600000000013E+03</velX>
+        <velY>-2.67848700000000008E+03</velY>
+        <velZ>6.67406400000000031E+03</velZ>
+      </stateVec>
+      <stateVec num="113">
+        <timeUTC>2024-01-17T10:30:59.000000</timeUTC>
+        <posX>-1.97132571999999997E+06</posX>
+        <posY>5.91634437999999989E+06</posY>
+        <posZ>3.13468620000000019E+06</posZ>
+        <velX>2.58562300000000005E+03</velX>
+        <velY>-2.68575900000000001E+03</velY>
+        <velZ>6.67039099999999962E+03</velZ>
+      </stateVec>
+      <stateVec num="114">
+        <timeUTC>2024-01-17T10:31:00.000000</timeUTC>
+        <posX>-1.96873903000000003E+06</posX>
+        <posY>5.91365503000000026E+06</posY>
+        <posZ>3.14135479999999981E+06</posZ>
+        <velX>2.58748500000000013E+03</velX>
+        <velY>-2.69299600000000009E+03</velY>
+        <velZ>6.66672099999999955E+03</velZ>
+      </stateVec>
+      <stateVec num="115">
+        <timeUTC>2024-01-17T10:31:01.000000</timeUTC>
+        <posX>-1.96615104000000004E+06</posX>
+        <posY>5.91095855999999959E+06</posY>
+        <posZ>3.14801960000000009E+06</posZ>
+        <velX>2.58941499999999996E+03</velX>
+        <velY>-2.70027500000000009E+03</velY>
+        <velZ>6.66302700000000004E+03</velZ>
+      </stateVec>
+      <stateVec num="116">
+        <timeUTC>2024-01-17T10:31:02.000000</timeUTC>
+        <posX>-1.96356055000000005E+06</posX>
+        <posY>5.90825484999999963E+06</posY>
+        <posZ>3.15468133000000007E+06</posZ>
+        <velX>2.59130400000000009E+03</velX>
+        <velY>-2.70757000000000016E+03</velY>
+        <velZ>6.65929600000000028E+03</velZ>
+      </stateVec>
+      <stateVec num="117">
+        <timeUTC>2024-01-17T10:31:03.000000</timeUTC>
+        <posX>-1.96096827000000002E+06</posX>
+        <posY>5.90554404999999981E+06</posY>
+        <posZ>3.16133887999999989E+06</posZ>
+        <velX>2.59321900000000005E+03</velX>
+        <velY>-2.71489300000000003E+03</velY>
+        <velZ>6.65559400000000005E+03</velZ>
+      </stateVec>
+      <stateVec num="118">
+        <timeUTC>2024-01-17T10:31:04.000000</timeUTC>
+        <posX>-1.95837398999999999E+06</posX>
+        <posY>5.90282534999999963E+06</posY>
+        <posZ>3.16799247999999998E+06</posZ>
+        <velX>2.59508199999999988E+03</velX>
+        <velY>-2.72207700000000023E+03</velY>
+        <velZ>6.65191499999999996E+03</velZ>
+      </stateVec>
+      <stateVec num="119">
+        <timeUTC>2024-01-17T10:31:05.000000</timeUTC>
+        <posX>-1.95577825000000000E+06</posX>
+        <posY>5.90009941000000015E+06</posY>
+        <posZ>3.17464225000000000E+06</posZ>
+        <velX>2.59696900000000005E+03</velX>
+        <velY>-2.72938900000000012E+03</velY>
+        <velZ>6.64815599999999995E+03</velZ>
+      </stateVec>
+      <stateVec num="120">
+        <timeUTC>2024-01-17T10:31:06.000000</timeUTC>
+        <posX>-1.95318020999999996E+06</posX>
+        <posY>5.89736601999999955E+06</posY>
+        <posZ>3.18128837000000011E+06</posZ>
+        <velX>2.59888000000000011E+03</velX>
+        <velY>-2.73663599999999997E+03</velY>
+        <velZ>6.64441899999999987E+03</velZ>
+      </stateVec>
+      <stateVec num="121">
+        <timeUTC>2024-01-17T10:31:07.000000</timeUTC>
+        <posX>-1.95058081000000006E+06</posX>
+        <posY>5.89462641000000015E+06</posY>
+        <posZ>3.18793145000000019E+06</posZ>
+        <velX>2.60073700000000008E+03</velX>
+        <velY>-2.74392299999999977E+03</velY>
+        <velZ>6.64068400000000020E+03</velZ>
+      </stateVec>
+      <stateVec num="122">
+        <timeUTC>2024-01-17T10:31:08.000000</timeUTC>
+        <posX>-1.94797855000000005E+06</posX>
+        <posY>5.89187763999999966E+06</posY>
+        <posZ>3.19456964999999991E+06</posZ>
+        <velX>2.60259900000000016E+03</velX>
+        <velY>-2.75109499999999980E+03</velY>
+        <velZ>6.63694899999999961E+03</velZ>
+      </stateVec>
+      <stateVec num="123">
+        <timeUTC>2024-01-17T10:31:09.000000</timeUTC>
+        <posX>-1.94537494999999995E+06</posX>
+        <posY>5.88912287000000011E+06</posY>
+        <posZ>3.20120487999999989E+06</posZ>
+        <velX>2.60448599999999988E+03</velX>
+        <velY>-2.75841100000000006E+03</velY>
+        <velZ>6.63315700000000015E+03</velZ>
+      </stateVec>
+      <stateVec num="124">
+        <timeUTC>2024-01-17T10:31:10.000000</timeUTC>
+        <posX>-1.94276962999999989E+06</posX>
+        <posY>5.88636069000000041E+06</posY>
+        <posZ>3.20783583000000007E+06</posZ>
+        <velX>2.60636900000000014E+03</velX>
+        <velY>-2.76565799999999990E+03</velY>
+        <velZ>6.62938299999999981E+03</velZ>
+      </stateVec>
+      <stateVec num="125">
+        <timeUTC>2024-01-17T10:31:11.000000</timeUTC>
+        <posX>-1.94016261000000010E+06</posX>
+        <posY>5.88359133000000007E+06</posY>
+        <posZ>3.21446337000000011E+06</posZ>
+        <velX>2.60820100000000002E+03</velX>
+        <velY>-2.77290000000000009E+03</velY>
+        <velZ>6.62560999999999967E+03</velZ>
+      </stateVec>
+      <stateVec num="126">
+        <timeUTC>2024-01-17T10:31:12.000000</timeUTC>
+        <posX>-1.93755327000000002E+06</posX>
+        <posY>5.88081483999999985E+06</posY>
+        <posZ>3.22108706999999983E+06</posZ>
+        <velX>2.61008699999999999E+03</velX>
+        <velY>-2.78015400000000000E+03</velY>
+        <velZ>6.62182999999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="127">
+        <timeUTC>2024-01-17T10:31:13.000000</timeUTC>
+        <posX>-1.93494235000000009E+06</posX>
+        <posY>5.87803149000000022E+06</posY>
+        <posZ>3.22770710000000009E+06</posZ>
+        <velX>2.61192200000000003E+03</velX>
+        <velY>-2.78740599999999995E+03</velY>
+        <velZ>6.61804200000000037E+03</velZ>
+      </stateVec>
+      <stateVec num="128">
+        <timeUTC>2024-01-17T10:31:14.000000</timeUTC>
+        <posX>-1.93233007000000007E+06</posX>
+        <posY>5.87523998000000045E+06</posY>
+        <posZ>3.23432287000000011E+06</posZ>
+        <velX>2.61377500000000009E+03</velX>
+        <velY>-2.79459999999999991E+03</velY>
+        <velZ>6.61424600000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="129">
+        <timeUTC>2024-01-17T10:31:15.000000</timeUTC>
+        <posX>-1.92971558000000007E+06</posX>
+        <posY>5.87244292999999970E+06</posY>
+        <posZ>3.24093583000000007E+06</posZ>
+        <velX>2.61562600000000020E+03</velX>
+        <velY>-2.80184099999999989E+03</velY>
+        <velZ>6.61044999999999982E+03</velZ>
+      </stateVec>
+      <stateVec num="130">
+        <timeUTC>2024-01-17T10:31:16.000000</timeUTC>
+        <posX>-1.92709855000000005E+06</posX>
+        <posY>5.86963637999999989E+06</posY>
+        <posZ>3.24754404999999981E+06</posZ>
+        <velX>2.61744200000000001E+03</velX>
+        <velY>-2.80908599999999979E+03</velY>
+        <velZ>6.60664099999999962E+03</velZ>
+      </stateVec>
+      <stateVec num="131">
+        <timeUTC>2024-01-17T10:31:17.000000</timeUTC>
+        <posX>-1.92448021999999997E+06</posX>
+        <posY>5.86682401999999955E+06</posY>
+        <posZ>3.25414879999999981E+06</posZ>
+        <velX>2.61928800000000001E+03</velX>
+        <velY>-2.81634299999999985E+03</velY>
+        <velZ>6.60280699999999979E+03</velZ>
+      </stateVec>
+      <stateVec num="132">
+        <timeUTC>2024-01-17T10:31:18.000000</timeUTC>
+        <posX>-1.92186047999999998E+06</posX>
+        <posY>5.86400467999999970E+06</posY>
+        <posZ>3.26075002000000002E+06</posZ>
+        <velX>2.62109400000000005E+03</velX>
+        <velY>-2.82352100000000019E+03</velY>
+        <velZ>6.59898499999999967E+03</velZ>
+      </stateVec>
+      <stateVec num="133">
+        <timeUTC>2024-01-17T10:31:19.000000</timeUTC>
+        <posX>-1.91923812000000011E+06</posX>
+        <posY>5.86117694000000041E+06</posY>
+        <posZ>3.26734668999999994E+06</posZ>
+        <velX>2.62293400000000020E+03</velX>
+        <velY>-2.83076299999999992E+03</velY>
+        <velZ>6.59515700000000015E+03</velZ>
+      </stateVec>
+      <stateVec num="134">
+        <timeUTC>2024-01-17T10:31:20.000000</timeUTC>
+        <posX>-1.91661457000000007E+06</posX>
+        <posY>5.85834304000000004E+06</posY>
+        <posZ>3.27394033999999985E+06</posZ>
+        <velX>2.62478600000000006E+03</velX>
+        <velY>-2.83800700000000006E+03</velY>
+        <velZ>6.59129100000000017E+03</velZ>
+      </stateVec>
+      <stateVec num="135">
+        <timeUTC>2024-01-17T10:31:21.000000</timeUTC>
+        <posX>-1.91398807000000007E+06</posX>
+        <posY>5.85550016000000015E+06</posY>
+        <posZ>3.28052875000000000E+06</posZ>
+        <velX>2.62659799999999996E+03</velX>
+        <velY>-2.84521199999999999E+03</velY>
+        <velZ>6.58745700000000033E+03</velZ>
+      </stateVec>
+      <stateVec num="136">
+        <timeUTC>2024-01-17T10:31:22.000000</timeUTC>
+        <posX>-1.91136109000000008E+06</posX>
+        <posY>5.85265161000000034E+06</posY>
+        <posZ>3.28711452999999980E+06</posZ>
+        <velX>2.62841400000000021E+03</velX>
+        <velY>-2.85243699999999990E+03</velY>
+        <velZ>6.58358500000000004E+03</velZ>
+      </stateVec>
+      <stateVec num="137">
+        <timeUTC>2024-01-17T10:31:23.000000</timeUTC>
+        <posX>-1.90873158000000007E+06</posX>
+        <posY>5.84979558999999985E+06</posY>
+        <posZ>3.29369627999999980E+06</posZ>
+        <velX>2.63018199999999979E+03</velX>
+        <velY>-2.85961000000000013E+03</velY>
+        <velZ>6.57972599999999966E+03</velZ>
+      </stateVec>
+      <stateVec num="138">
+        <timeUTC>2024-01-17T10:31:24.000000</timeUTC>
+        <posX>-1.90610050000000000E+06</posX>
+        <posY>5.84693254000000004E+06</posY>
+        <posZ>3.30027433000000007E+06</posZ>
+        <velX>2.63203800000000001E+03</velX>
+        <velY>-2.86685300000000007E+03</velY>
+        <velZ>6.57583600000000024E+03</velZ>
+      </stateVec>
+      <stateVec num="139">
+        <timeUTC>2024-01-17T10:31:25.000000</timeUTC>
+        <posX>-1.90346761000000010E+06</posX>
+        <posY>5.84406194000000041E+06</posY>
+        <posZ>3.30684824000000022E+06</posZ>
+        <velX>2.63386400000000003E+03</velX>
+        <velY>-2.87409799999999996E+03</velY>
+        <velZ>6.57194599999999991E+03</velZ>
+      </stateVec>
+      <stateVec num="140">
+        <timeUTC>2024-01-17T10:31:26.000000</timeUTC>
+        <posX>-1.90083308000000007E+06</posX>
+        <posY>5.84118369000000041E+06</posY>
+        <posZ>3.31341768999999994E+06</posZ>
+        <velX>2.63563099999999986E+03</velX>
+        <velY>-2.88123300000000017E+03</velY>
+        <velZ>6.56804799999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="141">
+        <timeUTC>2024-01-17T10:31:27.000000</timeUTC>
+        <posX>-1.89819652000000002E+06</posX>
+        <posY>5.83829953000000026E+06</posY>
+        <posZ>3.31998418999999994E+06</posZ>
+        <velX>2.63745600000000013E+03</velX>
+        <velY>-2.88846399999999994E+03</velY>
+        <velZ>6.56415800000000036E+03</velZ>
+      </stateVec>
+      <stateVec num="142">
+        <timeUTC>2024-01-17T10:31:28.000000</timeUTC>
+        <posX>-1.89555783000000007E+06</posX>
+        <posY>5.83540651999999955E+06</posY>
+        <posZ>3.32654593000000017E+06</posZ>
+        <velX>2.63920600000000013E+03</velX>
+        <velY>-2.89563599999999997E+03</velY>
+        <velZ>6.56028399999999965E+03</velZ>
+      </stateVec>
+      <stateVec num="143">
+        <timeUTC>2024-01-17T10:31:29.000000</timeUTC>
+        <posX>-1.89291762999999989E+06</posX>
+        <posY>5.83250720999999996E+06</posY>
+        <posZ>3.33310414999999991E+06</posZ>
+        <velX>2.64098300000000017E+03</velX>
+        <velY>-2.90279599999999982E+03</velY>
+        <velZ>6.55633799999999974E+03</velZ>
+      </stateVec>
+      <stateVec num="144">
+        <timeUTC>2024-01-17T10:31:30.000000</timeUTC>
+        <posX>-1.89027595999999996E+06</posX>
+        <posY>5.82960145999999996E+06</posY>
+        <posZ>3.33965881999999983E+06</posZ>
+        <velX>2.64279399999999987E+03</velX>
+        <velY>-2.91005200000000013E+03</velY>
+        <velZ>6.55241399999999976E+03</velZ>
+      </stateVec>
+      <stateVec num="145">
+        <timeUTC>2024-01-17T10:31:31.000000</timeUTC>
+        <posX>-1.88763285000000009E+06</posX>
+        <posY>5.82668832000000030E+06</posY>
+        <posZ>3.34620954999999981E+06</posZ>
+        <velX>2.64457900000000018E+03</velX>
+        <velY>-2.91719999999999982E+03</velY>
+        <velZ>6.54850000000000000E+03</velZ>
+      </stateVec>
+      <stateVec num="146">
+        <timeUTC>2024-01-17T10:31:32.000000</timeUTC>
+        <posX>-1.88498746999999997E+06</posX>
+        <posY>5.82376730999999959E+06</posY>
+        <posZ>3.35275606000000006E+06</posZ>
+        <velX>2.64634600000000000E+03</velX>
+        <velY>-2.92439899999999989E+03</velY>
+        <velZ>6.54456199999999990E+03</velZ>
+      </stateVec>
+      <stateVec num="147">
+        <timeUTC>2024-01-17T10:31:33.000000</timeUTC>
+        <posX>-1.88233935000000009E+06</posX>
+        <posY>5.82083883000000007E+06</posY>
+        <posZ>3.35929833999999985E+06</posZ>
+        <velX>2.64814800000000014E+03</velX>
+        <velY>-2.93159799999999996E+03</velY>
+        <velZ>6.54060300000000007E+03</velZ>
+      </stateVec>
+      <stateVec num="148">
+        <timeUTC>2024-01-17T10:31:34.000000</timeUTC>
+        <posX>-1.87969110000000009E+06</posX>
+        <posY>5.81790450000000000E+06</posY>
+        <posZ>3.36583750999999978E+06</posZ>
+        <velX>2.64985500000000002E+03</velX>
+        <velY>-2.93868199999999979E+03</velY>
+        <velZ>6.53669499999999971E+03</velZ>
+      </stateVec>
+      <stateVec num="149">
+        <timeUTC>2024-01-17T10:31:35.000000</timeUTC>
+        <posX>-1.87704023999999999E+06</posX>
+        <posY>5.81496141999999993E+06</posY>
+        <posZ>3.37237202999999980E+06</posZ>
+        <velX>2.65163799999999992E+03</velX>
+        <velY>-2.94592299999999977E+03</velY>
+        <velZ>6.53270200000000023E+03</velZ>
+      </stateVec>
+      <stateVec num="150">
+        <timeUTC>2024-01-17T10:31:36.000000</timeUTC>
+        <posX>-1.87438763999999990E+06</posX>
+        <posY>5.81201212000000011E+06</posY>
+        <posZ>3.37890285000000009E+06</posZ>
+        <velX>2.65336700000000019E+03</velX>
+        <velY>-2.95307600000000002E+03</velY>
+        <velZ>6.52876400000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="151">
+        <timeUTC>2024-01-17T10:31:37.000000</timeUTC>
+        <posX>-1.87173316999999993E+06</posX>
+        <posY>5.80905490000000037E+06</posY>
+        <posZ>3.38542945999999996E+06</posZ>
+        <velX>2.65517399999999998E+03</velX>
+        <velY>-2.96026299999999992E+03</velY>
+        <velZ>6.52477099999999973E+03</velZ>
+      </stateVec>
+      <stateVec num="152">
+        <timeUTC>2024-01-17T10:31:38.000000</timeUTC>
+        <posX>-1.86907747999999998E+06</posX>
+        <posY>5.80609186000000034E+06</posY>
+        <posZ>3.39195225999999978E+06</posZ>
+        <velX>2.65694200000000001E+03</velX>
+        <velY>-2.96745400000000018E+03</velY>
+        <velZ>6.52077099999999973E+03</velZ>
+      </stateVec>
+      <stateVec num="153">
+        <timeUTC>2024-01-17T10:31:39.000000</timeUTC>
+        <posX>-1.86641994999999995E+06</posX>
+        <posY>5.80312062999999989E+06</posY>
+        <posZ>3.39847106999999983E+06</posZ>
+        <velX>2.65862899999999991E+03</velX>
+        <velY>-2.97453200000000015E+03</velY>
+        <velZ>6.51681199999999990E+03</velZ>
+      </stateVec>
+      <stateVec num="154">
+        <timeUTC>2024-01-17T10:31:40.000000</timeUTC>
+        <posX>-1.86376001000000001E+06</posX>
+        <posY>5.80014237000000011E+06</posY>
+        <posZ>3.40498539000000013E+06</posZ>
+        <velX>2.66040299999999979E+03</velX>
+        <velY>-2.98172100000000000E+03</velY>
+        <velZ>6.51279799999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="155">
+        <timeUTC>2024-01-17T10:31:41.000000</timeUTC>
+        <posX>-1.86109865999999992E+06</posX>
+        <posY>5.79715688999999966E+06</posY>
+        <posZ>3.41149650000000000E+06</posZ>
+        <velX>2.66213500000000022E+03</velX>
+        <velY>-2.98887100000000009E+03</velY>
+        <velZ>6.50880500000000029E+03</velZ>
+      </stateVec>
+      <stateVec num="156">
+        <timeUTC>2024-01-17T10:31:42.000000</timeUTC>
+        <posX>-1.85843562000000011E+06</posX>
+        <posY>5.79416432000000030E+06</posY>
+        <posZ>3.41800341000000015E+06</posZ>
+        <velX>2.66387800000000016E+03</velX>
+        <velY>-2.99607400000000007E+03</velY>
+        <velZ>6.50475399999999991E+03</velZ>
+      </stateVec>
+      <stateVec num="157">
+        <timeUTC>2024-01-17T10:31:43.000000</timeUTC>
+        <posX>-1.85577103000000003E+06</posX>
+        <posY>5.79116399000000022E+06</posY>
+        <posZ>3.42450579000000004E+06</posZ>
+        <velX>2.66561099999999988E+03</velX>
+        <velY>-3.00320800000000008E+03</velY>
+        <velZ>6.50076400000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="158">
+        <timeUTC>2024-01-17T10:31:44.000000</timeUTC>
+        <posX>-1.85310455000000005E+06</posX>
+        <posY>5.78815737999999989E+06</posY>
+        <posZ>3.43100437999999989E+06</posZ>
+        <velX>2.66734900000000016E+03</velX>
+        <velY>-3.01037800000000016E+03</velY>
+        <velZ>6.49668500000000040E+03</velZ>
+      </stateVec>
+      <stateVec num="159">
+        <timeUTC>2024-01-17T10:31:45.000000</timeUTC>
+        <posX>-1.85043655000000005E+06</posX>
+        <posY>5.78514448000000045E+06</posY>
+        <posZ>3.43749943999999994E+06</posZ>
+        <velX>2.66906700000000001E+03</velX>
+        <velY>-3.01753600000000006E+03</velY>
+        <velZ>6.49265599999999995E+03</velZ>
+      </stateVec>
+      <stateVec num="160">
+        <timeUTC>2024-01-17T10:31:46.000000</timeUTC>
+        <posX>-1.84776635000000009E+06</posX>
+        <posY>5.78212183000000007E+06</posY>
+        <posZ>3.44398968999999994E+06</posZ>
+        <velX>2.67073999999999978E+03</velX>
+        <velY>-3.02453999999999996E+03</velY>
+        <velZ>6.48867699999999968E+03</velZ>
+      </stateVec>
+      <stateVec num="161">
+        <timeUTC>2024-01-17T10:31:47.000000</timeUTC>
+        <posX>-1.84509519999999995E+06</posX>
+        <posY>5.77909428000000026E+06</posY>
+        <posZ>3.45047652000000002E+06</posZ>
+        <velX>2.67246599999999989E+03</velX>
+        <velY>-3.03175399999999991E+03</velY>
+        <velZ>6.48459100000000035E+03</velZ>
+      </stateVec>
+      <stateVec num="162">
+        <timeUTC>2024-01-17T10:31:48.000000</timeUTC>
+        <posX>-1.84242222999999998E+06</posX>
+        <posY>5.77605961000000034E+06</posY>
+        <posZ>3.45695941999999993E+06</posZ>
+        <velX>2.67420400000000018E+03</velX>
+        <velY>-3.03890299999999979E+03</velY>
+        <velZ>6.48051400000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="163">
+        <timeUTC>2024-01-17T10:31:49.000000</timeUTC>
+        <posX>-1.83974658000000007E+06</posX>
+        <posY>5.77301596999999974E+06</posY>
+        <posZ>3.46343722000000020E+06</posZ>
+        <velX>2.67589199999999983E+03</velX>
+        <velY>-3.04602399999999989E+03</velY>
+        <velZ>6.47646100000000024E+03</velZ>
+      </stateVec>
+      <stateVec num="164">
+        <timeUTC>2024-01-17T10:31:50.000000</timeUTC>
+        <posX>-1.83706988999999990E+06</posX>
+        <posY>5.76996625000000000E+06</posY>
+        <posZ>3.46991166999999993E+06</posZ>
+        <velX>2.67755999999999995E+03</velX>
+        <velY>-3.05308500000000004E+03</velY>
+        <velZ>6.47242100000000028E+03</velZ>
+      </stateVec>
+      <stateVec num="165">
+        <timeUTC>2024-01-17T10:31:51.000000</timeUTC>
+        <posX>-1.83439106000000006E+06</posX>
+        <posY>5.76690905999999959E+06</posY>
+        <posZ>3.47638189999999991E+06</posZ>
+        <velX>2.67930099999999993E+03</velX>
+        <velY>-3.06030299999999988E+03</velY>
+        <velZ>6.46830000000000018E+03</velZ>
+      </stateVec>
+      <stateVec num="166">
+        <timeUTC>2024-01-17T10:31:52.000000</timeUTC>
+        <posX>-1.83171157000000007E+06</posX>
+        <posY>5.76384604000000004E+06</posY>
+        <posZ>3.48284839000000013E+06</posZ>
+        <velX>2.68098700000000008E+03</velX>
+        <velY>-3.06742200000000003E+03</velY>
+        <velZ>6.46419899999999961E+03</velZ>
+      </stateVec>
+      <stateVec num="167">
+        <timeUTC>2024-01-17T10:31:53.000000</timeUTC>
+        <posX>-1.82902917999999993E+06</posX>
+        <posY>5.76077444000000041E+06</posY>
+        <posZ>3.48931049000000022E+06</posZ>
+        <velX>2.68264499999999998E+03</velX>
+        <velY>-3.07448799999999983E+03</velY>
+        <velZ>6.46011099999999988E+03</velZ>
+      </stateVec>
+      <stateVec num="168">
+        <timeUTC>2024-01-17T10:31:54.000000</timeUTC>
+        <posX>-1.82634616999999993E+06</posX>
+        <posY>5.75769750000000000E+06</posY>
+        <posZ>3.49576906999999983E+06</posZ>
+        <velX>2.68438200000000006E+03</velX>
+        <velY>-3.08165500000000020E+03</velY>
+        <velZ>6.45599499999999989E+03</velZ>
+      </stateVec>
+      <stateVec num="169">
+        <timeUTC>2024-01-17T10:31:55.000000</timeUTC>
+        <posX>-1.82366078000000003E+06</posX>
+        <posY>5.75461204000000004E+06</posY>
+        <posZ>3.50222281999999983E+06</posZ>
+        <velX>2.68602599999999984E+03</velX>
+        <velY>-3.08871199999999999E+03</velY>
+        <velZ>6.45188299999999981E+03</velZ>
+      </stateVec>
+      <stateVec num="170">
+        <timeUTC>2024-01-17T10:31:56.000000</timeUTC>
+        <posX>-1.82097377000000002E+06</posX>
+        <posY>5.75151930999999959E+06</posY>
+        <posZ>3.50867241999999993E+06</posZ>
+        <velX>2.68770299999999997E+03</velX>
+        <velY>-3.09581100000000015E+03</velY>
+        <velZ>6.44778999999999996E+03</velZ>
+      </stateVec>
+      <stateVec num="171">
+        <timeUTC>2024-01-17T10:31:57.000000</timeUTC>
+        <posX>-1.81828551000000001E+06</posX>
+        <posY>5.74842007000000030E+06</posY>
+        <posZ>3.51511802999999980E+06</posZ>
+        <velX>2.68935899999999992E+03</velX>
+        <velY>-3.10289600000000019E+03</velY>
+        <velZ>6.44365099999999984E+03</velZ>
+      </stateVec>
+      <stateVec num="172">
+        <timeUTC>2024-01-17T10:31:58.000000</timeUTC>
+        <posX>-1.81559533000000007E+06</posX>
+        <posY>5.74531337999999989E+06</posY>
+        <posZ>3.52155945000000019E+06</posZ>
+        <velX>2.69100700000000006E+03</velX>
+        <velY>-3.10997499999999991E+03</velY>
+        <velZ>6.43954100000000017E+03</velZ>
+      </stateVec>
+      <stateVec num="173">
+        <timeUTC>2024-01-17T10:31:59.000000</timeUTC>
+        <posX>-1.81290418999999994E+06</posX>
+        <posY>5.74220086000000034E+06</posY>
+        <posZ>3.52799731999999983E+06</posZ>
+        <velX>2.69271900000000005E+03</velX>
+        <velY>-3.11717000000000007E+03</velY>
+        <velZ>6.43534599999999955E+03</velZ>
+      </stateVec>
+      <stateVec num="174">
+        <timeUTC>2024-01-17T10:32:00.000000</timeUTC>
+        <posX>-1.81021018999999994E+06</posX>
+        <posY>5.73907996999999974E+06</posY>
+        <posZ>3.53443062000000011E+06</posZ>
+        <velX>2.69435100000000011E+03</velX>
+        <velY>-3.12419799999999987E+03</velY>
+        <velZ>6.43122699999999986E+03</velZ>
+      </stateVec>
+      <stateVec num="175">
+        <timeUTC>2024-01-17T10:32:01.000000</timeUTC>
+        <posX>-1.80751491999999993E+06</posX>
+        <posY>5.73595169000000041E+06</posY>
+        <posZ>3.54085941000000015E+06</posZ>
+        <velX>2.69603600000000006E+03</velX>
+        <velY>-3.13134299999999985E+03</velY>
+        <velZ>6.42703200000000015E+03</velZ>
+      </stateVec>
+      <stateVec num="176">
+        <timeUTC>2024-01-17T10:32:02.000000</timeUTC>
+        <posX>-1.80481781000000006E+06</posX>
+        <posY>5.73281657000000030E+06</posY>
+        <posZ>3.54728460000000009E+06</posZ>
+        <velX>2.69765299999999979E+03</velX>
+        <velY>-3.13836200000000008E+03</velY>
+        <velZ>6.42290099999999984E+03</velZ>
+      </stateVec>
+      <stateVec num="177">
+        <timeUTC>2024-01-17T10:32:03.000000</timeUTC>
+        <posX>-1.80211973999999999E+06</posX>
+        <posY>5.72967494000000041E+06</posY>
+        <posZ>3.55370537000000011E+06</posZ>
+        <velX>2.69930799999999999E+03</velX>
+        <velY>-3.14540799999999990E+03</velY>
+        <velZ>6.41874799999999959E+03</velZ>
+      </stateVec>
+      <stateVec num="178">
+        <timeUTC>2024-01-17T10:32:04.000000</timeUTC>
+        <posX>-1.79941971999999997E+06</posX>
+        <posY>5.72652598000000045E+06</posY>
+        <posZ>3.56012204000000004E+06</posZ>
+        <velX>2.70095800000000008E+03</velX>
+        <velY>-3.15252599999999984E+03</velY>
+        <velZ>6.41455299999999988E+03</velZ>
+      </stateVec>
+      <stateVec num="179">
+        <timeUTC>2024-01-17T10:32:05.000000</timeUTC>
+        <posX>-1.79671812999999989E+06</posX>
+        <posY>5.72336995999999996E+06</posY>
+        <posZ>3.56653450999999978E+06</posZ>
+        <velX>2.70257700000000023E+03</velX>
+        <velY>-3.15959200000000010E+03</velY>
+        <velZ>6.41037600000000020E+03</velZ>
+      </stateVec>
+      <stateVec num="180">
+        <timeUTC>2024-01-17T10:32:06.000000</timeUTC>
+        <posX>-1.79401478000000003E+06</posX>
+        <posY>5.72020709999999963E+06</posY>
+        <posZ>3.57294291000000015E+06</posZ>
+        <velX>2.70423300000000017E+03</velX>
+        <velY>-3.16666899999999987E+03</velY>
+        <velZ>6.40618699999999990E+03</velZ>
+      </stateVec>
+      <stateVec num="181">
+        <timeUTC>2024-01-17T10:32:07.000000</timeUTC>
+        <posX>-1.79130946999999997E+06</posX>
+        <posY>5.71703634999999963E+06</posY>
+        <posZ>3.57934691999999993E+06</posZ>
+        <velX>2.70585100000000011E+03</velX>
+        <velY>-3.17375700000000006E+03</velY>
+        <velZ>6.40194200000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="182">
+        <timeUTC>2024-01-17T10:32:08.000000</timeUTC>
+        <posX>-1.78860284000000008E+06</posX>
+        <posY>5.71385874000000022E+06</posY>
+        <posZ>3.58574672999999998E+06</posZ>
+        <velX>2.70745400000000018E+03</velX>
+        <velY>-3.18080299999999988E+03</velY>
+        <velZ>6.39777199999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="183">
+        <timeUTC>2024-01-17T10:32:09.000000</timeUTC>
+        <posX>-1.78589488999999990E+06</posX>
+        <posY>5.71067501999999955E+06</posY>
+        <posZ>3.59214243000000017E+06</posZ>
+        <velX>2.70909700000000021E+03</velX>
+        <velY>-3.18787899999999991E+03</velY>
+        <velZ>6.39349899999999980E+03</velZ>
+      </stateVec>
+      <stateVec num="184">
+        <timeUTC>2024-01-17T10:32:10.000000</timeUTC>
+        <posX>-1.78318482000000007E+06</posX>
+        <posY>5.70748353000000026E+06</posY>
+        <posZ>3.59853418000000017E+06</posZ>
+        <velX>2.71071999999999980E+03</velX>
+        <velY>-3.19496000000000004E+03</velY>
+        <velZ>6.38927199999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="185">
+        <timeUTC>2024-01-17T10:32:11.000000</timeUTC>
+        <posX>-1.78047350000000000E+06</posX>
+        <posY>5.70428474000000022E+06</posY>
+        <posZ>3.60492093000000017E+06</posZ>
+        <velX>2.71232000000000016E+03</velX>
+        <velY>-3.20196300000000019E+03</velY>
+        <velZ>6.38507700000000023E+03</velZ>
+      </stateVec>
+      <stateVec num="186">
+        <timeUTC>2024-01-17T10:32:12.000000</timeUTC>
+        <posX>-1.77776023999999999E+06</posX>
+        <posY>5.70107940000000037E+06</posY>
+        <posZ>3.61130420000000019E+06</posZ>
+        <velX>2.71392900000000009E+03</velX>
+        <velY>-3.20901600000000008E+03</velY>
+        <velZ>6.38085199999999986E+03</velZ>
+      </stateVec>
+      <stateVec num="187">
+        <timeUTC>2024-01-17T10:32:13.000000</timeUTC>
+        <posX>-1.77504511000000010E+06</posX>
+        <posY>5.69786638999999966E+06</posY>
+        <posZ>3.61768249000000022E+06</posZ>
+        <velX>2.71553499999999985E+03</velX>
+        <velY>-3.21607200000000012E+03</velY>
+        <velZ>6.37656400000000031E+03</velZ>
+      </stateVec>
+      <stateVec num="188">
+        <timeUTC>2024-01-17T10:32:14.000000</timeUTC>
+        <posX>-1.77232891999999993E+06</posX>
+        <posY>5.69464741999999993E+06</posY>
+        <posZ>3.62405718000000017E+06</posZ>
+        <velX>2.71713599999999997E+03</velX>
+        <velY>-3.22314499999999998E+03</velY>
+        <velZ>6.37231099999999969E+03</velZ>
+      </stateVec>
+      <stateVec num="189">
+        <timeUTC>2024-01-17T10:32:15.000000</timeUTC>
+        <posX>-1.76961087999999989E+06</posX>
+        <posY>5.69142003000000026E+06</posY>
+        <posZ>3.63042689999999991E+06</posZ>
+        <velX>2.71872499999999991E+03</velX>
+        <velY>-3.23019200000000001E+03</velY>
+        <velZ>6.36805199999999968E+03</velZ>
+      </stateVec>
+      <stateVec num="190">
+        <timeUTC>2024-01-17T10:32:16.000000</timeUTC>
+        <posX>-1.76689130000000005E+06</posX>
+        <posY>5.68818583999999985E+06</posY>
+        <posZ>3.63679250000000000E+06</posZ>
+        <velX>2.72033100000000013E+03</velX>
+        <velY>-3.23723300000000017E+03</velY>
+        <velZ>6.36378300000000036E+03</velZ>
+      </stateVec>
+      <stateVec num="191">
+        <timeUTC>2024-01-17T10:32:17.000000</timeUTC>
+        <posX>-1.76417022999999998E+06</posX>
+        <posY>5.68494545999999996E+06</posY>
+        <posZ>3.64315450000000000E+06</posZ>
+        <velX>2.72191400000000021E+03</velX>
+        <velY>-3.24422600000000011E+03</velY>
+        <velZ>6.35951100000000042E+03</velZ>
+      </stateVec>
+      <stateVec num="192">
+        <timeUTC>2024-01-17T10:32:18.000000</timeUTC>
+        <posX>-1.76144768999999994E+06</posX>
+        <posY>5.68169808000000007E+06</posY>
+        <posZ>3.64951225000000000E+06</posZ>
+        <velX>2.72348999999999978E+03</velX>
+        <velY>-3.25124499999999989E+03</velY>
+        <velZ>6.35523999999999978E+03</velZ>
+      </stateVec>
+      <stateVec num="193">
+        <timeUTC>2024-01-17T10:32:19.000000</timeUTC>
+        <posX>-1.75872337000000011E+06</posX>
+        <posY>5.67844295999999996E+06</posY>
+        <posZ>3.65586500000000000E+06</posZ>
+        <velX>2.72507499999999982E+03</velX>
+        <velY>-3.25832000000000016E+03</velY>
+        <velZ>6.35092600000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="194">
+        <timeUTC>2024-01-17T10:32:20.000000</timeUTC>
+        <posX>-1.75599784000000008E+06</posX>
+        <posY>5.67518167999999970E+06</posY>
+        <posZ>3.66221414000000013E+06</posZ>
+        <velX>2.72666300000000001E+03</velX>
+        <velY>-3.26534299999999985E+03</velY>
+        <velZ>6.34661800000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="195">
+        <timeUTC>2024-01-17T10:32:21.000000</timeUTC>
+        <posX>-1.75327046999999997E+06</posX>
+        <posY>5.67191283999999985E+06</posY>
+        <posZ>3.66855877999999980E+06</posZ>
+        <velX>2.72823700000000008E+03</velX>
+        <velY>-3.27236999999999989E+03</velY>
+        <velZ>6.34230100000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="196">
+        <timeUTC>2024-01-17T10:32:22.000000</timeUTC>
+        <posX>-1.75054162999999989E+06</posX>
+        <posY>5.66863703000000026E+06</posY>
+        <posZ>3.67489889999999991E+06</posZ>
+        <velX>2.72980200000000013E+03</velX>
+        <velY>-3.27938599999999997E+03</velY>
+        <velZ>6.33797699999999986E+03</velZ>
+      </stateVec>
+      <stateVec num="197">
+        <timeUTC>2024-01-17T10:32:23.000000</timeUTC>
+        <posX>-1.74781089999999991E+06</posX>
+        <posY>5.66535386000000034E+06</posY>
+        <posZ>3.68123427000000002E+06</posZ>
+        <velX>2.73130499999999984E+03</velX>
+        <velY>-3.28628800000000001E+03</velY>
+        <velZ>6.33370899999999983E+03</velZ>
+      </stateVec>
+      <stateVec num="198">
+        <timeUTC>2024-01-17T10:32:24.000000</timeUTC>
+        <posX>-1.74507875000000000E+06</posX>
+        <posY>5.66206362999999989E+06</posY>
+        <posZ>3.68756597000000020E+06</posZ>
+        <velX>2.73291400000000021E+03</velX>
+        <velY>-3.29338799999999992E+03</velY>
+        <velZ>6.32935300000000007E+03</velZ>
+      </stateVec>
+      <stateVec num="199">
+        <timeUTC>2024-01-17T10:32:25.000000</timeUTC>
+        <posX>-1.74234505000000005E+06</posX>
+        <posY>5.65876657000000030E+06</posY>
+        <posZ>3.69389293000000017E+06</posZ>
+        <velX>2.73443199999999979E+03</velX>
+        <velY>-3.30030600000000004E+03</velY>
+        <velZ>6.32504799999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="200">
+        <timeUTC>2024-01-17T10:32:26.000000</timeUTC>
+        <posX>-1.73961051000000001E+06</posX>
+        <posY>5.65546633000000007E+06</posY>
+        <posZ>3.70021662000000011E+06</posZ>
+        <velX>2.73601299999999992E+03</velX>
+        <velY>-3.30736499999999978E+03</velY>
+        <velZ>6.32067600000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="201">
+        <timeUTC>2024-01-17T10:32:27.000000</timeUTC>
+        <posX>-1.73687362999999989E+06</posX>
+        <posY>5.65215488999999966E+06</posY>
+        <posZ>3.70653527000000002E+06</posZ>
+        <velX>2.73755200000000013E+03</velX>
+        <velY>-3.31437600000000020E+03</velY>
+        <velZ>6.31630199999999968E+03</velZ>
+      </stateVec>
+      <stateVec num="202">
+        <timeUTC>2024-01-17T10:32:28.000000</timeUTC>
+        <posX>-1.73413559000000008E+06</posX>
+        <posY>5.64883800999999978E+06</posY>
+        <posZ>3.71284983999999985E+06</posZ>
+        <velX>2.73908399999999983E+03</velX>
+        <velY>-3.32134600000000000E+03</velY>
+        <velZ>6.31192799999999988E+03</velZ>
+      </stateVec>
+      <stateVec num="203">
+        <timeUTC>2024-01-17T10:32:29.000000</timeUTC>
+        <posX>-1.73139514999999991E+06</posX>
+        <posY>5.64551274000000022E+06</posY>
+        <posZ>3.71915931000000006E+06</posZ>
+        <velX>2.74061099999999988E+03</velX>
+        <velY>-3.32834299999999985E+03</velY>
+        <velZ>6.30757700000000023E+03</velZ>
+      </stateVec>
+      <stateVec num="204">
+        <timeUTC>2024-01-17T10:32:30.000000</timeUTC>
+        <posX>-1.72865385000000009E+06</posX>
+        <posY>5.64218049000000022E+06</posY>
+        <posZ>3.72546458000000007E+06</posZ>
+        <velX>2.74217799999999988E+03</velX>
+        <velY>-3.33536099999999988E+03</velY>
+        <velZ>6.30319899999999961E+03</velZ>
+      </stateVec>
+      <stateVec num="205">
+        <timeUTC>2024-01-17T10:32:31.000000</timeUTC>
+        <posX>-1.72591134000000008E+06</posX>
+        <posY>5.63884186000000034E+06</posY>
+        <posZ>3.73176547000000020E+06</posZ>
+        <velX>2.74369900000000007E+03</velX>
+        <velY>-3.34231199999999990E+03</velY>
+        <velZ>6.29883600000000024E+03</velZ>
+      </stateVec>
+      <stateVec num="206">
+        <timeUTC>2024-01-17T10:32:32.000000</timeUTC>
+        <posX>-1.72316709000000008E+06</posX>
+        <posY>5.63549634999999963E+06</posY>
+        <posZ>3.73806229000000004E+06</posZ>
+        <velX>2.74521399999999994E+03</velX>
+        <velY>-3.34925199999999995E+03</velY>
+        <velZ>6.29445100000000002E+03</velZ>
+      </stateVec>
+      <stateVec num="207">
+        <timeUTC>2024-01-17T10:32:33.000000</timeUTC>
+        <posX>-1.72042127000000002E+06</posX>
+        <posY>5.63214370000000019E+06</posY>
+        <posZ>3.74435477000000002E+06</posZ>
+        <velX>2.74674400000000014E+03</velX>
+        <velY>-3.35624600000000009E+03</velY>
+        <velZ>6.29003799999999956E+03</velZ>
+      </stateVec>
+      <stateVec num="208">
+        <timeUTC>2024-01-17T10:32:34.000000</timeUTC>
+        <posX>-1.71767338999999990E+06</posX>
+        <posY>5.62878359999999963E+06</posY>
+        <posZ>3.75064258999999985E+06</posZ>
+        <velX>2.74823100000000022E+03</velX>
+        <velY>-3.36318100000000004E+03</velY>
+        <velZ>6.28564699999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="209">
+        <timeUTC>2024-01-17T10:32:35.000000</timeUTC>
+        <posX>-1.71492450000000000E+06</posX>
+        <posY>5.62541661000000034E+06</posY>
+        <posZ>3.75692558000000007E+06</posZ>
+        <velX>2.74977900000000000E+03</velX>
+        <velY>-3.37017399999999998E+03</velY>
+        <velZ>6.28125100000000020E+03</velZ>
+      </stateVec>
+      <stateVec num="210">
+        <timeUTC>2024-01-17T10:32:36.000000</timeUTC>
+        <posX>-1.71217408000000007E+06</posX>
+        <posY>5.62204284999999963E+06</posY>
+        <posZ>3.76320445000000019E+06</posZ>
+        <velX>2.75128000000000020E+03</velX>
+        <velY>-3.37716199999999981E+03</velY>
+        <velZ>6.27680699999999979E+03</velZ>
+      </stateVec>
+      <stateVec num="211">
+        <timeUTC>2024-01-17T10:32:37.000000</timeUTC>
+        <posX>-1.70942218999999994E+06</posX>
+        <posY>5.61866224000000022E+06</posY>
+        <posZ>3.76947910000000009E+06</posZ>
+        <velX>2.75278699999999981E+03</velX>
+        <velY>-3.38410199999999986E+03</velY>
+        <velZ>6.27237799999999970E+03</velZ>
+      </stateVec>
+      <stateVec num="212">
+        <timeUTC>2024-01-17T10:32:38.000000</timeUTC>
+        <posX>-1.70666837000000011E+06</posX>
+        <posY>5.61527483999999985E+06</posY>
+        <posZ>3.77574981999999983E+06</posZ>
+        <velX>2.75430999999999995E+03</velX>
+        <velY>-3.39108699999999999E+03</velY>
+        <velZ>6.26792600000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="213">
+        <timeUTC>2024-01-17T10:32:39.000000</timeUTC>
+        <posX>-1.70391358000000007E+06</posX>
+        <posY>5.61187996999999974E+06</posY>
+        <posZ>3.78201533000000007E+06</posZ>
+        <velX>2.75576000000000022E+03</velX>
+        <velY>-3.39799800000000005E+03</velY>
+        <velZ>6.26351100000000042E+03</velZ>
+      </stateVec>
+      <stateVec num="214">
+        <timeUTC>2024-01-17T10:32:40.000000</timeUTC>
+        <posX>-1.70115738999999990E+06</posX>
+        <posY>5.60847899000000022E+06</posY>
+        <posZ>3.78827672000000020E+06</posZ>
+        <velX>2.75727100000000019E+03</velX>
+        <velY>-3.40500900000000001E+03</velY>
+        <velZ>6.25902000000000044E+03</velZ>
+      </stateVec>
+      <stateVec num="215">
+        <timeUTC>2024-01-17T10:32:41.000000</timeUTC>
+        <posX>-1.69839901000000001E+06</posX>
+        <posY>5.60507050000000000E+06</posY>
+        <posZ>3.79453364000000013E+06</posZ>
+        <velX>2.75876400000000012E+03</velX>
+        <velY>-3.41194300000000021E+03</velY>
+        <velZ>6.25460800000000017E+03</velZ>
+      </stateVec>
+      <stateVec num="216">
+        <timeUTC>2024-01-17T10:32:42.000000</timeUTC>
+        <posX>-1.69563968999999994E+06</posX>
+        <posY>5.60165483999999985E+06</posY>
+        <posZ>3.80078575000000000E+06</posZ>
+        <velX>2.76022100000000000E+03</velX>
+        <velY>-3.41884900000000016E+03</velY>
+        <velZ>6.25013400000000001E+03</velZ>
+      </stateVec>
+      <stateVec num="217">
+        <timeUTC>2024-01-17T10:32:43.000000</timeUTC>
+        <posX>-1.69287804000000004E+06</posX>
+        <posY>5.59823141000000015E+06</posY>
+        <posZ>3.80703300999999978E+06</posZ>
+        <velX>2.76171599999999989E+03</velX>
+        <velY>-3.42578299999999990E+03</velY>
+        <velZ>6.24566399999999976E+03</velZ>
+      </stateVec>
+      <stateVec num="218">
+        <timeUTC>2024-01-17T10:32:44.000000</timeUTC>
+        <posX>-1.69011628000000003E+06</posX>
+        <posY>5.59480312999999989E+06</posY>
+        <posZ>3.81327679999999981E+06</posZ>
+        <velX>2.76318800000000010E+03</velX>
+        <velY>-3.43274200000000019E+03</velY>
+        <velZ>6.24117500000000018E+03</velZ>
+      </stateVec>
+      <stateVec num="219">
+        <timeUTC>2024-01-17T10:32:45.000000</timeUTC>
+        <posX>-1.68735254000000004E+06</posX>
+        <posY>5.59136761000000034E+06</posY>
+        <posZ>3.81951612999999989E+06</posZ>
+        <velX>2.76461999999999989E+03</velX>
+        <velY>-3.43963299999999981E+03</velY>
+        <velZ>6.23671799999999985E+03</velZ>
+      </stateVec>
+      <stateVec num="220">
+        <timeUTC>2024-01-17T10:32:46.000000</timeUTC>
+        <posX>-1.68458693999999994E+06</posX>
+        <posY>5.58792379000000004E+06</posY>
+        <posZ>3.82575043000000017E+06</posZ>
+        <velX>2.76612600000000020E+03</velX>
+        <velY>-3.44656199999999990E+03</velY>
+        <velZ>6.23221200000000044E+03</velZ>
+      </stateVec>
+      <stateVec num="221">
+        <timeUTC>2024-01-17T10:32:47.000000</timeUTC>
+        <posX>-1.68182015999999992E+06</posX>
+        <posY>5.58447317999999970E+06</posY>
+        <posZ>3.83197987999999989E+06</posZ>
+        <velX>2.76755600000000004E+03</velX>
+        <velY>-3.45346199999999999E+03</velY>
+        <velZ>6.22772900000000027E+03</velZ>
+      </stateVec>
+      <stateVec num="222">
+        <timeUTC>2024-01-17T10:32:48.000000</timeUTC>
+        <posX>-1.67905131000000006E+06</posX>
+        <posY>5.58101645000000019E+06</posY>
+        <posZ>3.83820560999999987E+06</posZ>
+        <velX>2.76902399999999989E+03</velX>
+        <velY>-3.46041800000000012E+03</velY>
+        <velZ>6.22319099999999980E+03</velZ>
+      </stateVec>
+      <stateVec num="223">
+        <timeUTC>2024-01-17T10:32:49.000000</timeUTC>
+        <posX>-1.67628200000000000E+06</posX>
+        <posY>5.57755290000000037E+06</posY>
+        <posZ>3.84442699000000022E+06</posZ>
+        <velX>2.77048599999999988E+03</velX>
+        <velY>-3.46728999999999996E+03</velY>
+        <velZ>6.21869300000000021E+03</velZ>
+      </stateVec>
+      <stateVec num="224">
+        <timeUTC>2024-01-17T10:32:50.000000</timeUTC>
+        <posX>-1.67351108000000007E+06</posX>
+        <posY>5.57408191000000015E+06</posY>
+        <posZ>3.85064297999999998E+06</posZ>
+        <velX>2.77194099999999980E+03</velX>
+        <velY>-3.47425000000000000E+03</velY>
+        <velZ>6.21417299999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="225">
+        <timeUTC>2024-01-17T10:32:51.000000</timeUTC>
+        <posX>-1.67073826000000001E+06</posX>
+        <posY>5.57060426999999955E+06</posY>
+        <posZ>3.85685531000000006E+06</posZ>
+        <velX>2.77338000000000011E+03</velX>
+        <velY>-3.48115799999999990E+03</velY>
+        <velZ>6.20963900000000012E+03</velZ>
+      </stateVec>
+      <stateVec num="226">
+        <timeUTC>2024-01-17T10:32:52.000000</timeUTC>
+        <posX>-1.66796408000000007E+06</posX>
+        <posY>5.56711957000000030E+06</posY>
+        <posZ>3.86306247999999998E+06</posZ>
+        <velX>2.77481100000000015E+03</velX>
+        <velY>-3.48801099999999997E+03</velY>
+        <velZ>6.20511800000000039E+03</velZ>
+      </stateVec>
+      <stateVec num="227">
+        <timeUTC>2024-01-17T10:32:53.000000</timeUTC>
+        <posX>-1.66518843999999994E+06</posX>
+        <posY>5.56362779999999981E+06</posY>
+        <posZ>3.86926520000000019E+06</posZ>
+        <velX>2.77623199999999997E+03</velX>
+        <velY>-3.49490799999999990E+03</velY>
+        <velZ>6.20056900000000041E+03</velZ>
+      </stateVec>
+      <stateVec num="228">
+        <timeUTC>2024-01-17T10:32:54.000000</timeUTC>
+        <posX>-1.66241171999999997E+06</posX>
+        <posY>5.56012965000000037E+06</posY>
+        <posZ>3.87546372000000020E+06</posZ>
+        <velX>2.77766800000000012E+03</velX>
+        <velY>-3.50180900000000020E+03</velY>
+        <velZ>6.19601900000000023E+03</velZ>
+      </stateVec>
+      <stateVec num="229">
+        <timeUTC>2024-01-17T10:32:55.000000</timeUTC>
+        <posX>-1.65963314999999991E+06</posX>
+        <posY>5.55662374000000022E+06</posY>
+        <posZ>3.88165708999999985E+06</posZ>
+        <velX>2.77909499999999980E+03</velX>
+        <velY>-3.50873500000000013E+03</velY>
+        <velZ>6.19145600000000013E+03</velZ>
+      </stateVec>
+      <stateVec num="230">
+        <timeUTC>2024-01-17T10:32:56.000000</timeUTC>
+        <posX>-1.65685335000000009E+06</posX>
+        <posY>5.55311133999999985E+06</posY>
+        <posZ>3.88784600999999978E+06</posZ>
+        <velX>2.78053099999999995E+03</velX>
+        <velY>-3.51561499999999978E+03</velY>
+        <velZ>6.18687100000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="231">
+        <timeUTC>2024-01-17T10:32:57.000000</timeUTC>
+        <posX>-1.65407217999999993E+06</posX>
+        <posY>5.54959336000000034E+06</posY>
+        <posZ>3.89403116000000015E+06</posZ>
+        <velX>2.78195100000000002E+03</velX>
+        <velY>-3.52250799999999981E+03</velY>
+        <velZ>6.18229799999999977E+03</velZ>
+      </stateVec>
+      <stateVec num="232">
+        <timeUTC>2024-01-17T10:32:58.000000</timeUTC>
+        <posX>-1.65129000000000000E+06</posX>
+        <posY>5.54606766000000015E+06</posY>
+        <posZ>3.90021129999999981E+06</posZ>
+        <velX>2.78335199999999986E+03</velX>
+        <velY>-3.52939100000000008E+03</velY>
+        <velZ>6.17773300000000017E+03</velZ>
+      </stateVec>
+      <stateVec num="233">
+        <timeUTC>2024-01-17T10:32:59.000000</timeUTC>
+        <posX>-1.64850578000000003E+06</posX>
+        <posY>5.54253463999999966E+06</posY>
+        <posZ>3.90638668999999994E+06</posZ>
+        <velX>2.78476899999999978E+03</velX>
+        <velY>-3.53623900000000003E+03</velY>
+        <velZ>6.17314699999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="234">
+        <timeUTC>2024-01-17T10:33:00.000000</timeUTC>
+        <posX>-1.64572017999999993E+06</posX>
+        <posY>5.53899536000000034E+06</posY>
+        <posZ>3.91255739000000013E+06</posZ>
+        <velX>2.78617399999999998E+03</velX>
+        <velY>-3.54310199999999986E+03</velY>
+        <velZ>6.16856199999999990E+03</velZ>
+      </stateVec>
+      <stateVec num="235">
+        <timeUTC>2024-01-17T10:33:01.000000</timeUTC>
+        <posX>-1.64293345999999996E+06</posX>
+        <posY>5.53544823000000045E+06</posY>
+        <posZ>3.91872377000000002E+06</posZ>
+        <velX>2.78760399999999981E+03</velX>
+        <velY>-3.54999800000000005E+03</velY>
+        <velZ>6.16395200000000023E+03</velZ>
+      </stateVec>
+      <stateVec num="236">
+        <timeUTC>2024-01-17T10:33:02.000000</timeUTC>
+        <posX>-1.64014492999999993E+06</posX>
+        <posY>5.53189426999999955E+06</posY>
+        <posZ>3.92488510999999987E+06</posZ>
+        <velX>2.78896099999999979E+03</velX>
+        <velY>-3.55682700000000023E+03</velY>
+        <velZ>6.15934199999999964E+03</velZ>
+      </stateVec>
+      <stateVec num="237">
+        <timeUTC>2024-01-17T10:33:03.000000</timeUTC>
+        <posX>-1.63735569999999995E+06</posX>
+        <posY>5.52833474000000022E+06</posY>
+        <posZ>3.93104243000000017E+06</posZ>
+        <velX>2.79036000000000013E+03</velX>
+        <velY>-3.56367999999999984E+03</velY>
+        <velZ>6.15470499999999993E+03</velZ>
+      </stateVec>
+      <stateVec num="238">
+        <timeUTC>2024-01-17T10:33:04.000000</timeUTC>
+        <posX>-1.63456462999999989E+06</posX>
+        <posY>5.52476695000000019E+06</posY>
+        <posZ>3.93719447000000020E+06</posZ>
+        <velX>2.79174800000000005E+03</velX>
+        <velY>-3.57055200000000013E+03</velY>
+        <velZ>6.15010199999999986E+03</velZ>
+      </stateVec>
+      <stateVec num="239">
+        <timeUTC>2024-01-17T10:33:05.000000</timeUTC>
+        <posX>-1.63177222999999998E+06</posX>
+        <posY>5.52119346999999974E+06</posY>
+        <posZ>3.94334241999999993E+06</posZ>
+        <velX>2.79311499999999978E+03</velX>
+        <velY>-3.57737800000000016E+03</velY>
+        <velZ>6.14549600000000009E+03</velZ>
+      </stateVec>
+      <stateVec num="240">
+        <timeUTC>2024-01-17T10:33:06.000000</timeUTC>
+        <posX>-1.62897808000000007E+06</posX>
+        <posY>5.51761170000000019E+06</posY>
+        <posZ>3.94948541000000015E+06</posZ>
+        <velX>2.79449800000000005E+03</velX>
+        <velY>-3.58421500000000015E+03</velY>
+        <velZ>6.14084400000000005E+03</velZ>
+      </stateVec>
+      <stateVec num="241">
+        <timeUTC>2024-01-17T10:33:07.000000</timeUTC>
+        <posX>-1.62618321999999997E+06</posX>
+        <posY>5.51402455999999959E+06</posY>
+        <posZ>3.95562400000000000E+06</posZ>
+        <velX>2.79588799999999992E+03</velX>
+        <velY>-3.59109299999999985E+03</velY>
+        <velZ>6.13620600000000013E+03</velZ>
+      </stateVec>
+      <stateVec num="242">
+        <timeUTC>2024-01-17T10:33:08.000000</timeUTC>
+        <posX>-1.62338639999999991E+06</posX>
+        <posY>5.51043024000000022E+06</posY>
+        <posZ>3.96175795999999996E+06</posZ>
+        <velX>2.79725799999999981E+03</velX>
+        <velY>-3.59788999999999987E+03</velY>
+        <velZ>6.13156300000000010E+03</velZ>
+      </stateVec>
+      <stateVec num="243">
+        <timeUTC>2024-01-17T10:33:09.000000</timeUTC>
+        <posX>-1.62058860000000009E+06</posX>
+        <posY>5.50682855999999959E+06</posY>
+        <posZ>3.96788706000000006E+06</posZ>
+        <velX>2.79864699999999993E+03</velX>
+        <velY>-3.60478600000000006E+03</velY>
+        <velZ>6.12686599999999999E+03</velZ>
+      </stateVec>
+      <stateVec num="244">
+        <timeUTC>2024-01-17T10:33:10.000000</timeUTC>
+        <posX>-1.61778937999999989E+06</posX>
+        <posY>5.50321978000000026E+06</posY>
+        <posZ>3.97401162999999989E+06</posZ>
+        <velX>2.79998799999999983E+03</velX>
+        <velY>-3.61160600000000022E+03</velY>
+        <velZ>6.12221000000000004E+03</velZ>
+      </stateVec>
+      <stateVec num="245">
+        <timeUTC>2024-01-17T10:33:11.000000</timeUTC>
+        <posX>-1.61498889999999991E+06</posX>
+        <posY>5.49960517999999970E+06</posY>
+        <posZ>3.98013141000000015E+06</posZ>
+        <velX>2.80133500000000004E+03</velX>
+        <velY>-3.61841899999999987E+03</velY>
+        <velZ>6.11754399999999987E+03</velZ>
+      </stateVec>
+      <stateVec num="246">
+        <timeUTC>2024-01-17T10:33:12.000000</timeUTC>
+        <posX>-1.61218678000000003E+06</posX>
+        <posY>5.49598344000000041E+06</posY>
+        <posZ>3.98624654000000004E+06</posZ>
+        <velX>2.80271999999999980E+03</velX>
+        <velY>-3.62529399999999987E+03</velY>
+        <velZ>6.11284100000000035E+03</velZ>
+      </stateVec>
+      <stateVec num="247">
+        <timeUTC>2024-01-17T10:33:13.000000</timeUTC>
+        <posX>-1.60938331000000006E+06</posX>
+        <posY>5.49235424000000022E+06</posY>
+        <posZ>3.99235716999999993E+06</posZ>
+        <velX>2.80406899999999996E+03</velX>
+        <velY>-3.63205400000000009E+03</velY>
+        <velZ>6.10815200000000004E+03</velZ>
+      </stateVec>
+    </orbit>
+    <attitude>
+      <attitudeHeader>
+        <generationSystem>PGS</generationSystem>
+        <sensor>STARSENSOR</sensor>
+        <accuracy>RT</accuracy>
+        <attitudeDataRefFrames>
+          <FromFrame>WGS84</FromFrame>
+          <ToFrame>WGS84</ToFrame>
+        </attitudeDataRefFrames>
+        <attitudeDataRefTime>GPS</attitudeDataRefTime>
+        <attitudeDataFormat>EULER</attitudeDataFormat>
+        <numRecords>124</numRecords>
+        <firstAttitudeTime>
+          <firstAttitudeTimeUTC>2024-01-17T10:29:05.448700</firstAttitudeTimeUTC>
+        </firstAttitudeTime>
+        <lastAttitudeTime>
+          <lastAttitudeTimeUTC>2024-01-17T10:33:11.450999</lastAttitudeTimeUTC>
+        </lastAttitudeTime>
+        <attitudeDataTimeSpacing>1.00000000000000000E+00</attitudeDataTimeSpacing>
+        <steeringLawIndicator>TZDS</steeringLawIndicator>
+      </attitudeHeader>
+      <attitudeData num="1">
+        <timeUTC>2024-01-17T10:29:05.448700</timeUTC>
+        <yaw>-3.56100700000000003E+00</yaw>
+        <roll>4.04000000000000008E-04</roll>
+        <pitch>-8.29059999999999936E-02</pitch>
+        <yawRate>1.32700000000000005E-03</yawRate>
+        <rollRate>-3.30000000000000025E-05</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="2">
+        <timeUTC>2024-01-17T10:29:07.448499</timeUTC>
+        <yaw>-3.55818499999999993E+00</yaw>
+        <roll>2.73999999999999992E-04</roll>
+        <pitch>-8.27930000000000055E-02</pitch>
+        <yawRate>1.34599999999999997E-03</yawRate>
+        <rollRate>-2.30000000000000000E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="3">
+        <timeUTC>2024-01-17T10:29:09.448700</timeUTC>
+        <yaw>-3.55530100000000004E+00</yaw>
+        <roll>1.06000000000000002E-04</roll>
+        <pitch>-8.27250000000000069E-02</pitch>
+        <yawRate>1.37300000000000009E-03</yawRate>
+        <rollRate>-4.69999999999999972E-05</rollRate>
+        <pitchRate>-1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="4">
+        <timeUTC>2024-01-17T10:29:11.448499</timeUTC>
+        <yaw>-3.55255000000000010E+00</yaw>
+        <roll>-1.00000000000000005E-04</roll>
+        <pitch>-8.26650000000000024E-02</pitch>
+        <yawRate>1.36600000000000003E-03</yawRate>
+        <rollRate>-2.00000000000000016E-05</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="5">
+        <timeUTC>2024-01-17T10:29:13.449100</timeUTC>
+        <yaw>-3.54983599999999999E+00</yaw>
+        <roll>-2.66999999999999985E-04</roll>
+        <pitch>-8.26589999999999964E-02</pitch>
+        <yawRate>1.36600000000000003E-03</yawRate>
+        <rollRate>-4.50000000000000028E-05</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="6">
+        <timeUTC>2024-01-17T10:29:15.448600</timeUTC>
+        <yaw>-3.54714900000000011E+00</yaw>
+        <roll>-4.94999999999999997E-04</roll>
+        <pitch>-8.26459999999999972E-02</pitch>
+        <yawRate>1.37600000000000005E-03</yawRate>
+        <rollRate>-4.30000000000000017E-05</rollRate>
+        <pitchRate>-6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="7">
+        <timeUTC>2024-01-17T10:29:17.448600</timeUTC>
+        <yaw>-3.54436600000000013E+00</yaw>
+        <roll>-6.23999999999999989E-04</roll>
+        <pitch>-8.26059999999999989E-02</pitch>
+        <yawRate>1.38100000000000007E-03</yawRate>
+        <rollRate>-1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="8">
+        <timeUTC>2024-01-17T10:29:19.448900</timeUTC>
+        <yaw>-3.54168700000000003E+00</yaw>
+        <roll>-7.51999999999999956E-04</roll>
+        <pitch>-8.26140000000000069E-02</pitch>
+        <yawRate>1.38799999999999991E-03</yawRate>
+        <rollRate>-1.50000000000000004E-05</rollRate>
+        <pitchRate>-3.19999999999999986E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="9">
+        <timeUTC>2024-01-17T10:29:21.448700</timeUTC>
+        <yaw>-3.53893300000000011E+00</yaw>
+        <roll>-7.78000000000000046E-04</roll>
+        <pitch>-8.25820000000000026E-02</pitch>
+        <yawRate>1.38600000000000008E-03</yawRate>
+        <rollRate>1.09999999999999997E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="10">
+        <timeUTC>2024-01-17T10:29:23.449100</timeUTC>
+        <yaw>-3.53619700000000003E+00</yaw>
+        <roll>-7.39999999999999989E-04</roll>
+        <pitch>-8.26110000000000039E-02</pitch>
+        <yawRate>1.38999999999999996E-03</yawRate>
+        <rollRate>1.90000000000000010E-05</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="11">
+        <timeUTC>2024-01-17T10:29:25.448800</timeUTC>
+        <yaw>-3.53347400000000000E+00</yaw>
+        <roll>-6.93999999999999955E-04</roll>
+        <pitch>-8.26940000000000036E-02</pitch>
+        <yawRate>1.41299999999999998E-03</yawRate>
+        <rollRate>4.19999999999999977E-05</rollRate>
+        <pitchRate>-2.90000000000000002E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="12">
+        <timeUTC>2024-01-17T10:29:27.448700</timeUTC>
+        <yaw>-3.53067200000000003E+00</yaw>
+        <roll>-5.74999999999999990E-04</roll>
+        <pitch>-8.27009999999999967E-02</pitch>
+        <yawRate>1.41599999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="13">
+        <timeUTC>2024-01-17T10:29:29.448900</timeUTC>
+        <yaw>-3.52787199999999990E+00</yaw>
+        <roll>-6.10999999999999998E-04</roll>
+        <pitch>-8.27949999999999936E-02</pitch>
+        <yawRate>1.45499999999999991E-03</yawRate>
+        <rollRate>3.10000000000000014E-05</rollRate>
+        <pitchRate>-3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="14">
+        <timeUTC>2024-01-17T10:29:31.448700</timeUTC>
+        <yaw>-3.52495899999999995E+00</yaw>
+        <roll>-6.44999999999999957E-04</roll>
+        <pitch>-8.29779999999999962E-02</pitch>
+        <yawRate>1.44899999999999998E-03</yawRate>
+        <rollRate>5.00000000000000041E-06</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="15">
+        <timeUTC>2024-01-17T10:29:33.449200</timeUTC>
+        <yaw>-3.52211000000000007E+00</yaw>
+        <roll>-7.05000000000000006E-04</roll>
+        <pitch>-8.30940000000000012E-02</pitch>
+        <yawRate>1.45999999999999993E-03</yawRate>
+        <rollRate>1.69999999999999999E-05</rollRate>
+        <pitchRate>-3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="16">
+        <timeUTC>2024-01-17T10:29:35.448800</timeUTC>
+        <yaw>-3.51911199999999980E+00</yaw>
+        <roll>-6.54999999999999983E-04</roll>
+        <pitch>-8.32539999999999947E-02</pitch>
+        <yawRate>1.48900000000000009E-03</yawRate>
+        <rollRate>4.30000000000000017E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="17">
+        <timeUTC>2024-01-17T10:29:37.448800</timeUTC>
+        <yaw>-3.51608600000000004E+00</yaw>
+        <roll>-6.04999999999999961E-04</roll>
+        <pitch>-8.33310000000000023E-02</pitch>
+        <yawRate>1.49099999999999992E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="18">
+        <timeUTC>2024-01-17T10:29:39.449100</timeUTC>
+        <yaw>-3.51307999999999998E+00</yaw>
+        <roll>-5.27000000000000016E-04</roll>
+        <pitch>-8.34339999999999943E-02</pitch>
+        <yawRate>1.51399999999999994E-03</yawRate>
+        <rollRate>2.30000000000000000E-05</rollRate>
+        <pitchRate>-3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="19">
+        <timeUTC>2024-01-17T10:29:41.448900</timeUTC>
+        <yaw>-3.51009599999999988E+00</yaw>
+        <roll>-5.10999999999999953E-04</roll>
+        <pitch>-8.34749999999999936E-02</pitch>
+        <yawRate>1.51800000000000004E-03</yawRate>
+        <rollRate>4.10000000000000005E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="20">
+        <timeUTC>2024-01-17T10:29:43.449200</timeUTC>
+        <yaw>-3.50714600000000010E+00</yaw>
+        <roll>-4.76999999999999993E-04</roll>
+        <pitch>-8.34830000000000017E-02</pitch>
+        <yawRate>1.48299999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="21">
+        <timeUTC>2024-01-17T10:29:45.448900</timeUTC>
+        <yaw>-3.50412699999999999E+00</yaw>
+        <roll>-3.55000000000000010E-04</roll>
+        <pitch>-8.35209999999999980E-02</pitch>
+        <yawRate>1.55700000000000001E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>-2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="22">
+        <timeUTC>2024-01-17T10:29:47.448800</timeUTC>
+        <yaw>-3.50104399999999982E+00</yaw>
+        <roll>-2.32999999999999999E-04</roll>
+        <pitch>-8.34700000000000025E-02</pitch>
+        <yawRate>1.55900000000000006E-03</yawRate>
+        <rollRate>3.30000000000000025E-05</rollRate>
+        <pitchRate>-3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="23">
+        <timeUTC>2024-01-17T10:29:49.449100</timeUTC>
+        <yaw>-3.49791100000000021E+00</yaw>
+        <roll>-1.53000000000000006E-04</roll>
+        <pitch>-8.34899999999999948E-02</pitch>
+        <yawRate>1.54699999999999998E-03</yawRate>
+        <rollRate>1.90000000000000010E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="24">
+        <timeUTC>2024-01-17T10:29:51.448900</timeUTC>
+        <yaw>-3.49478299999999997E+00</yaw>
+        <roll>-3.49999999999999969E-05</roll>
+        <pitch>-8.35260000000000030E-02</pitch>
+        <yawRate>1.58599999999999995E-03</yawRate>
+        <rollRate>4.80000000000000012E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="25">
+        <timeUTC>2024-01-17T10:29:53.449400</timeUTC>
+        <yaw>-3.49162999999999979E+00</yaw>
+        <roll>8.20000000000000009E-05</roll>
+        <pitch>-8.34369999999999973E-02</pitch>
+        <yawRate>1.59300000000000001E-03</yawRate>
+        <rollRate>3.19999999999999986E-05</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="26">
+        <timeUTC>2024-01-17T10:29:55.449000</timeUTC>
+        <yaw>-3.48839699999999997E+00</yaw>
+        <roll>1.34000000000000005E-04</roll>
+        <pitch>-8.34690000000000015E-02</pitch>
+        <yawRate>1.62100000000000005E-03</yawRate>
+        <rollRate>3.49999999999999969E-05</rollRate>
+        <pitchRate>-3.69999999999999981E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="27">
+        <timeUTC>2024-01-17T10:29:57.448900</timeUTC>
+        <yaw>-3.48520599999999980E+00</yaw>
+        <roll>1.38999999999999991E-04</roll>
+        <pitch>-8.34649999999999975E-02</pitch>
+        <yawRate>1.60199999999999991E-03</yawRate>
+        <rollRate>-3.00000000000000008E-06</rollRate>
+        <pitchRate>-2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="28">
+        <timeUTC>2024-01-17T10:29:59.449300</timeUTC>
+        <yaw>-3.48197199999999984E+00</yaw>
+        <roll>1.31000000000000013E-04</roll>
+        <pitch>-8.34170000000000050E-02</pitch>
+        <yawRate>1.59000000000000005E-03</yawRate>
+        <rollRate>7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.20000000000000003E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="29">
+        <timeUTC>2024-01-17T10:30:01.449100</timeUTC>
+        <yaw>-3.47870400000000002E+00</yaw>
+        <roll>1.60000000000000013E-04</roll>
+        <pitch>-8.33990000000000009E-02</pitch>
+        <yawRate>1.58800000000000000E-03</yawRate>
+        <rollRate>-1.29999999999999992E-05</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="30">
+        <timeUTC>2024-01-17T10:30:03.449400</timeUTC>
+        <yaw>-3.47544299999999984E+00</yaw>
+        <roll>1.48999999999999990E-04</roll>
+        <pitch>-8.33850000000000008E-02</pitch>
+        <yawRate>1.60399999999999996E-03</yawRate>
+        <rollRate>1.99999999999999991E-06</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="31">
+        <timeUTC>2024-01-17T10:30:05.449100</timeUTC>
+        <yaw>-3.47200100000000011E+00</yaw>
+        <roll>1.62000000000000007E-04</roll>
+        <pitch>-8.34460000000000063E-02</pitch>
+        <yawRate>1.61600000000000003E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="32">
+        <timeUTC>2024-01-17T10:30:07.449000</timeUTC>
+        <yaw>-3.46861100000000011E+00</yaw>
+        <roll>1.53000000000000006E-04</roll>
+        <pitch>-8.34680000000000005E-02</pitch>
+        <yawRate>1.64299999999999993E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>-3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="33">
+        <timeUTC>2024-01-17T10:30:09.449200</timeUTC>
+        <yaw>-3.46512900000000013E+00</yaw>
+        <roll>9.89999999999999940E-05</roll>
+        <pitch>-8.35339999999999971E-02</pitch>
+        <yawRate>1.66899999999999991E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="34">
+        <timeUTC>2024-01-17T10:30:11.449100</timeUTC>
+        <yaw>-3.46171700000000016E+00</yaw>
+        <roll>6.99999999999999939E-05</roll>
+        <pitch>-8.37230000000000057E-02</pitch>
+        <yawRate>1.66799999999999999E-03</yawRate>
+        <rollRate>1.20000000000000003E-05</rollRate>
+        <pitchRate>-2.69999999999999990E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="35">
+        <timeUTC>2024-01-17T10:30:13.449600</timeUTC>
+        <yaw>-3.45841999999999983E+00</yaw>
+        <roll>-3.00000000000000008E-05</roll>
+        <pitch>-8.39359999999999967E-02</pitch>
+        <yawRate>1.65500000000000000E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>-9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="36">
+        <timeUTC>2024-01-17T10:30:15.449200</timeUTC>
+        <yaw>-3.45517200000000013E+00</yaw>
+        <roll>-1.63000000000000005E-04</roll>
+        <pitch>-8.41390000000000055E-02</pitch>
+        <yawRate>1.65900000000000010E-03</yawRate>
+        <rollRate>1.99999999999999991E-06</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="37">
+        <timeUTC>2024-01-17T10:30:17.449100</timeUTC>
+        <yaw>-3.45188199999999989E+00</yaw>
+        <roll>-2.93000000000000020E-04</roll>
+        <pitch>-8.42159999999999992E-02</pitch>
+        <yawRate>1.68399999999999995E-03</yawRate>
+        <rollRate>-2.50000000000000012E-05</rollRate>
+        <pitchRate>1.09999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="38">
+        <timeUTC>2024-01-17T10:30:19.449300</timeUTC>
+        <yaw>-3.44839800000000007E+00</yaw>
+        <roll>-4.33000000000000008E-04</roll>
+        <pitch>-8.45429999999999932E-02</pitch>
+        <yawRate>1.65099999999999991E-03</yawRate>
+        <rollRate>-1.80000000000000005E-05</rollRate>
+        <pitchRate>-4.10000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="39">
+        <timeUTC>2024-01-17T10:30:21.449300</timeUTC>
+        <yaw>-3.44487500000000013E+00</yaw>
+        <roll>-5.62000000000000000E-04</roll>
+        <pitch>-8.48450000000000037E-02</pitch>
+        <yawRate>1.67899999999999994E-03</yawRate>
+        <rollRate>-7.99999999999999964E-06</rollRate>
+        <pitchRate>-2.19999999999999994E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="40">
+        <timeUTC>2024-01-17T10:30:23.449600</timeUTC>
+        <yaw>-3.44126300000000018E+00</yaw>
+        <roll>-6.50999999999999994E-04</roll>
+        <pitch>-8.49830000000000030E-02</pitch>
+        <yawRate>1.70499999999999992E-03</yawRate>
+        <rollRate>7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="41">
+        <timeUTC>2024-01-17T10:30:25.449300</timeUTC>
+        <yaw>-3.43770700000000007E+00</yaw>
+        <roll>-7.03999999999999982E-04</roll>
+        <pitch>-8.50469999999999976E-02</pitch>
+        <yawRate>1.70699999999999997E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="42">
+        <timeUTC>2024-01-17T10:30:27.449200</timeUTC>
+        <yaw>-3.43422200000000011E+00</yaw>
+        <roll>-7.24999999999999950E-04</roll>
+        <pitch>-8.51139999999999952E-02</pitch>
+        <yawRate>1.69399999999999998E-03</yawRate>
+        <rollRate>3.19999999999999986E-05</rollRate>
+        <pitchRate>4.19999999999999977E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="43">
+        <timeUTC>2024-01-17T10:30:29.449400</timeUTC>
+        <yaw>-3.43065199999999981E+00</yaw>
+        <roll>-7.34999999999999976E-04</roll>
+        <pitch>-8.50780000000000008E-02</pitch>
+        <yawRate>1.73200000000000003E-03</yawRate>
+        <rollRate>5.00000000000000041E-06</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="44">
+        <timeUTC>2024-01-17T10:30:31.449300</timeUTC>
+        <yaw>-3.42717299999999980E+00</yaw>
+        <roll>-6.70000000000000023E-04</roll>
+        <pitch>-8.50039999999999962E-02</pitch>
+        <yawRate>1.71299999999999990E-03</yawRate>
+        <rollRate>6.79999999999999995E-05</rollRate>
+        <pitchRate>3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="45">
+        <timeUTC>2024-01-17T10:30:33.449900</timeUTC>
+        <yaw>-3.42378800000000005E+00</yaw>
+        <roll>-5.62000000000000000E-04</roll>
+        <pitch>-8.48420000000000007E-02</pitch>
+        <yawRate>1.72600000000000010E-03</yawRate>
+        <rollRate>5.39999999999999980E-05</rollRate>
+        <pitchRate>6.00000000000000015E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="46">
+        <timeUTC>2024-01-17T10:30:35.449500</timeUTC>
+        <yaw>-3.42040899999999981E+00</yaw>
+        <roll>-4.67999999999999992E-04</roll>
+        <pitch>-8.46039999999999986E-02</pitch>
+        <yawRate>1.72700000000000002E-03</yawRate>
+        <rollRate>4.69999999999999972E-05</rollRate>
+        <pitchRate>6.00000000000000015E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="47">
+        <timeUTC>2024-01-17T10:30:37.449400</timeUTC>
+        <yaw>-3.41685399999999984E+00</yaw>
+        <roll>-4.47999999999999993E-04</roll>
+        <pitch>-8.44459999999999933E-02</pitch>
+        <yawRate>1.71600000000000008E-03</yawRate>
+        <rollRate>2.50000000000000012E-05</rollRate>
+        <pitchRate>6.79999999999999995E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="48">
+        <timeUTC>2024-01-17T10:30:39.449500</timeUTC>
+        <yaw>-3.41329599999999989E+00</yaw>
+        <roll>-3.62999999999999987E-04</roll>
+        <pitch>-8.43340000000000062E-02</pitch>
+        <yawRate>1.74899999999999990E-03</yawRate>
+        <rollRate>4.19999999999999977E-05</rollRate>
+        <pitchRate>5.50000000000000020E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="49">
+        <timeUTC>2024-01-17T10:30:41.449500</timeUTC>
+        <yaw>-3.40985400000000016E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.42200000000000032E-02</pitch>
+        <yawRate>1.74500000000000002E-03</yawRate>
+        <rollRate>5.19999999999999968E-05</rollRate>
+        <pitchRate>4.89999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="50">
+        <timeUTC>2024-01-17T10:30:43.449900</timeUTC>
+        <yaw>-3.40633900000000001E+00</yaw>
+        <roll>-1.21000000000000000E-04</roll>
+        <pitch>-8.40940000000000021E-02</pitch>
+        <yawRate>1.75899999999999993E-03</yawRate>
+        <rollRate>3.39999999999999997E-05</rollRate>
+        <pitchRate>4.69999999999999972E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="51">
+        <timeUTC>2024-01-17T10:30:45.449600</timeUTC>
+        <yaw>-3.40283699999999989E+00</yaw>
+        <roll>-2.50000000000000012E-05</roll>
+        <pitch>-8.39529999999999998E-02</pitch>
+        <yawRate>1.76599999999999999E-03</yawRate>
+        <rollRate>5.30000000000000008E-05</rollRate>
+        <pitchRate>3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="52">
+        <timeUTC>2024-01-17T10:30:47.449500</timeUTC>
+        <yaw>-3.39932999999999996E+00</yaw>
+        <roll>2.19999999999999994E-05</roll>
+        <pitch>-8.37920000000000054E-02</pitch>
+        <yawRate>1.72900000000000007E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>6.39999999999999971E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="53">
+        <timeUTC>2024-01-17T10:30:49.449699</timeUTC>
+        <yaw>-3.39578600000000019E+00</yaw>
+        <roll>-3.19999999999999986E-05</roll>
+        <pitch>-8.36910000000000015E-02</pitch>
+        <yawRate>1.74099999999999993E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="54">
+        <timeUTC>2024-01-17T10:30:51.449600</timeUTC>
+        <yaw>-3.39232300000000020E+00</yaw>
+        <roll>8.20000000000000009E-05</roll>
+        <pitch>-8.35980000000000056E-02</pitch>
+        <yawRate>1.75000000000000004E-03</yawRate>
+        <rollRate>2.59999999999999984E-05</rollRate>
+        <pitchRate>9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="55">
+        <timeUTC>2024-01-17T10:30:53.449999</timeUTC>
+        <yaw>-3.38887699999999992E+00</yaw>
+        <roll>1.49999999999999987E-04</roll>
+        <pitch>-8.34420000000000023E-02</pitch>
+        <yawRate>1.78999999999999992E-03</yawRate>
+        <rollRate>1.69999999999999999E-05</rollRate>
+        <pitchRate>2.40000000000000006E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="56">
+        <timeUTC>2024-01-17T10:30:55.449699</timeUTC>
+        <yaw>-3.38537899999999992E+00</yaw>
+        <roll>3.11000000000000024E-04</roll>
+        <pitch>-8.33060000000000050E-02</pitch>
+        <yawRate>1.78400000000000000E-03</yawRate>
+        <rollRate>3.80000000000000021E-05</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="57">
+        <timeUTC>2024-01-17T10:30:57.449500</timeUTC>
+        <yaw>-3.38183699999999998E+00</yaw>
+        <roll>3.68000000000000000E-04</roll>
+        <pitch>-8.32320000000000004E-02</pitch>
+        <yawRate>1.79699999999999999E-03</yawRate>
+        <rollRate>1.29999999999999992E-05</rollRate>
+        <pitchRate>4.00000000000000033E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="58">
+        <timeUTC>2024-01-17T10:30:59.449800</timeUTC>
+        <yaw>-3.37815799999999999E+00</yaw>
+        <roll>4.31000000000000014E-04</roll>
+        <pitch>-8.32429999999999976E-02</pitch>
+        <yawRate>1.82099999999999992E-03</yawRate>
+        <rollRate>1.50000000000000004E-05</rollRate>
+        <pitchRate>-1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="59">
+        <timeUTC>2024-01-17T10:31:01.449600</timeUTC>
+        <yaw>-3.37448300000000012E+00</yaw>
+        <roll>4.02999999999999984E-04</roll>
+        <pitch>-8.31589999999999968E-02</pitch>
+        <yawRate>1.86800000000000009E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>-1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="60">
+        <timeUTC>2024-01-17T10:31:03.450100</timeUTC>
+        <yaw>-3.37080000000000002E+00</yaw>
+        <roll>4.22000000000000012E-04</roll>
+        <pitch>-8.30280000000000046E-02</pitch>
+        <yawRate>1.87199999999999997E-03</yawRate>
+        <rollRate>-5.00000000000000041E-06</rollRate>
+        <pitchRate>-1.69999999999999999E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="61">
+        <timeUTC>2024-01-17T10:31:05.449900</timeUTC>
+        <yaw>-3.36718599999999979E+00</yaw>
+        <roll>4.67000000000000021E-04</roll>
+        <pitch>-8.28959999999999975E-02</pitch>
+        <yawRate>1.87300000000000010E-03</yawRate>
+        <rollRate>-3.99999999999999982E-06</rollRate>
+        <pitchRate>3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="62">
+        <timeUTC>2024-01-17T10:31:07.449800</timeUTC>
+        <yaw>-3.36342799999999986E+00</yaw>
+        <roll>5.46000000000000044E-04</roll>
+        <pitch>-8.27920000000000045E-02</pitch>
+        <yawRate>1.89400000000000007E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="63">
+        <timeUTC>2024-01-17T10:31:09.450100</timeUTC>
+        <yaw>-3.35956099999999980E+00</yaw>
+        <roll>5.46000000000000044E-04</roll>
+        <pitch>-8.26640000000000014E-02</pitch>
+        <yawRate>1.89700000000000003E-03</yawRate>
+        <rollRate>-2.40000000000000006E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="64">
+        <timeUTC>2024-01-17T10:31:11.449900</timeUTC>
+        <yaw>-3.35557799999999995E+00</yaw>
+        <roll>4.97999999999999962E-04</roll>
+        <pitch>-8.26550000000000062E-02</pitch>
+        <yawRate>1.90200000000000004E-03</yawRate>
+        <rollRate>-2.00000000000000016E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="65">
+        <timeUTC>2024-01-17T10:31:13.450200</timeUTC>
+        <yaw>-3.35171399999999986E+00</yaw>
+        <roll>4.80000000000000012E-04</roll>
+        <pitch>-8.27380000000000060E-02</pitch>
+        <yawRate>1.90599999999999993E-03</yawRate>
+        <rollRate>-2.59999999999999984E-05</rollRate>
+        <pitchRate>-6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="66">
+        <timeUTC>2024-01-17T10:31:15.449900</timeUTC>
+        <yaw>-3.34785900000000014E+00</yaw>
+        <roll>5.52999999999999998E-04</roll>
+        <pitch>-8.28990000000000005E-02</pitch>
+        <yawRate>1.85500000000000009E-03</yawRate>
+        <rollRate>-2.50000000000000012E-05</rollRate>
+        <pitchRate>-5.09999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="67">
+        <timeUTC>2024-01-17T10:31:17.449800</timeUTC>
+        <yaw>-3.34404000000000012E+00</yaw>
+        <roll>5.38999999999999983E-04</roll>
+        <pitch>-8.29629999999999951E-02</pitch>
+        <yawRate>1.90500000000000001E-03</yawRate>
+        <rollRate>-5.50000000000000020E-05</rollRate>
+        <pitchRate>-1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="68">
+        <timeUTC>2024-01-17T10:31:19.449999</timeUTC>
+        <yaw>-3.34019900000000014E+00</yaw>
+        <roll>6.13999999999999962E-04</roll>
+        <pitch>-8.31029999999999963E-02</pitch>
+        <yawRate>1.90799999999999997E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="69">
+        <timeUTC>2024-01-17T10:31:21.449900</timeUTC>
+        <yaw>-3.33656599999999992E+00</yaw>
+        <roll>7.33000000000000036E-04</roll>
+        <pitch>-8.32959999999999950E-02</pitch>
+        <yawRate>1.91299999999999999E-03</yawRate>
+        <rollRate>-1.69999999999999999E-05</rollRate>
+        <pitchRate>-5.39999999999999980E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="70">
+        <timeUTC>2024-01-17T10:31:23.450399</timeUTC>
+        <yaw>-3.33273900000000012E+00</yaw>
+        <roll>8.00999999999999954E-04</roll>
+        <pitch>-8.34970000000000018E-02</pitch>
+        <yawRate>1.92500000000000006E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-3.39999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="71">
+        <timeUTC>2024-01-17T10:31:25.450100</timeUTC>
+        <yaw>-3.32883500000000021E+00</yaw>
+        <roll>7.72000000000000008E-04</roll>
+        <pitch>-8.35749999999999965E-02</pitch>
+        <yawRate>1.96299999999999990E-03</yawRate>
+        <rollRate>-6.00000000000000015E-05</rollRate>
+        <pitchRate>-9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="72">
+        <timeUTC>2024-01-17T10:31:27.449999</timeUTC>
+        <yaw>-3.32488599999999979E+00</yaw>
+        <roll>7.37000000000000025E-04</roll>
+        <pitch>-8.36360000000000020E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-3.39999999999999997E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="73">
+        <timeUTC>2024-01-17T10:31:29.450200</timeUTC>
+        <yaw>-3.32100600000000012E+00</yaw>
+        <roll>6.98999999999999969E-04</roll>
+        <pitch>-8.37299999999999989E-02</pitch>
+        <yawRate>1.97999999999999999E-03</yawRate>
+        <rollRate>-4.30000000000000017E-05</rollRate>
+        <pitchRate>-6.79999999999999995E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="74">
+        <timeUTC>2024-01-17T10:31:31.450100</timeUTC>
+        <yaw>-3.31701399999999991E+00</yaw>
+        <roll>7.11999999999999959E-04</roll>
+        <pitch>-8.38180000000000036E-02</pitch>
+        <yawRate>2.00100000000000017E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="75">
+        <timeUTC>2024-01-17T10:31:33.450399</timeUTC>
+        <yaw>-3.31315099999999996E+00</yaw>
+        <roll>6.40999999999999968E-04</roll>
+        <pitch>-8.38560000000000000E-02</pitch>
+        <yawRate>1.96999999999999996E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>-2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="76">
+        <timeUTC>2024-01-17T10:31:35.450100</timeUTC>
+        <yaw>-3.30938499999999980E+00</yaw>
+        <roll>5.31000000000000005E-04</roll>
+        <pitch>-8.38499999999999940E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-4.89999999999999984E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="77">
+        <timeUTC>2024-01-17T10:31:37.449999</timeUTC>
+        <yaw>-3.30545000000000000E+00</yaw>
+        <roll>5.50999999999999949E-04</roll>
+        <pitch>-8.38409999999999989E-02</pitch>
+        <yawRate>1.96299999999999990E-03</yawRate>
+        <rollRate>-6.99999999999999989E-06</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="78">
+        <timeUTC>2024-01-17T10:31:39.450200</timeUTC>
+        <yaw>-3.30148900000000012E+00</yaw>
+        <roll>5.00000000000000010E-04</roll>
+        <pitch>-8.38229999999999947E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="79">
+        <timeUTC>2024-01-17T10:31:41.450100</timeUTC>
+        <yaw>-3.29750599999999983E+00</yaw>
+        <roll>3.86999999999999974E-04</roll>
+        <pitch>-8.37630000000000041E-02</pitch>
+        <yawRate>1.99199999999999985E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="80">
+        <timeUTC>2024-01-17T10:31:43.450600</timeUTC>
+        <yaw>-3.29359599999999997E+00</yaw>
+        <roll>2.48999999999999981E-04</roll>
+        <pitch>-8.37169999999999997E-02</pitch>
+        <yawRate>2.00899999999999994E-03</yawRate>
+        <rollRate>-3.69999999999999981E-05</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="81">
+        <timeUTC>2024-01-17T10:31:45.450200</timeUTC>
+        <yaw>-3.28963800000000006E+00</yaw>
+        <roll>1.20000000000000003E-04</roll>
+        <pitch>-8.37050000000000016E-02</pitch>
+        <yawRate>2.01600000000000000E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="82">
+        <timeUTC>2024-01-17T10:31:47.450200</timeUTC>
+        <yaw>-3.28561399999999981E+00</yaw>
+        <roll>1.01000000000000002E-04</roll>
+        <pitch>-8.36409999999999931E-02</pitch>
+        <yawRate>2.03099999999999982E-03</yawRate>
+        <rollRate>3.99999999999999982E-06</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="83">
+        <timeUTC>2024-01-17T10:31:49.450399</timeUTC>
+        <yaw>-3.28148699999999982E+00</yaw>
+        <roll>3.80000000000000021E-05</roll>
+        <pitch>-8.35850000000000065E-02</pitch>
+        <yawRate>2.05000000000000017E-03</yawRate>
+        <rollRate>-1.69999999999999999E-05</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="84">
+        <timeUTC>2024-01-17T10:31:51.450300</timeUTC>
+        <yaw>-3.27739400000000014E+00</yaw>
+        <roll>9.00000000000000023E-06</roll>
+        <pitch>-8.35459999999999953E-02</pitch>
+        <yawRate>2.05799999999999993E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="85">
+        <timeUTC>2024-01-17T10:31:53.450600</timeUTC>
+        <yaw>-3.27319400000000016E+00</yaw>
+        <roll>-2.00000000000000016E-05</roll>
+        <pitch>-8.35510000000000003E-02</pitch>
+        <yawRate>2.05499999999999997E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="86">
+        <timeUTC>2024-01-17T10:31:55.450300</timeUTC>
+        <yaw>-3.26900700000000022E+00</yaw>
+        <roll>0.00000000000000000E+00</roll>
+        <pitch>-8.34919999999999968E-02</pitch>
+        <yawRate>2.11399999999999999E-03</yawRate>
+        <rollRate>-9.00000000000000023E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="87">
+        <timeUTC>2024-01-17T10:31:57.450200</timeUTC>
+        <yaw>-3.26476800000000011E+00</yaw>
+        <roll>2.30000000000000000E-05</roll>
+        <pitch>-8.33870000000000028E-02</pitch>
+        <yawRate>2.08999999999999984E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="88">
+        <timeUTC>2024-01-17T10:31:59.450399</timeUTC>
+        <yaw>-3.26055800000000007E+00</yaw>
+        <roll>4.60000000000000000E-05</roll>
+        <pitch>-8.32510000000000056E-02</pitch>
+        <yawRate>2.10200000000000014E-03</yawRate>
+        <rollRate>-1.29999999999999992E-05</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="89">
+        <timeUTC>2024-01-17T10:32:01.450300</timeUTC>
+        <yaw>-3.25639199999999995E+00</yaw>
+        <roll>3.60000000000000009E-05</roll>
+        <pitch>-8.31210000000000004E-02</pitch>
+        <yawRate>2.10900000000000020E-03</yawRate>
+        <rollRate>-5.00000000000000041E-06</rollRate>
+        <pitchRate>2.69999999999999990E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="90">
+        <timeUTC>2024-01-17T10:32:03.450800</timeUTC>
+        <yaw>-3.25212300000000010E+00</yaw>
+        <roll>-2.19999999999999994E-05</roll>
+        <pitch>-8.30240000000000006E-02</pitch>
+        <yawRate>2.12899999999999982E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="91">
+        <timeUTC>2024-01-17T10:32:05.450399</timeUTC>
+        <yaw>-3.24796599999999991E+00</yaw>
+        <roll>-1.64999999999999999E-04</roll>
+        <pitch>-8.29970000000000013E-02</pitch>
+        <yawRate>2.10299999999999983E-03</yawRate>
+        <rollRate>-7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="92">
+        <timeUTC>2024-01-17T10:32:07.450399</timeUTC>
+        <yaw>-3.24388100000000001E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.29659999999999981E-02</pitch>
+        <yawRate>2.11399999999999999E-03</yawRate>
+        <rollRate>1.00000000000000008E-05</rollRate>
+        <pitchRate>1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="93">
+        <timeUTC>2024-01-17T10:32:09.450500</timeUTC>
+        <yaw>-3.23981800000000009E+00</yaw>
+        <roll>-3.62999999999999987E-04</roll>
+        <pitch>-8.29680000000000001E-02</pitch>
+        <yawRate>2.11999999999999992E-03</yawRate>
+        <rollRate>-3.99999999999999982E-06</rollRate>
+        <pitchRate>-3.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="94">
+        <timeUTC>2024-01-17T10:32:11.450399</timeUTC>
+        <yaw>-3.23573800000000000E+00</yaw>
+        <roll>-4.62999999999999978E-04</roll>
+        <pitch>-8.29229999999999967E-02</pitch>
+        <yawRate>2.12500000000000015E-03</yawRate>
+        <rollRate>1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="95">
+        <timeUTC>2024-01-17T10:32:13.450900</timeUTC>
+        <yaw>-3.23163299999999998E+00</yaw>
+        <roll>-4.97999999999999962E-04</roll>
+        <pitch>-8.28440000000000010E-02</pitch>
+        <yawRate>2.14299999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="96">
+        <timeUTC>2024-01-17T10:32:15.450600</timeUTC>
+        <yaw>-3.22740399999999994E+00</yaw>
+        <roll>-4.69999999999999986E-04</roll>
+        <pitch>-8.28559999999999991E-02</pitch>
+        <yawRate>2.13299999999999991E-03</yawRate>
+        <rollRate>5.30000000000000008E-05</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="97">
+        <timeUTC>2024-01-17T10:32:17.450500</timeUTC>
+        <yaw>-3.22302299999999997E+00</yaw>
+        <roll>-4.22999999999999982E-04</roll>
+        <pitch>-8.29050000000000065E-02</pitch>
+        <yawRate>2.17400000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="98">
+        <timeUTC>2024-01-17T10:32:19.450600</timeUTC>
+        <yaw>-3.21861599999999992E+00</yaw>
+        <roll>-3.46999999999999978E-04</roll>
+        <pitch>-8.28919999999999935E-02</pitch>
+        <yawRate>2.18700000000000014E-03</yawRate>
+        <rollRate>3.39999999999999997E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="99">
+        <timeUTC>2024-01-17T10:32:21.450500</timeUTC>
+        <yaw>-3.21433200000000019E+00</yaw>
+        <roll>-3.77000000000000002E-04</roll>
+        <pitch>-8.28990000000000005E-02</pitch>
+        <yawRate>2.18300000000000004E-03</yawRate>
+        <rollRate>1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.09999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="100">
+        <timeUTC>2024-01-17T10:32:23.450999</timeUTC>
+        <yaw>-3.21000899999999989E+00</yaw>
+        <roll>-3.73999999999999983E-04</roll>
+        <pitch>-8.29519999999999980E-02</pitch>
+        <yawRate>2.20300000000000010E-03</yawRate>
+        <rollRate>3.60000000000000009E-05</rollRate>
+        <pitchRate>-2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="101">
+        <timeUTC>2024-01-17T10:32:25.450600</timeUTC>
+        <yaw>-3.20565699999999998E+00</yaw>
+        <roll>-3.48000000000000002E-04</roll>
+        <pitch>-8.30530000000000018E-02</pitch>
+        <yawRate>2.20799999999999989E-03</yawRate>
+        <rollRate>-3.00000000000000008E-06</rollRate>
+        <pitchRate>-2.40000000000000006E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="102">
+        <timeUTC>2024-01-17T10:32:27.450399</timeUTC>
+        <yaw>-3.20118100000000005E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.30670000000000019E-02</pitch>
+        <yawRate>2.20600000000000006E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="103">
+        <timeUTC>2024-01-17T10:32:29.450699</timeUTC>
+        <yaw>-3.19648200000000005E+00</yaw>
+        <roll>-1.53000000000000006E-04</roll>
+        <pitch>-8.30950000000000022E-02</pitch>
+        <yawRate>2.22900000000000008E-03</yawRate>
+        <rollRate>-1.20000000000000003E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="104">
+        <timeUTC>2024-01-17T10:32:31.450600</timeUTC>
+        <yaw>-3.19171700000000014E+00</yaw>
+        <roll>-4.39999999999999989E-05</roll>
+        <pitch>-8.30649999999999999E-02</pitch>
+        <yawRate>2.21000000000000016E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>2.19999999999999994E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="105">
+        <timeUTC>2024-01-17T10:32:33.450999</timeUTC>
+        <yaw>-3.18697799999999987E+00</yaw>
+        <roll>-2.90000000000000002E-05</roll>
+        <pitch>-8.29499999999999960E-02</pitch>
+        <yawRate>2.24999999999999983E-03</yawRate>
+        <rollRate>-1.09999999999999997E-05</rollRate>
+        <pitchRate>3.80000000000000021E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="106">
+        <timeUTC>2024-01-17T10:32:35.450699</timeUTC>
+        <yaw>-3.18226800000000010E+00</yaw>
+        <roll>-9.99999999999999955E-07</roll>
+        <pitch>-8.28829999999999983E-02</pitch>
+        <yawRate>2.25399999999999993E-03</yawRate>
+        <rollRate>3.99999999999999982E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="107">
+        <timeUTC>2024-01-17T10:32:37.450500</timeUTC>
+        <yaw>-3.17770999999999981E+00</yaw>
+        <roll>3.39999999999999997E-05</roll>
+        <pitch>-8.28620000000000051E-02</pitch>
+        <yawRate>2.27100000000000002E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="108">
+        <timeUTC>2024-01-17T10:32:39.450800</timeUTC>
+        <yaw>-3.17337800000000003E+00</yaw>
+        <roll>5.30000000000000008E-05</roll>
+        <pitch>-8.28340000000000048E-02</pitch>
+        <yawRate>2.22000000000000018E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="109">
+        <timeUTC>2024-01-17T10:32:41.450699</timeUTC>
+        <yaw>-3.16893799999999981E+00</yaw>
+        <roll>3.19999999999999986E-05</roll>
+        <pitch>-8.27549999999999952E-02</pitch>
+        <yawRate>2.24999999999999983E-03</yawRate>
+        <rollRate>2.40000000000000006E-05</rollRate>
+        <pitchRate>1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="110">
+        <timeUTC>2024-01-17T10:32:43.451200</timeUTC>
+        <yaw>-3.16454900000000006E+00</yaw>
+        <roll>-5.59999999999999992E-05</roll>
+        <pitch>-8.26859999999999956E-02</pitch>
+        <yawRate>2.25699999999999989E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="111">
+        <timeUTC>2024-01-17T10:32:45.450800</timeUTC>
+        <yaw>-3.16017599999999987E+00</yaw>
+        <roll>-8.70000000000000005E-05</roll>
+        <pitch>-8.26000000000000068E-02</pitch>
+        <yawRate>2.26500000000000009E-03</yawRate>
+        <rollRate>2.59999999999999984E-05</rollRate>
+        <pitchRate>4.19999999999999977E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="112">
+        <timeUTC>2024-01-17T10:32:47.450600</timeUTC>
+        <yaw>-3.15584599999999993E+00</yaw>
+        <roll>-1.11000000000000001E-04</roll>
+        <pitch>-8.25329999999999953E-02</pitch>
+        <yawRate>2.22300000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>4.00000000000000033E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="113">
+        <timeUTC>2024-01-17T10:32:49.450900</timeUTC>
+        <yaw>-3.15140399999999987E+00</yaw>
+        <roll>-1.11999999999999998E-04</roll>
+        <pitch>-8.25169999999999931E-02</pitch>
+        <yawRate>2.23999999999999980E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>-5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="114">
+        <timeUTC>2024-01-17T10:32:51.450800</timeUTC>
+        <yaw>-3.14691300000000007E+00</yaw>
+        <roll>-1.31000000000000013E-04</roll>
+        <pitch>-8.25049999999999950E-02</pitch>
+        <yawRate>2.23500000000000001E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="115">
+        <timeUTC>2024-01-17T10:32:53.451200</timeUTC>
+        <yaw>-3.14239500000000005E+00</yaw>
+        <roll>-8.39999999999999954E-05</roll>
+        <pitch>-8.25380000000000003E-02</pitch>
+        <yawRate>2.28500000000000014E-03</yawRate>
+        <rollRate>2.40000000000000006E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="116">
+        <timeUTC>2024-01-17T10:32:55.450900</timeUTC>
+        <yaw>-3.13782499999999986E+00</yaw>
+        <roll>-1.00000000000000008E-05</roll>
+        <pitch>-8.26319999999999971E-02</pitch>
+        <yawRate>2.27200000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="117">
+        <timeUTC>2024-01-17T10:32:57.450699</timeUTC>
+        <yaw>-3.13330200000000003E+00</yaw>
+        <roll>1.99999999999999991E-06</roll>
+        <pitch>-8.26059999999999989E-02</pitch>
+        <yawRate>2.27500000000000011E-03</yawRate>
+        <rollRate>2.09999999999999988E-05</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="118">
+        <timeUTC>2024-01-17T10:32:59.450999</timeUTC>
+        <yaw>-3.12868300000000010E+00</yaw>
+        <roll>1.90000000000000010E-05</roll>
+        <pitch>-8.25940000000000007E-02</pitch>
+        <yawRate>2.29700000000000000E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="119">
+        <timeUTC>2024-01-17T10:33:01.450900</timeUTC>
+        <yaw>-3.12405100000000013E+00</yaw>
+        <roll>4.50000000000000028E-05</roll>
+        <pitch>-8.24700000000000016E-02</pitch>
+        <yawRate>2.30899999999999985E-03</yawRate>
+        <rollRate>3.10000000000000014E-05</rollRate>
+        <pitchRate>4.60000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="120">
+        <timeUTC>2024-01-17T10:33:03.451100</timeUTC>
+        <yaw>-3.11933000000000016E+00</yaw>
+        <roll>1.12999999999999996E-04</roll>
+        <pitch>-8.23709999999999998E-02</pitch>
+        <yawRate>2.29700000000000000E-03</yawRate>
+        <rollRate>-2.30000000000000000E-05</rollRate>
+        <pitchRate>3.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="121">
+        <timeUTC>2024-01-17T10:33:05.450900</timeUTC>
+        <yaw>-3.11445099999999986E+00</yaw>
+        <roll>2.05999999999999993E-04</roll>
+        <pitch>-8.23649999999999938E-02</pitch>
+        <yawRate>2.34799999999999983E-03</yawRate>
+        <rollRate>1.00000000000000008E-05</rollRate>
+        <pitchRate>3.39999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="122">
+        <timeUTC>2024-01-17T10:33:07.450699</timeUTC>
+        <yaw>-3.10948000000000002E+00</yaw>
+        <roll>2.73000000000000022E-04</roll>
+        <pitch>-8.23389999999999955E-02</pitch>
+        <yawRate>2.36400000000000022E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="123">
+        <timeUTC>2024-01-17T10:33:09.450999</timeUTC>
+        <yaw>-3.10463999999999984E+00</yaw>
+        <roll>3.55999999999999980E-04</roll>
+        <pitch>-8.23649999999999938E-02</pitch>
+        <yawRate>2.36900000000000001E-03</yawRate>
+        <rollRate>1.80000000000000005E-05</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="124">
+        <timeUTC>2024-01-17T10:33:11.450999</timeUTC>
+        <yaw>-3.09993000000000007E+00</yaw>
+        <roll>3.57999999999999974E-04</roll>
+        <pitch>-8.23500000000000065E-02</pitch>
+        <yawRate>2.34499999999999986E-03</yawRate>
+        <rollRate>-1.20000000000000003E-05</rollRate>
+        <pitchRate>3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+    </attitude>
+  </platform>
+  <productQuality>
+    <auxDataQuality>
+      <orbitDataQualityLowFlag>false</orbitDataQualityLowFlag>
+      <attitudeDataQualityLowFlag>false</attitudeDataQualityLowFlag>
+      <DEMqualityLowFlag>false</DEMqualityLowFlag>
+      <missingAuxDataFlag>false</missingAuxDataFlag>
+    </auxDataQuality>
+    <processingParameterQuality>
+      <averageDopplerCentroidInfo>
+        <azimuthStart>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthStart>
+        <azimuthCenter>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthCenter>
+        <azimuthStop>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthStop>
+      </averageDopplerCentroidInfo>
+      <dopplerAmbiguityNotZeroFlag>false</dopplerAmbiguityNotZeroFlag>
+      <dopplerInconsistencyFlag>false</dopplerInconsistencyFlag>
+    </processingParameterQuality>
+    <imageDataQuality>
+      <polLayer>HH</polLayer>
+      <imageDataStatistics>
+        <mean>7.82286655016819002E-03</mean>
+        <max>1.50000000000000000E+02</max>
+        <min>0.00000000000000000E+00</min>
+        <stdDev>1.33036412670096915E-01</stdDev>
+      </imageDataStatistics>
+    </imageDataQuality>
+    <instrumentStateRemark>NULL</instrumentStateRemark>
+  </productQuality>
+  <geometricCalibration>
+    <taskID>006</taskID>
+    <sceneID>0000123546</sceneID>
+    <field>REMOVED</field>
+    <date>REMOVED</date>
+    <azimuthMeanSquareError units="meter">0.656</azimuthMeanSquareError>
+    <rangeMeanSquareError units="meter">0.583</rangeMeanSquareError>
+    <meanSquareError units="meter">0.878</meanSquareError>
+    <usePreciseOrbit>true</usePreciseOrbit>
+  </geometricCalibration>
+</level1Product>

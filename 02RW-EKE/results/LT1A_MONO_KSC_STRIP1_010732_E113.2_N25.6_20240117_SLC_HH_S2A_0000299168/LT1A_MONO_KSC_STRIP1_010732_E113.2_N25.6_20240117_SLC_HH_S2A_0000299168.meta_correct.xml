@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<level1Product>
+  <generalHeader>
+    <itemName>LEVEL2A</itemName>
+    <mission>LT1A</mission>
+    <sensorMode>Master</sensorMode>
+    <satelliteMode>MONOSTATIC</satelliteMode>
+    <source>PGS</source>
+    <destination>User</destination>
+    <generationSystem>PGS</generationSystem>
+    <generationTime>2024-01-17T22:14:38</generationTime>
+    <referenceDocument>V1.2.1</referenceDocument>
+  </generalHeader>
+  <productInfo>
+    <generationInfo>
+      <logicalProductID>299168</logicalProductID>
+      <receivingStation>KSC</receivingStation>
+      <level0ProcessingFacility>DIS</level0ProcessingFacility>
+      <level1ProcessingFacility>PGS</level1ProcessingFacility>
+      <groundOperationsType>OPERATIONAL</groundOperationsType>
+      <deliveryInfo>NOMINAL</deliveryInfo>
+      <copyrightInfo>LuTan-1 Project</copyrightInfo>
+    </generationInfo>
+    <missionInfo>
+      <mission>LT1A</mission>
+      <absOrbit>10732</absOrbit>
+      <relOrbit>54</relOrbit>
+      <orbitDirection>ASCENDING</orbitDirection>
+    </missionInfo>
+    <acquisitionInfo>
+      <sensor>SAR</sensor>
+      <imagingMode>STRIP1</imagingMode>
+      <lookDirection>RIGHT</lookDirection>
+      <antennaReceiveConfiguration>DRA</antennaReceiveConfiguration>
+      <polarisationMode>HH</polarisationMode>
+      <polarisationList>
+        <polLayer>HH</polLayer>
+      </polarisationList>
+      <elevationBeamConfiguration>8</elevationBeamConfiguration>
+      <imagingModeSpecificInfo>
+        <stripMap>
+          <azimuthBeamID>NULL</azimuthBeamID>
+        </stripMap>
+      </imagingModeSpecificInfo>
+    </acquisitionInfo>
+    <imageDataInfo>
+      <pixelValueID>SIGMMA</pixelValueID>
+      <imageDataType>COMPLEX</imageDataType>
+      <imageDataFormat>TIFF</imageDataFormat>
+      <numberOfLayers>1</numberOfLayers>
+      <imageDataDepth>16</imageDataDepth>
+      <imageStorageOrder>ROWBYROW</imageStorageOrder>
+      <rowContent>RANGELINES</rowContent>
+      <columnContent>AZIMUTHLINES</columnContent>
+      <imageRaster>
+        <numberOfRows>40396</numberOfRows>
+        <numberOfColumns>20372</numberOfColumns>
+        <rowSpacing units="m">1.41755995884773034E+00</rowSpacing>
+        <columnSpacing units="m">1.66551365555555564E+00</columnSpacing>
+        <groundRangeResolution>3.24810622988020015E+00</groundRangeResolution>
+        <azimuthResolution>2.69465754177303074E+00</azimuthResolution>
+        <azimuthLooks>1</azimuthLooks>
+        <rangeLooks>1</rangeLooks>
+      </imageRaster>
+    </imageDataInfo>
+    <sceneInfo>
+      <sceneID>297769</sceneID>
+      <start>
+        <timeUTC>2024-01-17T10:30:21.897794</timeUTC>
+      </start>
+      <stop>
+        <timeUTC>2024-01-17T10:30:30.125582</timeUTC>
+      </stop>
+      <rangeTime>
+        <firstPixel>4.95439444451439750E-03</firstPixel>
+        <lastPixel>5.18073888895884214E-03</lastPixel>
+      </rangeTime>
+      <sceneAzimuthExtent>5.72637520976129163E+04</sceneAzimuthExtent>
+      <sceneRangeExtent>3.39298441909777830E+04</sceneRangeExtent>
+      <sceneCenterCoord>
+        <refRow>20198</refRow>
+        <refColumn>10186</refColumn>
+        <lat>25.5665744643</lat>
+        <lon>113.1817829019</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:26.011790</azimuthTimeUTC>
+        <rangeTime>5.06757222229217534E-03</rangeTime>
+        <incidenceAngle>3.92072108199223663E+01</incidenceAngle>
+      </sceneCenterCoord>
+      <sceneAverageHeight>6.18778427148038077E+02</sceneAverageHeight>
+      <headingAngle>3.49793761119272119E+02</headingAngle>
+      <sceneCornerCoord1 name="bottomLeft">
+        <refRow>1</refRow>
+        <refColumn>1</refColumn>
+        <lat>25.2690500893</lat>
+        <lon>112.9649847676</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:21.897794</azimuthTimeUTC>
+        <rangeTime>4.95439444451439750E-03</rangeTime>
+        <incidenceAngle>3.73218714382081913E+01</incidenceAngle>
+      </sceneCornerCoord1>
+      <sceneCornerCoord2 name="bottomRight">
+        <refRow>1</refRow>
+        <refColumn>20372</refColumn>
+        <lat>25.3551035468</lat>
+        <lon>113.4898653940</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:21.897794</azimuthTimeUTC>
+        <rangeTime>5.18073888895884214E-03</rangeTime>
+        <incidenceAngle>4.09465655361494214E+01</incidenceAngle>
+      </sceneCornerCoord2>
+      <sceneCornerCoord3 name="topLeft">
+        <refRow>40396</refRow>
+        <refColumn>1</refColumn>
+        <lat>25.7759692825</lat>
+        <lon>112.8624457162</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:30.125582</azimuthTimeUTC>
+        <rangeTime>4.95439444451439750E-03</rangeTime>
+        <incidenceAngle>3.73218714382081913E+01</incidenceAngle>
+      </sceneCornerCoord3>
+      <sceneCornerCoord4 name="topRight">
+        <refRow>40396</refRow>
+        <refColumn>20372</refColumn>
+        <lat>25.8618600349</lat>
+        <lon>113.3896515009</lon>
+        <azimuthTimeUTC>2024-01-17T10:30:30.125582</azimuthTimeUTC>
+        <rangeTime>5.18073888895884214E-03</rangeTime>
+        <incidenceAngle>4.09465655361494214E+01</incidenceAngle>
+      </sceneCornerCoord4>
+    </sceneInfo>
+  </productInfo>
+  <productSpecific>
+    <complexImageInfo>
+      <slantRangeResolution>1.87370286250000007E+00</slantRangeResolution>
+      <projectedSpacingAzimuth>1.41755995884773034E+00</projectedSpacingAzimuth>
+      <projectedSpacingRange>
+        <groundNear>2.74704865821184852E+00</groundNear>
+        <groundFar>2.54139194726853690E+00</groundFar>
+        <slantRange>1.66551365555555564E+00</slantRange>
+      </projectedSpacingRange>
+      <imageCoordinateType>ZERODOPPLER</imageCoordinateType>
+      <imageDataStartWith>EARLYAZNEARRG</imageDataStartWith>
+      <quicklookDataStartWith>EARLYAZNEARRG</quicklookDataStartWith>
+    </complexImageInfo>
+  </productSpecific>
+  <setup>
+    <orderInfo>
+      <orderType>PROD_STD</orderType>
+      <processingPriority>NOMINAL</processingPriority>
+      <orbitAccuracy>RT</orbitAccuracy>
+      <sceneSpecification>TIME</sceneSpecification>
+      <orderedScene>
+        <sceneExtent>
+          <startTimeUTC>2024-01-17T10:30:19.698627</startTimeUTC>
+          <stopTimeUTC>2024-01-17T10:30:32.329438</stopTimeUTC>
+        </sceneExtent>
+      </orderedScene>
+      <imagingMode>STRIP1</imagingMode>
+      <lookDirection>RIGHT</lookDirection>
+      <antennaReceiveConfiguration>DRA</antennaReceiveConfiguration>
+      <polarisationMode>HH</polarisationMode>
+      <polList>
+        <polLayer>HH</polLayer>
+      </polList>
+      <elevationBeamConfiguration>8</elevationBeamConfiguration>
+      <productVariant>SSC</productVariant>
+      <projection>SLANTRANGE</projection>
+    </orderInfo>
+  </setup>
+  <processing>
+    <geometry>
+      <geometryCoordinateType>ZERODOPPLER</geometryCoordinateType>
+      <velocityParameter>
+        <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+        <velocityParameterPolynomial>
+          <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+          <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+          <referencePoint>5.06787098676609715E-03</referencePoint>
+          <polynomialDegree>3</polynomialDegree>
+          <coefficient exponent="0">7.28069173658890850E+03</coefficient>
+          <coefficient exponent="1">-1.69399871953493785E+04</coefficient>
+          <coefficient exponent="2">3.66175834780694393E+05</coefficient>
+          <coefficient exponent="3">-7.04562480469355583E+08</coefficient>
+        </velocityParameterPolynomial>
+      </velocityParameter>
+      <zeroDopplerVelocity>
+        <velocity>6.95962690324147661E+03</velocity>
+      </zeroDopplerVelocity>
+      <dopplerRate>
+        <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+        <dopplerRatePolynomial>
+          <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+          <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+          <referencePoint>5.06787098676609715E-03</referencePoint>
+          <polynomialDegree>3</polynomialDegree>
+          <coefficient exponent="0">5.86555156802478450E+02</coefficient>
+          <coefficient exponent="1">-1.18469425399458923E+05</coefficient>
+          <coefficient exponent="2">2.34490175910693817E+07</coefficient>
+          <coefficient exponent="3">-4.74132423893729591E+09</coefficient>
+        </dopplerRatePolynomial>
+      </dopplerRate>
+    </geometry>
+    <doppler>
+      <azDeskew>TRUE</azDeskew>
+      <dopplerBasebandEstimationMethod>azimuth cross correlation</dopplerBasebandEstimationMethod>
+      <dopplerGeometricEstimationMethod>orbit and attitude data evaluation</dopplerGeometricEstimationMethod>
+      <dopplerCentroidCoordinateType>RAW</dopplerCentroidCoordinateType>
+      <dopplerCentroid>
+        <numberOfBlocks>0</numberOfBlocks>
+        <numberOfRejectedBlocks>0</numberOfRejectedBlocks>
+        <numberOfDopplerRecords>0</numberOfDopplerRecords>
+        <dopplerRecordAzimuthSpacing>0.00000000000000000E+00</dopplerRecordAzimuthSpacing>
+        <dopplerEstimate>
+          <timeUTC>2024-01-17T10:30:26.013967</timeUTC>
+          <dopplerAtMidRange>1.39127735631122107E+00</dopplerAtMidRange>
+          <basebandDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </basebandDoppler>
+          <geometricDopplerFlag>true</geometricDopplerFlag>
+          <geometricDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </geometricDoppler>
+          <dopplerAmbiguity>0</dopplerAmbiguity>
+          <dopplerConsistencyFlag>true</dopplerConsistencyFlag>
+          <dopplerEstimateConfidence>0.00000000000000000E+00</dopplerEstimateConfidence>
+          <combinedDoppler>
+            <validityRangeMin>4.95469320898831930E-03</validityRangeMin>
+            <validityRangeMax>5.18103765343276394E-03</validityRangeMax>
+            <referencePoint>5.06787098676609715E-03</referencePoint>
+            <polynomialDegree>2</polynomialDegree>
+            <coefficient exponent="0">1.39127976666553921E+00</coefficient>
+            <coefficient exponent="1">1.61033602838714387E+03</coefficient>
+            <coefficient exponent="2">-6.58826528682627250E+05</coefficient>
+          </combinedDoppler>
+        </dopplerEstimate>
+      </dopplerCentroid>
+    </doppler>
+    <processingParameter>
+      <rangeLooks>1</rangeLooks>
+      <azimuthLooks>1</azimuthLooks>
+      <rangeLookBandwidth>8.00000000000000000E+07</rangeLookBandwidth>
+      <azimuthLookBandwidth>4.90958203200000025E+03</azimuthLookBandwidth>
+      <totalProcessedRangeBandwidth>8.00000000000000000E+07</totalProcessedRangeBandwidth>
+      <totalProcessedAzimuthBandwidth>2.58275005092564788E+03</totalProcessedAzimuthBandwidth>
+      <rangeWindowID>Taylor window</rangeWindowID>
+      <rangeWindowCoefficient>-1.70000000000000000E+01,0.00000000000000000E+00</rangeWindowCoefficient>
+      <azimuthWindowID>Taylor window</azimuthWindowID>
+      <azimuthWindowCoefficient>-2.00000000000000000E+01,0.00000000000000000E+00</azimuthWindowCoefficient>
+      <rangeCompression>
+        <segmentInfo>
+          <polLayer>HH</polLayer>
+          <dataSegment segmentID="35634">
+            <startTimeUTC>2024-01-17T10:29:13.000076</startTimeUTC>
+            <stopTimeUTC>2024-01-17T10:33:14.133034</stopTimeUTC>
+            <numberOfRows>591932</numberOfRows>
+          </dataSegment>
+        </segmentInfo>
+        <chirps>
+          <referenceChirp>
+            <chirpSlope>DOWN</chirpSlope>
+            <pulseLength>5.99999999999999947E-05</pulseLength>
+            <pulseBandwidth>8.00000000000000000E+07</pulseBandwidth>
+            <centerFrequency>1.26000000000000000E+09</centerFrequency>
+          </referenceChirp>
+        </chirps>
+      </rangeCompression>
+      <correctedInstrumentDelay>
+        <totalTimeDelay>0.00000000000000000E+00</totalTimeDelay>
+      </correctedInstrumentDelay>
+      <calibrationConst>
+        <HH>0.00000000000000000E+00</HH>
+        <HV>0.00000000000000000E+00</HV>
+        <VH>0.00000000000000000E+00</VH>
+        <VV>0.00000000000000000E+00</VV>
+      </calibrationConst>
+      <quantifyValue>
+        <HH>1.40428588867187500E+02</HH>
+        <HV>0.00000000000000000E+00</HV>
+        <VH>0.00000000000000000E+00</VH>
+        <VV>0.00000000000000000E+00</VV>
+      </quantifyValue>
+    </processingParameter>
+    <processingFlags>
+      <RXGainCorrectedFlag>true</RXGainCorrectedFlag>
+      <DRAChannelSyncFlag>false</DRAChannelSyncFlag>
+      <DRAChannelDemixingPerformedFlag>true</DRAChannelDemixingPerformedFlag>
+      <chirpDriftCorrectedFlag>false</chirpDriftCorrectedFlag>
+      <chirpReplicaUsedFlag>false</chirpReplicaUsedFlag>
+      <geometricDopplerUsedFlag>true</geometricDopplerUsedFlag>
+      <rangeSpreadingLossCorrectedFlag>false</rangeSpreadingLossCorrectedFlag>
+      <scanSARBeamCorrectedFlag>false</scanSARBeamCorrectedFlag>
+      <spotLightBeamCorrectedFlag>false</spotLightBeamCorrectedFlag>
+      <azimuthPatternCorrectedFlag>false</azimuthPatternCorrectedFlag>
+      <elevationPatternCorrectedFlag>true</elevationPatternCorrectedFlag>
+      <polarisationCorrectedFlag>false</polarisationCorrectedFlag>
+      <multiLookedFlag>false</multiLookedFlag>
+      <propagationEffectsCorrectedFlag>true</propagationEffectsCorrectedFlag>
+      <geocodedFlag>false</geocodedFlag>
+    </processingFlags>
+  </processing>
+  <instrument>
+    <radarParameters>
+      <centerFrequency>1.26000000000000000E+09</centerFrequency>
+    </radarParameters>
+    <settings>
+      <rxGainSetting>
+        <Type>MGC</Type>
+        <rxGain>3.60000000000000000E+01</rxGain>
+      </rxGainSetting>
+      <quantisationID>BAQ</quantisationID>
+      <quantisationControl>10:6BAQ</quantisationControl>
+      <rxBandwidth>8.00000000000000000E+07</rxBandwidth>
+      <RSF>9.00000000000000000E+07</RSF>
+      <settingRecord>
+        <dataSegment segmentID="35634">
+          <startTimeUTC>2024-01-17T10:29:13.000076</startTimeUTC>
+          <stopTimeUTC>2024-01-17T10:33:14.133034</stopTimeUTC>
+          <numberOfRows>591932</numberOfRows>
+        </dataSegment>
+        <PRF>4.90958203200000025E+03</PRF>
+      </settingRecord>
+    </settings>
+  </instrument>
+  <platform>
+    <orbit>
+      <orbitHeader>
+        <generationSystem>PGS</generationSystem>
+        <sensor>GNSS</sensor>
+        <accuracy>RT</accuracy>
+        <stateVectorRefFrame>WGS84</stateVectorRefFrame>
+        <stateVectorRefTime>GPS</stateVectorRefTime>
+        <stateVecFormat>pos(m),vel(m/s)</stateVecFormat>
+        <numStateVectors>40</numStateVectors>
+        <firstStateTime>
+          <firstStateTimeUTC>2024-01-17T10:30:06.000000</firstStateTimeUTC>
+        </firstStateTime>
+        <lastStateTime>
+          <lastStateTimeUTC>2024-01-17T10:30:45.000000</lastStateTimeUTC>
+        </lastStateTime>
+        <stateVectorTimeSpacing>1.00000000000000000E+00</stateVectorTimeSpacing>
+      </orbitHeader>
+      <stateVec num="1">
+        <timeUTC>2024-01-17T10:30:06.000000</timeUTC>
+        <posX>-2.10558027730504237E+06</posX>
+        <posY>6.04839735492420755E+06</posY>
+        <posZ>2.77617815714095486E+06</posZ>
+        <velX>2.47877544778211904E+03</velX>
+        <velY>-2.29624321134723186E+03</velY>
+        <velZ>6.85442733897979724E+03</velZ>
+      </stateVec>
+      <stateVec num="2">
+        <timeUTC>2024-01-17T10:30:07.000000</timeUTC>
+        <posX>-2.10310044456159044E+06</posX>
+        <posY>6.04609741381997801E+06</posY>
+        <posZ>2.78303095973906526E+06</posZ>
+        <velX>2.48088943282130913E+03</velX>
+        <velY>-2.30363878556949385E+03</velY>
+        <velZ>6.85117638256175542E+03</velZ>
+      </stateVec>
+      <stateVec num="3">
+        <timeUTC>2024-01-17T10:30:08.000000</timeUTC>
+        <posX>-2.10061849965200108E+06</posX>
+        <posY>6.04379007777615357E+06</posY>
+        <posZ>2.78988050695671979E+06</posZ>
+        <velX>2.48299978005648427E+03</velX>
+        <velY>-2.31103309053730163E+03</velY>
+        <velZ>6.84791657806781495E+03</velZ>
+      </stateVec>
+      <stateVec num="4">
+        <timeUTC>2024-01-17T10:30:09.000000</timeUTC>
+        <posX>-2.09813444621407846E+06</posX>
+        <posY>6.04147534806198813E+06</posY>
+        <posZ>2.79672678994584223E+06</posZ>
+        <velX>2.48510648948764356E+03</velX>
+        <velY>-2.31842612625065522E+03</velY>
+        <velZ>6.84464792549797494E+03</velZ>
+      </stateVec>
+      <stateVec num="5">
+        <timeUTC>2024-01-17T10:30:10.000000</timeUTC>
+        <posX>-2.09564828788562701E+06</posX>
+        <posY>6.03915322594673652E+06</posY>
+        <posZ>2.80356979985835729E+06</posZ>
+        <velX>2.48720956111478790E+03</velX>
+        <velY>-2.32581789270955460E+03</velY>
+        <velZ>6.84137042485223628E+03</velZ>
+      </stateVec>
+      <stateVec num="6">
+        <timeUTC>2024-01-17T10:30:11.000000</timeUTC>
+        <posX>-2.09316002830445045E+06</posX>
+        <posY>6.03682371269965358E+06</posY>
+        <posZ>2.81040952784618828E+06</posZ>
+        <velX>2.48930899493791640E+03</velX>
+        <velY>-2.33320838991399978E+03</velY>
+        <velZ>6.83808407613059808E+03</velZ>
+      </stateVec>
+      <stateVec num="7">
+        <timeUTC>2024-01-17T10:30:12.000000</timeUTC>
+        <posX>-2.09066967110835249E+06</posX>
+        <posY>6.03448680958999321E+06</posY>
+        <posZ>2.81724596506125946E+06</posZ>
+        <velX>2.49140479095702995E+03</velX>
+        <velY>-2.34059761786399076E+03</velY>
+        <velZ>6.83478887933306123E+03</velZ>
+      </stateVec>
+      <stateVec num="8">
+        <timeUTC>2024-01-17T10:30:13.000000</timeUTC>
+        <posX>-2.08817721993513778E+06</posX>
+        <posY>6.03214251788701024E+06</posY>
+        <posZ>2.82407910265549552E+06</posZ>
+        <velX>2.49349694917212764E+03</velX>
+        <velY>-2.34798557655952754E+03</velY>
+        <velZ>6.83148483445962484E+03</velZ>
+      </stateVec>
+      <stateVec num="9">
+        <timeUTC>2024-01-17T10:30:14.000000</timeUTC>
+        <posX>-2.08568267842260958E+06</posX>
+        <posY>6.02979083885995951E+06</posY>
+        <posZ>2.83090893178082025E+06</posZ>
+        <velX>2.49558546958321040E+03</velX>
+        <velY>-2.35537226600061013E+03</velY>
+        <velZ>6.82817194151028980E+03</velZ>
+      </stateVec>
+      <stateVec num="10">
+        <timeUTC>2024-01-17T10:30:15.000000</timeUTC>
+        <posX>-2.08318605020857253E+06</posX>
+        <posY>6.02743177377809398E+06</posY>
+        <posZ>2.83773544358915742E+06</posZ>
+        <velX>2.49767035219027730E+03</velX>
+        <velY>-2.36275768618723851E+03</velY>
+        <velZ>6.82485020048505521E+03</velZ>
+      </stateVec>
+      <stateVec num="11">
+        <timeUTC>2024-01-17T10:30:16.000000</timeUTC>
+        <posX>-2.08068733893083036E+06</posX>
+        <posY>6.02506532391066942E+06</posY>
+        <posZ>2.84455862923243176E+06</posZ>
+        <velX>2.49975159699332926E+03</velX>
+        <velY>-2.37014183711941268E+03</velY>
+        <velZ>6.82151961138392198E+03</velZ>
+      </stateVec>
+      <stateVec num="12">
+        <timeUTC>2024-01-17T10:30:17.000000</timeUTC>
+        <posX>-2.07818654822718725E+06</posX>
+        <posY>6.02269149052693974E+06</posY>
+        <posZ>2.85137847986256657E+06</posZ>
+        <velX>2.50182920399236536E+03</velX>
+        <velY>-2.37752471879713266E+03</velY>
+        <velZ>6.81818017420688921E+03</velZ>
+      </stateVec>
+      <stateVec num="13">
+        <timeUTC>2024-01-17T10:30:18.000000</timeUTC>
+        <posX>-2.07568368173544714E+06</posX>
+        <posY>6.02031027489615977E+06</posY>
+        <posZ>2.85819498663148703E+06</posZ>
+        <velX>2.50390317318738653E+03</velX>
+        <velY>-2.38490633122039844E+03</velY>
+        <velZ>6.81483188895395779E+03</velZ>
+      </stateVec>
+      <stateVec num="14">
+        <timeUTC>2024-01-17T10:30:19.000000</timeUTC>
+        <posX>-2.07317874309341377E+06</posX>
+        <posY>6.01792167828758433E+06</posY>
+        <posZ>2.86500814069111599E+06</posZ>
+        <velX>2.50597350457839184E+03</velX>
+        <velY>-2.39228667438921002E+03</velY>
+        <velZ>6.81147475562512682E+03</velZ>
+      </stateVec>
+      <stateVec num="15">
+        <timeUTC>2024-01-17T10:30:20.000000</timeUTC>
+        <posX>-2.07067173593889154E+06</posX>
+        <posY>6.01552570197046641E+06</posY>
+        <posZ>2.87181793319337862E+06</posZ>
+        <velX>2.50804019816538221E+03</velX>
+        <velY>-2.39966574830356740E+03</velY>
+        <velZ>6.80810877422039721E+03</velZ>
+      </stateVec>
+      <stateVec num="16">
+        <timeUTC>2024-01-17T10:30:21.000000</timeUTC>
+        <posX>-2.06816266390968440E+06</posX>
+        <posY>6.01312234721406177E+06</posY>
+        <posZ>2.87862435529019823E+06</posZ>
+        <velX>2.51010325394835672E+03</velX>
+        <velY>-2.40704355296347057E+03</velY>
+        <velZ>6.80473394473976805E+03</velZ>
+      </stateVec>
+      <stateVec num="17">
+        <timeUTC>2024-01-17T10:30:22.000000</timeUTC>
+        <posX>-2.06565153064359631E+06</posX>
+        <posY>6.01071161528762430E+06</posY>
+        <posZ>2.88542739813349955E+06</posZ>
+        <velX>2.51216267192731630E+03</velX>
+        <velY>-2.41442008836891955E+03</velY>
+        <velZ>6.80135026718324025E+03</velZ>
+      </stateVec>
+      <stateVec num="18">
+        <timeUTC>2024-01-17T10:30:23.000000</timeUTC>
+        <posX>-2.06313833977843099E+06</posX>
+        <posY>6.00829350746040884E+06</posY>
+        <posZ>2.89222705287520587E+06</posZ>
+        <velX>2.51421845210226002E+03</velX>
+        <velY>-2.42179535451991433E+03</velY>
+        <velZ>6.79795774155081290E+03</velZ>
+      </stateVec>
+      <stateVec num="19">
+        <timeUTC>2024-01-17T10:30:24.000000</timeUTC>
+        <posX>-2.06062309495199309E+06</posX>
+        <posY>6.00586802500166930E+06</posY>
+        <posZ>2.89902331066724239E+06</posZ>
+        <velX>2.51627059447318879E+03</velX>
+        <velY>-2.42916935141645490E+03</velY>
+        <velZ>6.79455636784248691E+03</velZ>
+      </stateVec>
+      <stateVec num="20">
+        <timeUTC>2024-01-17T10:30:25.000000</timeUTC>
+        <posX>-2.05810579980208608E+06</posX>
+        <posY>6.00343516918066051E+06</posY>
+        <posZ>2.90581616266153241E+06</posZ>
+        <velX>2.51831909904010172E+03</velX>
+        <velY>-2.43654207905854128E+03</velY>
+        <velZ>6.79114614605826137E+03</velZ>
+      </stateVec>
+      <stateVec num="21">
+        <timeUTC>2024-01-17T10:30:26.000000</timeUTC>
+        <posX>-2.05558645796651416E+06</posX>
+        <posY>6.00099494126663730E+06</posY>
+        <posZ>2.91260560001000017E+06</posZ>
+        <velX>2.52036396580299970E+03</velX>
+        <velY>-2.44391353744617345E+03</velY>
+        <velZ>6.78772707619813718E+03</velZ>
+      </stateVec>
+      <stateVec num="22">
+        <timeUTC>2024-01-17T10:30:27.000000</timeUTC>
+        <posX>-2.05306507308308152E+06</posX>
+        <posY>5.99854734252885357E+06</posY>
+        <posZ>2.91939161386456992E+06</posZ>
+        <velX>2.52240519476188183E+03</velX>
+        <velY>-2.45128372657935142E+03</velY>
+        <velZ>6.78429915826211345E+03</velZ>
+      </stateVec>
+      <stateVec num="23">
+        <timeUTC>2024-01-17T10:30:28.000000</timeUTC>
+        <posX>-2.05054164878959185E+06</posX>
+        <posY>5.99609237423656322E+06</posY>
+        <posZ>2.92617419537716592E+06</posZ>
+        <velX>2.52444278591674902E+03</velX>
+        <velY>-2.45865264645807520E+03</velY>
+        <velZ>6.78086239225019108E+03</velZ>
+      </stateVec>
+      <stateVec num="24">
+        <timeUTC>2024-01-17T10:30:29.000000</timeUTC>
+        <posX>-2.04801618872384913E+06</posX>
+        <posY>5.99363003765902203E+06</posY>
+        <posZ>2.93295333569971193E+06</posZ>
+        <velX>2.52647673926760035E+03</velX>
+        <velY>-2.46602029708234477E+03</velY>
+        <velZ>6.77741677816236916E+03</velZ>
+      </stateVec>
+      <stateVec num="25">
+        <timeUTC>2024-01-17T10:30:30.000000</timeUTC>
+        <posX>-2.04548869652365800E+06</posX>
+        <posY>5.99116033406548295E+06</posY>
+        <posZ>2.93972902598413220E+06</posZ>
+        <velX>2.52850705481443674E+03</velX>
+        <velY>-2.47338667845216014E+03</velY>
+        <velZ>6.77396231599864859E+03</velZ>
+      </stateVec>
+      <stateVec num="26">
+        <timeUTC>2024-01-17T10:30:31.000000</timeUTC>
+        <posX>-2.04295917582682171E+06</posX>
+        <posY>5.98868326472520269E+06</posY>
+        <posZ>2.94650125738235051E+06</posZ>
+        <velX>2.53053373255725728E+03</velX>
+        <velY>-2.48075179056752131E+03</velY>
+        <velZ>6.77049900575902848E+03</velZ>
+      </stateVec>
+      <stateVec num="27">
+        <timeUTC>2024-01-17T10:30:32.000000</timeUTC>
+        <posX>-2.04042763027114468E+06</posX>
+        <posY>5.98619883090743329E+06</posY>
+        <posZ>2.95327002104629157E+06</posZ>
+        <velX>2.53255677249606288E+03</velX>
+        <velY>-2.48811563342842828E+03</velY>
+        <velZ>6.76702684744350972E+03</velZ>
+      </stateVec>
+      <stateVec num="28">
+        <timeUTC>2024-01-17T10:30:33.000000</timeUTC>
+        <posX>-2.03789406349443085E+06</posX>
+        <posY>5.98370703388143051E+06</posY>
+        <posZ>2.96003530812787870E+06</posZ>
+        <velX>2.53457617463085262E+03</velX>
+        <velY>-2.49547820703488105E+03</velY>
+        <velZ>6.76354584105209142E+03</velZ>
+      </stateVec>
+      <stateVec num="29">
+        <timeUTC>2024-01-17T10:30:34.000000</timeUTC>
+        <posX>-2.03535847913448443E+06</posX>
+        <posY>5.98120787491644826E+06</posY>
+        <posZ>2.96679710977903707E+06</posZ>
+        <velX>2.53659193896162742E+03</velX>
+        <velY>-2.50283951138687962E+03</velY>
+        <velZ>6.76005598658477447E+03</velZ>
+      </stateVec>
+      <stateVec num="30">
+        <timeUTC>2024-01-17T10:30:35.000000</timeUTC>
+        <posX>-2.03282088082910911E+06</posX>
+        <posY>5.97870135528174136E+06</posY>
+        <posZ>2.97355541715169000E+06</posZ>
+        <velX>2.53860406548838637E+03</velX>
+        <velY>-2.51019954648442399E+03</velY>
+        <velZ>6.75655728404155798E+03</velZ>
+      </stateVec>
+      <stateVec num="31">
+        <timeUTC>2024-01-17T10:30:36.000000</timeUTC>
+        <posX>-2.03028127221610886E+06</posX>
+        <posY>5.97618747624656372E+06</posY>
+        <posZ>2.98031022139776126E+06</posZ>
+        <velX>2.54061255421113037E+03</velX>
+        <velY>-2.51755831232751416E+03</velY>
+        <velZ>6.75304973342244284E+03</velZ>
+      </stateVec>
+      <stateVec num="32">
+        <timeUTC>2024-01-17T10:30:37.000000</timeUTC>
+        <posX>-2.02773965693328809E+06</posX>
+        <posY>5.97366623908017110E+06</posY>
+        <posZ>2.98706151366917603E+06</posZ>
+        <velX>2.54261740512985853E+03</velX>
+        <velY>-2.52491580891615013E+03</velY>
+        <velZ>6.74953333472742816E+03</velZ>
+      </stateVec>
+      <stateVec num="33">
+        <timeUTC>2024-01-17T10:30:38.000000</timeUTC>
+        <posX>-2.02519603861845052E+06</posX>
+        <posY>5.97113764505181648E+06</posY>
+        <posZ>2.99380928511785762E+06</posZ>
+        <velX>2.54461861824457173E+03</velX>
+        <velY>-2.53227203625033189E+03</velY>
+        <velZ>6.74600808795651483E+03</velZ>
+      </stateVec>
+      <stateVec num="34">
+        <timeUTC>2024-01-17T10:30:39.000000</timeUTC>
+        <posX>-2.02265042090940033E+06</posX>
+        <posY>5.96860169543075562E+06</posY>
+        <posZ>3.00055352689573029E+06</posZ>
+        <velX>2.54661619355526909E+03</velX>
+        <velY>-2.53962699433005946E+03</velY>
+        <velZ>6.74247399310970195E+03</velZ>
+      </stateVec>
+      <stateVec num="35">
+        <timeUTC>2024-01-17T10:30:40.000000</timeUTC>
+        <posX>-2.02010280744394124E+06</posX>
+        <posY>5.96605839148624148E+06</posY>
+        <posZ>3.00729423015471827E+06</posZ>
+        <velX>2.54861013106195151E+03</velX>
+        <velY>-2.54698068315533283E+03</velY>
+        <velZ>6.73893105018699043E+03</velZ>
+      </stateVec>
+      <stateVec num="36">
+        <timeUTC>2024-01-17T10:30:41.000000</timeUTC>
+        <posX>-2.01755320185987768E+06</posX>
+        <posY>5.96350773448752984E+06</posY>
+        <posZ>3.01403138604674581E+06</posZ>
+        <velX>2.55060043076461807E+03</velX>
+        <velY>-2.55433310272615199E+03</velY>
+        <velZ>6.73537925918837936E+03</velZ>
+      </stateVec>
+      <stateVec num="37">
+        <timeUTC>2024-01-17T10:30:42.000000</timeUTC>
+        <posX>-2.01500160779501335E+06</posX>
+        <posY>5.96094972570387367E+06</posY>
+        <posZ>3.02076498572373670E+06</posZ>
+        <velX>2.55258709266326969E+03</velX>
+        <velY>-2.56168425304251696E+03</velY>
+        <velZ>6.73181862011386966E+03</velZ>
+      </stateVec>
+      <stateVec num="38">
+        <timeUTC>2024-01-17T10:30:43.000000</timeUTC>
+        <posX>-2.01244802888715244E+06</posX>
+        <posY>5.95838436640452966E+06</posY>
+        <posZ>3.02749502033761470E+06</posZ>
+        <velX>2.55457011675790545E+03</velX>
+        <velY>-2.56903413410442772E+03</velY>
+        <velZ>6.72824913296346040E+03</velZ>
+      </stateVec>
+      <stateVec num="39">
+        <timeUTC>2024-01-17T10:30:44.000000</timeUTC>
+        <posX>-2.00989246877409890E+06</posX>
+        <posY>5.95581165785874985E+06</posY>
+        <posZ>3.03422148104030499E+06</posZ>
+        <velX>2.55654950304852628E+03</velX>
+        <velY>-2.57638274591188429E+03</velY>
+        <velZ>6.72467079773715250E+03</velZ>
+      </stateVec>
+      <stateVec num="40">
+        <timeUTC>2024-01-17T10:30:45.000000</timeUTC>
+        <posX>-2.00733493109365692E+06</posX>
+        <posY>5.95323160133579001E+06</posY>
+        <posZ>3.04094435898373043E+06</posZ>
+        <velX>2.55852525153513125E+03</velX>
+        <velY>-2.58373008846488665E+03</velY>
+        <velZ>6.72108361443494505E+03</velZ>
+      </stateVec>
+    </orbit>
+    <attitude>
+      <attitudeHeader>
+        <generationSystem>PGS</generationSystem>
+        <sensor>STARSENSOR</sensor>
+        <accuracy>RT</accuracy>
+        <attitudeDataRefFrames>
+          <FromFrame>WGS84</FromFrame>
+          <ToFrame>WGS84</ToFrame>
+        </attitudeDataRefFrames>
+        <attitudeDataRefTime>GPS</attitudeDataRefTime>
+        <attitudeDataFormat>EULER</attitudeDataFormat>
+        <numRecords>124</numRecords>
+        <firstAttitudeTime>
+          <firstAttitudeTimeUTC>2024-01-17T10:29:05.448700</firstAttitudeTimeUTC>
+        </firstAttitudeTime>
+        <lastAttitudeTime>
+          <lastAttitudeTimeUTC>2024-01-17T10:33:11.450999</lastAttitudeTimeUTC>
+        </lastAttitudeTime>
+        <attitudeDataTimeSpacing>1.00000000000000000E+00</attitudeDataTimeSpacing>
+        <steeringLawIndicator>TZDS</steeringLawIndicator>
+      </attitudeHeader>
+      <attitudeData num="1">
+        <timeUTC>2024-01-17T10:29:05.448700</timeUTC>
+        <yaw>-3.56100700000000003E+00</yaw>
+        <roll>4.04000000000000008E-04</roll>
+        <pitch>-8.29059999999999936E-02</pitch>
+        <yawRate>1.32700000000000005E-03</yawRate>
+        <rollRate>-3.30000000000000025E-05</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="2">
+        <timeUTC>2024-01-17T10:29:07.448499</timeUTC>
+        <yaw>-3.55818499999999993E+00</yaw>
+        <roll>2.73999999999999992E-04</roll>
+        <pitch>-8.27930000000000055E-02</pitch>
+        <yawRate>1.34599999999999997E-03</yawRate>
+        <rollRate>-2.30000000000000000E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="3">
+        <timeUTC>2024-01-17T10:29:09.448700</timeUTC>
+        <yaw>-3.55530100000000004E+00</yaw>
+        <roll>1.06000000000000002E-04</roll>
+        <pitch>-8.27250000000000069E-02</pitch>
+        <yawRate>1.37300000000000009E-03</yawRate>
+        <rollRate>-4.69999999999999972E-05</rollRate>
+        <pitchRate>-1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="4">
+        <timeUTC>2024-01-17T10:29:11.448499</timeUTC>
+        <yaw>-3.55255000000000010E+00</yaw>
+        <roll>-1.00000000000000005E-04</roll>
+        <pitch>-8.26650000000000024E-02</pitch>
+        <yawRate>1.36600000000000003E-03</yawRate>
+        <rollRate>-2.00000000000000016E-05</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="5">
+        <timeUTC>2024-01-17T10:29:13.449100</timeUTC>
+        <yaw>-3.54983599999999999E+00</yaw>
+        <roll>-2.66999999999999985E-04</roll>
+        <pitch>-8.26589999999999964E-02</pitch>
+        <yawRate>1.36600000000000003E-03</yawRate>
+        <rollRate>-4.50000000000000028E-05</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="6">
+        <timeUTC>2024-01-17T10:29:15.448600</timeUTC>
+        <yaw>-3.54714900000000011E+00</yaw>
+        <roll>-4.94999999999999997E-04</roll>
+        <pitch>-8.26459999999999972E-02</pitch>
+        <yawRate>1.37600000000000005E-03</yawRate>
+        <rollRate>-4.30000000000000017E-05</rollRate>
+        <pitchRate>-6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="7">
+        <timeUTC>2024-01-17T10:29:17.448600</timeUTC>
+        <yaw>-3.54436600000000013E+00</yaw>
+        <roll>-6.23999999999999989E-04</roll>
+        <pitch>-8.26059999999999989E-02</pitch>
+        <yawRate>1.38100000000000007E-03</yawRate>
+        <rollRate>-1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="8">
+        <timeUTC>2024-01-17T10:29:19.448900</timeUTC>
+        <yaw>-3.54168700000000003E+00</yaw>
+        <roll>-7.51999999999999956E-04</roll>
+        <pitch>-8.26140000000000069E-02</pitch>
+        <yawRate>1.38799999999999991E-03</yawRate>
+        <rollRate>-1.50000000000000004E-05</rollRate>
+        <pitchRate>-3.19999999999999986E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="9">
+        <timeUTC>2024-01-17T10:29:21.448700</timeUTC>
+        <yaw>-3.53893300000000011E+00</yaw>
+        <roll>-7.78000000000000046E-04</roll>
+        <pitch>-8.25820000000000026E-02</pitch>
+        <yawRate>1.38600000000000008E-03</yawRate>
+        <rollRate>1.09999999999999997E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="10">
+        <timeUTC>2024-01-17T10:29:23.449100</timeUTC>
+        <yaw>-3.53619700000000003E+00</yaw>
+        <roll>-7.39999999999999989E-04</roll>
+        <pitch>-8.26110000000000039E-02</pitch>
+        <yawRate>1.38999999999999996E-03</yawRate>
+        <rollRate>1.90000000000000010E-05</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="11">
+        <timeUTC>2024-01-17T10:29:25.448800</timeUTC>
+        <yaw>-3.53347400000000000E+00</yaw>
+        <roll>-6.93999999999999955E-04</roll>
+        <pitch>-8.26940000000000036E-02</pitch>
+        <yawRate>1.41299999999999998E-03</yawRate>
+        <rollRate>4.19999999999999977E-05</rollRate>
+        <pitchRate>-2.90000000000000002E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="12">
+        <timeUTC>2024-01-17T10:29:27.448700</timeUTC>
+        <yaw>-3.53067200000000003E+00</yaw>
+        <roll>-5.74999999999999990E-04</roll>
+        <pitch>-8.27009999999999967E-02</pitch>
+        <yawRate>1.41599999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="13">
+        <timeUTC>2024-01-17T10:29:29.448900</timeUTC>
+        <yaw>-3.52787199999999990E+00</yaw>
+        <roll>-6.10999999999999998E-04</roll>
+        <pitch>-8.27949999999999936E-02</pitch>
+        <yawRate>1.45499999999999991E-03</yawRate>
+        <rollRate>3.10000000000000014E-05</rollRate>
+        <pitchRate>-3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="14">
+        <timeUTC>2024-01-17T10:29:31.448700</timeUTC>
+        <yaw>-3.52495899999999995E+00</yaw>
+        <roll>-6.44999999999999957E-04</roll>
+        <pitch>-8.29779999999999962E-02</pitch>
+        <yawRate>1.44899999999999998E-03</yawRate>
+        <rollRate>5.00000000000000041E-06</rollRate>
+        <pitchRate>-2.79999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="15">
+        <timeUTC>2024-01-17T10:29:33.449200</timeUTC>
+        <yaw>-3.52211000000000007E+00</yaw>
+        <roll>-7.05000000000000006E-04</roll>
+        <pitch>-8.30940000000000012E-02</pitch>
+        <yawRate>1.45999999999999993E-03</yawRate>
+        <rollRate>1.69999999999999999E-05</rollRate>
+        <pitchRate>-3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="16">
+        <timeUTC>2024-01-17T10:29:35.448800</timeUTC>
+        <yaw>-3.51911199999999980E+00</yaw>
+        <roll>-6.54999999999999983E-04</roll>
+        <pitch>-8.32539999999999947E-02</pitch>
+        <yawRate>1.48900000000000009E-03</yawRate>
+        <rollRate>4.30000000000000017E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="17">
+        <timeUTC>2024-01-17T10:29:37.448800</timeUTC>
+        <yaw>-3.51608600000000004E+00</yaw>
+        <roll>-6.04999999999999961E-04</roll>
+        <pitch>-8.33310000000000023E-02</pitch>
+        <yawRate>1.49099999999999992E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="18">
+        <timeUTC>2024-01-17T10:29:39.449100</timeUTC>
+        <yaw>-3.51307999999999998E+00</yaw>
+        <roll>-5.27000000000000016E-04</roll>
+        <pitch>-8.34339999999999943E-02</pitch>
+        <yawRate>1.51399999999999994E-03</yawRate>
+        <rollRate>2.30000000000000000E-05</rollRate>
+        <pitchRate>-3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="19">
+        <timeUTC>2024-01-17T10:29:41.448900</timeUTC>
+        <yaw>-3.51009599999999988E+00</yaw>
+        <roll>-5.10999999999999953E-04</roll>
+        <pitch>-8.34749999999999936E-02</pitch>
+        <yawRate>1.51800000000000004E-03</yawRate>
+        <rollRate>4.10000000000000005E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="20">
+        <timeUTC>2024-01-17T10:29:43.449200</timeUTC>
+        <yaw>-3.50714600000000010E+00</yaw>
+        <roll>-4.76999999999999993E-04</roll>
+        <pitch>-8.34830000000000017E-02</pitch>
+        <yawRate>1.48299999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="21">
+        <timeUTC>2024-01-17T10:29:45.448900</timeUTC>
+        <yaw>-3.50412699999999999E+00</yaw>
+        <roll>-3.55000000000000010E-04</roll>
+        <pitch>-8.35209999999999980E-02</pitch>
+        <yawRate>1.55700000000000001E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>-2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="22">
+        <timeUTC>2024-01-17T10:29:47.448800</timeUTC>
+        <yaw>-3.50104399999999982E+00</yaw>
+        <roll>-2.32999999999999999E-04</roll>
+        <pitch>-8.34700000000000025E-02</pitch>
+        <yawRate>1.55900000000000006E-03</yawRate>
+        <rollRate>3.30000000000000025E-05</rollRate>
+        <pitchRate>-3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="23">
+        <timeUTC>2024-01-17T10:29:49.449100</timeUTC>
+        <yaw>-3.49791100000000021E+00</yaw>
+        <roll>-1.53000000000000006E-04</roll>
+        <pitch>-8.34899999999999948E-02</pitch>
+        <yawRate>1.54699999999999998E-03</yawRate>
+        <rollRate>1.90000000000000010E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="24">
+        <timeUTC>2024-01-17T10:29:51.448900</timeUTC>
+        <yaw>-3.49478299999999997E+00</yaw>
+        <roll>-3.49999999999999969E-05</roll>
+        <pitch>-8.35260000000000030E-02</pitch>
+        <yawRate>1.58599999999999995E-03</yawRate>
+        <rollRate>4.80000000000000012E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="25">
+        <timeUTC>2024-01-17T10:29:53.449400</timeUTC>
+        <yaw>-3.49162999999999979E+00</yaw>
+        <roll>8.20000000000000009E-05</roll>
+        <pitch>-8.34369999999999973E-02</pitch>
+        <yawRate>1.59300000000000001E-03</yawRate>
+        <rollRate>3.19999999999999986E-05</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="26">
+        <timeUTC>2024-01-17T10:29:55.449000</timeUTC>
+        <yaw>-3.48839699999999997E+00</yaw>
+        <roll>1.34000000000000005E-04</roll>
+        <pitch>-8.34690000000000015E-02</pitch>
+        <yawRate>1.62100000000000005E-03</yawRate>
+        <rollRate>3.49999999999999969E-05</rollRate>
+        <pitchRate>-3.69999999999999981E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="27">
+        <timeUTC>2024-01-17T10:29:57.448900</timeUTC>
+        <yaw>-3.48520599999999980E+00</yaw>
+        <roll>1.38999999999999991E-04</roll>
+        <pitch>-8.34649999999999975E-02</pitch>
+        <yawRate>1.60199999999999991E-03</yawRate>
+        <rollRate>-3.00000000000000008E-06</rollRate>
+        <pitchRate>-2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="28">
+        <timeUTC>2024-01-17T10:29:59.449300</timeUTC>
+        <yaw>-3.48197199999999984E+00</yaw>
+        <roll>1.31000000000000013E-04</roll>
+        <pitch>-8.34170000000000050E-02</pitch>
+        <yawRate>1.59000000000000005E-03</yawRate>
+        <rollRate>7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.20000000000000003E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="29">
+        <timeUTC>2024-01-17T10:30:01.449100</timeUTC>
+        <yaw>-3.47870400000000002E+00</yaw>
+        <roll>1.60000000000000013E-04</roll>
+        <pitch>-8.33990000000000009E-02</pitch>
+        <yawRate>1.58800000000000000E-03</yawRate>
+        <rollRate>-1.29999999999999992E-05</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="30">
+        <timeUTC>2024-01-17T10:30:03.449400</timeUTC>
+        <yaw>-3.47544299999999984E+00</yaw>
+        <roll>1.48999999999999990E-04</roll>
+        <pitch>-8.33850000000000008E-02</pitch>
+        <yawRate>1.60399999999999996E-03</yawRate>
+        <rollRate>1.99999999999999991E-06</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="31">
+        <timeUTC>2024-01-17T10:30:05.449100</timeUTC>
+        <yaw>-3.47200100000000011E+00</yaw>
+        <roll>1.62000000000000007E-04</roll>
+        <pitch>-8.34460000000000063E-02</pitch>
+        <yawRate>1.61600000000000003E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="32">
+        <timeUTC>2024-01-17T10:30:07.449000</timeUTC>
+        <yaw>-3.46861100000000011E+00</yaw>
+        <roll>1.53000000000000006E-04</roll>
+        <pitch>-8.34680000000000005E-02</pitch>
+        <yawRate>1.64299999999999993E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>-3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="33">
+        <timeUTC>2024-01-17T10:30:09.449200</timeUTC>
+        <yaw>-3.46512900000000013E+00</yaw>
+        <roll>9.89999999999999940E-05</roll>
+        <pitch>-8.35339999999999971E-02</pitch>
+        <yawRate>1.66899999999999991E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="34">
+        <timeUTC>2024-01-17T10:30:11.449100</timeUTC>
+        <yaw>-3.46171700000000016E+00</yaw>
+        <roll>6.99999999999999939E-05</roll>
+        <pitch>-8.37230000000000057E-02</pitch>
+        <yawRate>1.66799999999999999E-03</yawRate>
+        <rollRate>1.20000000000000003E-05</rollRate>
+        <pitchRate>-2.69999999999999990E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="35">
+        <timeUTC>2024-01-17T10:30:13.449600</timeUTC>
+        <yaw>-3.45841999999999983E+00</yaw>
+        <roll>-3.00000000000000008E-05</roll>
+        <pitch>-8.39359999999999967E-02</pitch>
+        <yawRate>1.65500000000000000E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>-9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="36">
+        <timeUTC>2024-01-17T10:30:15.449200</timeUTC>
+        <yaw>-3.45517200000000013E+00</yaw>
+        <roll>-1.63000000000000005E-04</roll>
+        <pitch>-8.41390000000000055E-02</pitch>
+        <yawRate>1.65900000000000010E-03</yawRate>
+        <rollRate>1.99999999999999991E-06</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="37">
+        <timeUTC>2024-01-17T10:30:17.449100</timeUTC>
+        <yaw>-3.45188199999999989E+00</yaw>
+        <roll>-2.93000000000000020E-04</roll>
+        <pitch>-8.42159999999999992E-02</pitch>
+        <yawRate>1.68399999999999995E-03</yawRate>
+        <rollRate>-2.50000000000000012E-05</rollRate>
+        <pitchRate>1.09999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="38">
+        <timeUTC>2024-01-17T10:30:19.449300</timeUTC>
+        <yaw>-3.44839800000000007E+00</yaw>
+        <roll>-4.33000000000000008E-04</roll>
+        <pitch>-8.45429999999999932E-02</pitch>
+        <yawRate>1.65099999999999991E-03</yawRate>
+        <rollRate>-1.80000000000000005E-05</rollRate>
+        <pitchRate>-4.10000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="39">
+        <timeUTC>2024-01-17T10:30:21.449300</timeUTC>
+        <yaw>-3.44487500000000013E+00</yaw>
+        <roll>-5.62000000000000000E-04</roll>
+        <pitch>-8.48450000000000037E-02</pitch>
+        <yawRate>1.67899999999999994E-03</yawRate>
+        <rollRate>-7.99999999999999964E-06</rollRate>
+        <pitchRate>-2.19999999999999994E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="40">
+        <timeUTC>2024-01-17T10:30:23.449600</timeUTC>
+        <yaw>-3.44126300000000018E+00</yaw>
+        <roll>-6.50999999999999994E-04</roll>
+        <pitch>-8.49830000000000030E-02</pitch>
+        <yawRate>1.70499999999999992E-03</yawRate>
+        <rollRate>7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="41">
+        <timeUTC>2024-01-17T10:30:25.449300</timeUTC>
+        <yaw>-3.43770700000000007E+00</yaw>
+        <roll>-7.03999999999999982E-04</roll>
+        <pitch>-8.50469999999999976E-02</pitch>
+        <yawRate>1.70699999999999997E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="42">
+        <timeUTC>2024-01-17T10:30:27.449200</timeUTC>
+        <yaw>-3.43422200000000011E+00</yaw>
+        <roll>-7.24999999999999950E-04</roll>
+        <pitch>-8.51139999999999952E-02</pitch>
+        <yawRate>1.69399999999999998E-03</yawRate>
+        <rollRate>3.19999999999999986E-05</rollRate>
+        <pitchRate>4.19999999999999977E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="43">
+        <timeUTC>2024-01-17T10:30:29.449400</timeUTC>
+        <yaw>-3.43065199999999981E+00</yaw>
+        <roll>-7.34999999999999976E-04</roll>
+        <pitch>-8.50780000000000008E-02</pitch>
+        <yawRate>1.73200000000000003E-03</yawRate>
+        <rollRate>5.00000000000000041E-06</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="44">
+        <timeUTC>2024-01-17T10:30:31.449300</timeUTC>
+        <yaw>-3.42717299999999980E+00</yaw>
+        <roll>-6.70000000000000023E-04</roll>
+        <pitch>-8.50039999999999962E-02</pitch>
+        <yawRate>1.71299999999999990E-03</yawRate>
+        <rollRate>6.79999999999999995E-05</rollRate>
+        <pitchRate>3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="45">
+        <timeUTC>2024-01-17T10:30:33.449900</timeUTC>
+        <yaw>-3.42378800000000005E+00</yaw>
+        <roll>-5.62000000000000000E-04</roll>
+        <pitch>-8.48420000000000007E-02</pitch>
+        <yawRate>1.72600000000000010E-03</yawRate>
+        <rollRate>5.39999999999999980E-05</rollRate>
+        <pitchRate>6.00000000000000015E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="46">
+        <timeUTC>2024-01-17T10:30:35.449500</timeUTC>
+        <yaw>-3.42040899999999981E+00</yaw>
+        <roll>-4.67999999999999992E-04</roll>
+        <pitch>-8.46039999999999986E-02</pitch>
+        <yawRate>1.72700000000000002E-03</yawRate>
+        <rollRate>4.69999999999999972E-05</rollRate>
+        <pitchRate>6.00000000000000015E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="47">
+        <timeUTC>2024-01-17T10:30:37.449400</timeUTC>
+        <yaw>-3.41685399999999984E+00</yaw>
+        <roll>-4.47999999999999993E-04</roll>
+        <pitch>-8.44459999999999933E-02</pitch>
+        <yawRate>1.71600000000000008E-03</yawRate>
+        <rollRate>2.50000000000000012E-05</rollRate>
+        <pitchRate>6.79999999999999995E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="48">
+        <timeUTC>2024-01-17T10:30:39.449500</timeUTC>
+        <yaw>-3.41329599999999989E+00</yaw>
+        <roll>-3.62999999999999987E-04</roll>
+        <pitch>-8.43340000000000062E-02</pitch>
+        <yawRate>1.74899999999999990E-03</yawRate>
+        <rollRate>4.19999999999999977E-05</rollRate>
+        <pitchRate>5.50000000000000020E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="49">
+        <timeUTC>2024-01-17T10:30:41.449500</timeUTC>
+        <yaw>-3.40985400000000016E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.42200000000000032E-02</pitch>
+        <yawRate>1.74500000000000002E-03</yawRate>
+        <rollRate>5.19999999999999968E-05</rollRate>
+        <pitchRate>4.89999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="50">
+        <timeUTC>2024-01-17T10:30:43.449900</timeUTC>
+        <yaw>-3.40633900000000001E+00</yaw>
+        <roll>-1.21000000000000000E-04</roll>
+        <pitch>-8.40940000000000021E-02</pitch>
+        <yawRate>1.75899999999999993E-03</yawRate>
+        <rollRate>3.39999999999999997E-05</rollRate>
+        <pitchRate>4.69999999999999972E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="51">
+        <timeUTC>2024-01-17T10:30:45.449600</timeUTC>
+        <yaw>-3.40283699999999989E+00</yaw>
+        <roll>-2.50000000000000012E-05</roll>
+        <pitch>-8.39529999999999998E-02</pitch>
+        <yawRate>1.76599999999999999E-03</yawRate>
+        <rollRate>5.30000000000000008E-05</rollRate>
+        <pitchRate>3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="52">
+        <timeUTC>2024-01-17T10:30:47.449500</timeUTC>
+        <yaw>-3.39932999999999996E+00</yaw>
+        <roll>2.19999999999999994E-05</roll>
+        <pitch>-8.37920000000000054E-02</pitch>
+        <yawRate>1.72900000000000007E-03</yawRate>
+        <rollRate>4.39999999999999989E-05</rollRate>
+        <pitchRate>6.39999999999999971E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="53">
+        <timeUTC>2024-01-17T10:30:49.449699</timeUTC>
+        <yaw>-3.39578600000000019E+00</yaw>
+        <roll>-3.19999999999999986E-05</roll>
+        <pitch>-8.36910000000000015E-02</pitch>
+        <yawRate>1.74099999999999993E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="54">
+        <timeUTC>2024-01-17T10:30:51.449600</timeUTC>
+        <yaw>-3.39232300000000020E+00</yaw>
+        <roll>8.20000000000000009E-05</roll>
+        <pitch>-8.35980000000000056E-02</pitch>
+        <yawRate>1.75000000000000004E-03</yawRate>
+        <rollRate>2.59999999999999984E-05</rollRate>
+        <pitchRate>9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="55">
+        <timeUTC>2024-01-17T10:30:53.449999</timeUTC>
+        <yaw>-3.38887699999999992E+00</yaw>
+        <roll>1.49999999999999987E-04</roll>
+        <pitch>-8.34420000000000023E-02</pitch>
+        <yawRate>1.78999999999999992E-03</yawRate>
+        <rollRate>1.69999999999999999E-05</rollRate>
+        <pitchRate>2.40000000000000006E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="56">
+        <timeUTC>2024-01-17T10:30:55.449699</timeUTC>
+        <yaw>-3.38537899999999992E+00</yaw>
+        <roll>3.11000000000000024E-04</roll>
+        <pitch>-8.33060000000000050E-02</pitch>
+        <yawRate>1.78400000000000000E-03</yawRate>
+        <rollRate>3.80000000000000021E-05</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="57">
+        <timeUTC>2024-01-17T10:30:57.449500</timeUTC>
+        <yaw>-3.38183699999999998E+00</yaw>
+        <roll>3.68000000000000000E-04</roll>
+        <pitch>-8.32320000000000004E-02</pitch>
+        <yawRate>1.79699999999999999E-03</yawRate>
+        <rollRate>1.29999999999999992E-05</rollRate>
+        <pitchRate>4.00000000000000033E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="58">
+        <timeUTC>2024-01-17T10:30:59.449800</timeUTC>
+        <yaw>-3.37815799999999999E+00</yaw>
+        <roll>4.31000000000000014E-04</roll>
+        <pitch>-8.32429999999999976E-02</pitch>
+        <yawRate>1.82099999999999992E-03</yawRate>
+        <rollRate>1.50000000000000004E-05</rollRate>
+        <pitchRate>-1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="59">
+        <timeUTC>2024-01-17T10:31:01.449600</timeUTC>
+        <yaw>-3.37448300000000012E+00</yaw>
+        <roll>4.02999999999999984E-04</roll>
+        <pitch>-8.31589999999999968E-02</pitch>
+        <yawRate>1.86800000000000009E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>-1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="60">
+        <timeUTC>2024-01-17T10:31:03.450100</timeUTC>
+        <yaw>-3.37080000000000002E+00</yaw>
+        <roll>4.22000000000000012E-04</roll>
+        <pitch>-8.30280000000000046E-02</pitch>
+        <yawRate>1.87199999999999997E-03</yawRate>
+        <rollRate>-5.00000000000000041E-06</rollRate>
+        <pitchRate>-1.69999999999999999E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="61">
+        <timeUTC>2024-01-17T10:31:05.449900</timeUTC>
+        <yaw>-3.36718599999999979E+00</yaw>
+        <roll>4.67000000000000021E-04</roll>
+        <pitch>-8.28959999999999975E-02</pitch>
+        <yawRate>1.87300000000000010E-03</yawRate>
+        <rollRate>-3.99999999999999982E-06</rollRate>
+        <pitchRate>3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="62">
+        <timeUTC>2024-01-17T10:31:07.449800</timeUTC>
+        <yaw>-3.36342799999999986E+00</yaw>
+        <roll>5.46000000000000044E-04</roll>
+        <pitch>-8.27920000000000045E-02</pitch>
+        <yawRate>1.89400000000000007E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="63">
+        <timeUTC>2024-01-17T10:31:09.450100</timeUTC>
+        <yaw>-3.35956099999999980E+00</yaw>
+        <roll>5.46000000000000044E-04</roll>
+        <pitch>-8.26640000000000014E-02</pitch>
+        <yawRate>1.89700000000000003E-03</yawRate>
+        <rollRate>-2.40000000000000006E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="64">
+        <timeUTC>2024-01-17T10:31:11.449900</timeUTC>
+        <yaw>-3.35557799999999995E+00</yaw>
+        <roll>4.97999999999999962E-04</roll>
+        <pitch>-8.26550000000000062E-02</pitch>
+        <yawRate>1.90200000000000004E-03</yawRate>
+        <rollRate>-2.00000000000000016E-05</rollRate>
+        <pitchRate>-1.50000000000000004E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="65">
+        <timeUTC>2024-01-17T10:31:13.450200</timeUTC>
+        <yaw>-3.35171399999999986E+00</yaw>
+        <roll>4.80000000000000012E-04</roll>
+        <pitch>-8.27380000000000060E-02</pitch>
+        <yawRate>1.90599999999999993E-03</yawRate>
+        <rollRate>-2.59999999999999984E-05</rollRate>
+        <pitchRate>-6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="66">
+        <timeUTC>2024-01-17T10:31:15.449900</timeUTC>
+        <yaw>-3.34785900000000014E+00</yaw>
+        <roll>5.52999999999999998E-04</roll>
+        <pitch>-8.28990000000000005E-02</pitch>
+        <yawRate>1.85500000000000009E-03</yawRate>
+        <rollRate>-2.50000000000000012E-05</rollRate>
+        <pitchRate>-5.09999999999999996E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="67">
+        <timeUTC>2024-01-17T10:31:17.449800</timeUTC>
+        <yaw>-3.34404000000000012E+00</yaw>
+        <roll>5.38999999999999983E-04</roll>
+        <pitch>-8.29629999999999951E-02</pitch>
+        <yawRate>1.90500000000000001E-03</yawRate>
+        <rollRate>-5.50000000000000020E-05</rollRate>
+        <pitchRate>-1.59999999999999993E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="68">
+        <timeUTC>2024-01-17T10:31:19.449999</timeUTC>
+        <yaw>-3.34019900000000014E+00</yaw>
+        <roll>6.13999999999999962E-04</roll>
+        <pitch>-8.31029999999999963E-02</pitch>
+        <yawRate>1.90799999999999997E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="69">
+        <timeUTC>2024-01-17T10:31:21.449900</timeUTC>
+        <yaw>-3.33656599999999992E+00</yaw>
+        <roll>7.33000000000000036E-04</roll>
+        <pitch>-8.32959999999999950E-02</pitch>
+        <yawRate>1.91299999999999999E-03</yawRate>
+        <rollRate>-1.69999999999999999E-05</rollRate>
+        <pitchRate>-5.39999999999999980E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="70">
+        <timeUTC>2024-01-17T10:31:23.450399</timeUTC>
+        <yaw>-3.33273900000000012E+00</yaw>
+        <roll>8.00999999999999954E-04</roll>
+        <pitch>-8.34970000000000018E-02</pitch>
+        <yawRate>1.92500000000000006E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-3.39999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="71">
+        <timeUTC>2024-01-17T10:31:25.450100</timeUTC>
+        <yaw>-3.32883500000000021E+00</yaw>
+        <roll>7.72000000000000008E-04</roll>
+        <pitch>-8.35749999999999965E-02</pitch>
+        <yawRate>1.96299999999999990E-03</yawRate>
+        <rollRate>-6.00000000000000015E-05</rollRate>
+        <pitchRate>-9.99999999999999955E-07</pitchRate>
+      </attitudeData>
+      <attitudeData num="72">
+        <timeUTC>2024-01-17T10:31:27.449999</timeUTC>
+        <yaw>-3.32488599999999979E+00</yaw>
+        <roll>7.37000000000000025E-04</roll>
+        <pitch>-8.36360000000000020E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-3.39999999999999997E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="73">
+        <timeUTC>2024-01-17T10:31:29.450200</timeUTC>
+        <yaw>-3.32100600000000012E+00</yaw>
+        <roll>6.98999999999999969E-04</roll>
+        <pitch>-8.37299999999999989E-02</pitch>
+        <yawRate>1.97999999999999999E-03</yawRate>
+        <rollRate>-4.30000000000000017E-05</rollRate>
+        <pitchRate>-6.79999999999999995E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="74">
+        <timeUTC>2024-01-17T10:31:31.450100</timeUTC>
+        <yaw>-3.31701399999999991E+00</yaw>
+        <roll>7.11999999999999959E-04</roll>
+        <pitch>-8.38180000000000036E-02</pitch>
+        <yawRate>2.00100000000000017E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>-2.50000000000000012E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="75">
+        <timeUTC>2024-01-17T10:31:33.450399</timeUTC>
+        <yaw>-3.31315099999999996E+00</yaw>
+        <roll>6.40999999999999968E-04</roll>
+        <pitch>-8.38560000000000000E-02</pitch>
+        <yawRate>1.96999999999999996E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>-2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="76">
+        <timeUTC>2024-01-17T10:31:35.450100</timeUTC>
+        <yaw>-3.30938499999999980E+00</yaw>
+        <roll>5.31000000000000005E-04</roll>
+        <pitch>-8.38499999999999940E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-4.89999999999999984E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="77">
+        <timeUTC>2024-01-17T10:31:37.449999</timeUTC>
+        <yaw>-3.30545000000000000E+00</yaw>
+        <roll>5.50999999999999949E-04</roll>
+        <pitch>-8.38409999999999989E-02</pitch>
+        <yawRate>1.96299999999999990E-03</yawRate>
+        <rollRate>-6.99999999999999989E-06</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="78">
+        <timeUTC>2024-01-17T10:31:39.450200</timeUTC>
+        <yaw>-3.30148900000000012E+00</yaw>
+        <roll>5.00000000000000010E-04</roll>
+        <pitch>-8.38229999999999947E-02</pitch>
+        <yawRate>1.95500000000000014E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="79">
+        <timeUTC>2024-01-17T10:31:41.450100</timeUTC>
+        <yaw>-3.29750599999999983E+00</yaw>
+        <roll>3.86999999999999974E-04</roll>
+        <pitch>-8.37630000000000041E-02</pitch>
+        <yawRate>1.99199999999999985E-03</yawRate>
+        <rollRate>-2.79999999999999996E-05</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="80">
+        <timeUTC>2024-01-17T10:31:43.450600</timeUTC>
+        <yaw>-3.29359599999999997E+00</yaw>
+        <roll>2.48999999999999981E-04</roll>
+        <pitch>-8.37169999999999997E-02</pitch>
+        <yawRate>2.00899999999999994E-03</yawRate>
+        <rollRate>-3.69999999999999981E-05</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="81">
+        <timeUTC>2024-01-17T10:31:45.450200</timeUTC>
+        <yaw>-3.28963800000000006E+00</yaw>
+        <roll>1.20000000000000003E-04</roll>
+        <pitch>-8.37050000000000016E-02</pitch>
+        <yawRate>2.01600000000000000E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="82">
+        <timeUTC>2024-01-17T10:31:47.450200</timeUTC>
+        <yaw>-3.28561399999999981E+00</yaw>
+        <roll>1.01000000000000002E-04</roll>
+        <pitch>-8.36409999999999931E-02</pitch>
+        <yawRate>2.03099999999999982E-03</yawRate>
+        <rollRate>3.99999999999999982E-06</rollRate>
+        <pitchRate>1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="83">
+        <timeUTC>2024-01-17T10:31:49.450399</timeUTC>
+        <yaw>-3.28148699999999982E+00</yaw>
+        <roll>3.80000000000000021E-05</roll>
+        <pitch>-8.35850000000000065E-02</pitch>
+        <yawRate>2.05000000000000017E-03</yawRate>
+        <rollRate>-1.69999999999999999E-05</rollRate>
+        <pitchRate>5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="84">
+        <timeUTC>2024-01-17T10:31:51.450300</timeUTC>
+        <yaw>-3.27739400000000014E+00</yaw>
+        <roll>9.00000000000000023E-06</roll>
+        <pitch>-8.35459999999999953E-02</pitch>
+        <yawRate>2.05799999999999993E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="85">
+        <timeUTC>2024-01-17T10:31:53.450600</timeUTC>
+        <yaw>-3.27319400000000016E+00</yaw>
+        <roll>-2.00000000000000016E-05</roll>
+        <pitch>-8.35510000000000003E-02</pitch>
+        <yawRate>2.05499999999999997E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="86">
+        <timeUTC>2024-01-17T10:31:55.450300</timeUTC>
+        <yaw>-3.26900700000000022E+00</yaw>
+        <roll>0.00000000000000000E+00</roll>
+        <pitch>-8.34919999999999968E-02</pitch>
+        <yawRate>2.11399999999999999E-03</yawRate>
+        <rollRate>-9.00000000000000023E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="87">
+        <timeUTC>2024-01-17T10:31:57.450200</timeUTC>
+        <yaw>-3.26476800000000011E+00</yaw>
+        <roll>2.30000000000000000E-05</roll>
+        <pitch>-8.33870000000000028E-02</pitch>
+        <yawRate>2.08999999999999984E-03</yawRate>
+        <rollRate>-1.59999999999999993E-05</rollRate>
+        <pitchRate>3.10000000000000014E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="88">
+        <timeUTC>2024-01-17T10:31:59.450399</timeUTC>
+        <yaw>-3.26055800000000007E+00</yaw>
+        <roll>4.60000000000000000E-05</roll>
+        <pitch>-8.32510000000000056E-02</pitch>
+        <yawRate>2.10200000000000014E-03</yawRate>
+        <rollRate>-1.29999999999999992E-05</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="89">
+        <timeUTC>2024-01-17T10:32:01.450300</timeUTC>
+        <yaw>-3.25639199999999995E+00</yaw>
+        <roll>3.60000000000000009E-05</roll>
+        <pitch>-8.31210000000000004E-02</pitch>
+        <yawRate>2.10900000000000020E-03</yawRate>
+        <rollRate>-5.00000000000000041E-06</rollRate>
+        <pitchRate>2.69999999999999990E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="90">
+        <timeUTC>2024-01-17T10:32:03.450800</timeUTC>
+        <yaw>-3.25212300000000010E+00</yaw>
+        <roll>-2.19999999999999994E-05</roll>
+        <pitch>-8.30240000000000006E-02</pitch>
+        <yawRate>2.12899999999999982E-03</yawRate>
+        <rollRate>-3.49999999999999969E-05</rollRate>
+        <pitchRate>2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="91">
+        <timeUTC>2024-01-17T10:32:05.450399</timeUTC>
+        <yaw>-3.24796599999999991E+00</yaw>
+        <roll>-1.64999999999999999E-04</roll>
+        <pitch>-8.29970000000000013E-02</pitch>
+        <yawRate>2.10299999999999983E-03</yawRate>
+        <rollRate>-7.99999999999999964E-06</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="92">
+        <timeUTC>2024-01-17T10:32:07.450399</timeUTC>
+        <yaw>-3.24388100000000001E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.29659999999999981E-02</pitch>
+        <yawRate>2.11399999999999999E-03</yawRate>
+        <rollRate>1.00000000000000008E-05</rollRate>
+        <pitchRate>1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="93">
+        <timeUTC>2024-01-17T10:32:09.450500</timeUTC>
+        <yaw>-3.23981800000000009E+00</yaw>
+        <roll>-3.62999999999999987E-04</roll>
+        <pitch>-8.29680000000000001E-02</pitch>
+        <yawRate>2.11999999999999992E-03</yawRate>
+        <rollRate>-3.99999999999999982E-06</rollRate>
+        <pitchRate>-3.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="94">
+        <timeUTC>2024-01-17T10:32:11.450399</timeUTC>
+        <yaw>-3.23573800000000000E+00</yaw>
+        <roll>-4.62999999999999978E-04</roll>
+        <pitch>-8.29229999999999967E-02</pitch>
+        <yawRate>2.12500000000000015E-03</yawRate>
+        <rollRate>1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.99999999999999991E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="95">
+        <timeUTC>2024-01-17T10:32:13.450900</timeUTC>
+        <yaw>-3.23163299999999998E+00</yaw>
+        <roll>-4.97999999999999962E-04</roll>
+        <pitch>-8.28440000000000010E-02</pitch>
+        <yawRate>2.14299999999999994E-03</yawRate>
+        <rollRate>3.00000000000000008E-05</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="96">
+        <timeUTC>2024-01-17T10:32:15.450600</timeUTC>
+        <yaw>-3.22740399999999994E+00</yaw>
+        <roll>-4.69999999999999986E-04</roll>
+        <pitch>-8.28559999999999991E-02</pitch>
+        <yawRate>2.13299999999999991E-03</yawRate>
+        <rollRate>5.30000000000000008E-05</rollRate>
+        <pitchRate>3.99999999999999982E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="97">
+        <timeUTC>2024-01-17T10:32:17.450500</timeUTC>
+        <yaw>-3.22302299999999997E+00</yaw>
+        <roll>-4.22999999999999982E-04</roll>
+        <pitch>-8.29050000000000065E-02</pitch>
+        <yawRate>2.17400000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>9.00000000000000023E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="98">
+        <timeUTC>2024-01-17T10:32:19.450600</timeUTC>
+        <yaw>-3.21861599999999992E+00</yaw>
+        <roll>-3.46999999999999978E-04</roll>
+        <pitch>-8.28919999999999935E-02</pitch>
+        <yawRate>2.18700000000000014E-03</yawRate>
+        <rollRate>3.39999999999999997E-05</rollRate>
+        <pitchRate>-1.80000000000000005E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="99">
+        <timeUTC>2024-01-17T10:32:21.450500</timeUTC>
+        <yaw>-3.21433200000000019E+00</yaw>
+        <roll>-3.77000000000000002E-04</roll>
+        <pitch>-8.28990000000000005E-02</pitch>
+        <yawRate>2.18300000000000004E-03</yawRate>
+        <rollRate>1.39999999999999998E-05</rollRate>
+        <pitchRate>-1.09999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="100">
+        <timeUTC>2024-01-17T10:32:23.450999</timeUTC>
+        <yaw>-3.21000899999999989E+00</yaw>
+        <roll>-3.73999999999999983E-04</roll>
+        <pitch>-8.29519999999999980E-02</pitch>
+        <yawRate>2.20300000000000010E-03</yawRate>
+        <rollRate>3.60000000000000009E-05</rollRate>
+        <pitchRate>-2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="101">
+        <timeUTC>2024-01-17T10:32:25.450600</timeUTC>
+        <yaw>-3.20565699999999998E+00</yaw>
+        <roll>-3.48000000000000002E-04</roll>
+        <pitch>-8.30530000000000018E-02</pitch>
+        <yawRate>2.20799999999999989E-03</yawRate>
+        <rollRate>-3.00000000000000008E-06</rollRate>
+        <pitchRate>-2.40000000000000006E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="102">
+        <timeUTC>2024-01-17T10:32:27.450399</timeUTC>
+        <yaw>-3.20118100000000005E+00</yaw>
+        <roll>-2.42999999999999998E-04</roll>
+        <pitch>-8.30670000000000019E-02</pitch>
+        <yawRate>2.20600000000000006E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>2.30000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="103">
+        <timeUTC>2024-01-17T10:32:29.450699</timeUTC>
+        <yaw>-3.19648200000000005E+00</yaw>
+        <roll>-1.53000000000000006E-04</roll>
+        <pitch>-8.30950000000000022E-02</pitch>
+        <yawRate>2.22900000000000008E-03</yawRate>
+        <rollRate>-1.20000000000000003E-05</rollRate>
+        <pitchRate>-1.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="104">
+        <timeUTC>2024-01-17T10:32:31.450600</timeUTC>
+        <yaw>-3.19171700000000014E+00</yaw>
+        <roll>-4.39999999999999989E-05</roll>
+        <pitch>-8.30649999999999999E-02</pitch>
+        <yawRate>2.21000000000000016E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>2.19999999999999994E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="105">
+        <timeUTC>2024-01-17T10:32:33.450999</timeUTC>
+        <yaw>-3.18697799999999987E+00</yaw>
+        <roll>-2.90000000000000002E-05</roll>
+        <pitch>-8.29499999999999960E-02</pitch>
+        <yawRate>2.24999999999999983E-03</yawRate>
+        <rollRate>-1.09999999999999997E-05</rollRate>
+        <pitchRate>3.80000000000000021E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="106">
+        <timeUTC>2024-01-17T10:32:35.450699</timeUTC>
+        <yaw>-3.18226800000000010E+00</yaw>
+        <roll>-9.99999999999999955E-07</roll>
+        <pitch>-8.28829999999999983E-02</pitch>
+        <yawRate>2.25399999999999993E-03</yawRate>
+        <rollRate>3.99999999999999982E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="107">
+        <timeUTC>2024-01-17T10:32:37.450500</timeUTC>
+        <yaw>-3.17770999999999981E+00</yaw>
+        <roll>3.39999999999999997E-05</roll>
+        <pitch>-8.28620000000000051E-02</pitch>
+        <yawRate>2.27100000000000002E-03</yawRate>
+        <rollRate>-1.00000000000000008E-05</rollRate>
+        <pitchRate>2.00000000000000016E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="108">
+        <timeUTC>2024-01-17T10:32:39.450800</timeUTC>
+        <yaw>-3.17337800000000003E+00</yaw>
+        <roll>5.30000000000000008E-05</roll>
+        <pitch>-8.28340000000000048E-02</pitch>
+        <yawRate>2.22000000000000018E-03</yawRate>
+        <rollRate>2.79999999999999996E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="109">
+        <timeUTC>2024-01-17T10:32:41.450699</timeUTC>
+        <yaw>-3.16893799999999981E+00</yaw>
+        <roll>3.19999999999999986E-05</roll>
+        <pitch>-8.27549999999999952E-02</pitch>
+        <yawRate>2.24999999999999983E-03</yawRate>
+        <rollRate>2.40000000000000006E-05</rollRate>
+        <pitchRate>1.39999999999999998E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="110">
+        <timeUTC>2024-01-17T10:32:43.451200</timeUTC>
+        <yaw>-3.16454900000000006E+00</yaw>
+        <roll>-5.59999999999999992E-05</roll>
+        <pitch>-8.26859999999999956E-02</pitch>
+        <yawRate>2.25699999999999989E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>2.09999999999999988E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="111">
+        <timeUTC>2024-01-17T10:32:45.450800</timeUTC>
+        <yaw>-3.16017599999999987E+00</yaw>
+        <roll>-8.70000000000000005E-05</roll>
+        <pitch>-8.26000000000000068E-02</pitch>
+        <yawRate>2.26500000000000009E-03</yawRate>
+        <rollRate>2.59999999999999984E-05</rollRate>
+        <pitchRate>4.19999999999999977E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="112">
+        <timeUTC>2024-01-17T10:32:47.450600</timeUTC>
+        <yaw>-3.15584599999999993E+00</yaw>
+        <roll>-1.11000000000000001E-04</roll>
+        <pitch>-8.25329999999999953E-02</pitch>
+        <yawRate>2.22300000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>4.00000000000000033E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="113">
+        <timeUTC>2024-01-17T10:32:49.450900</timeUTC>
+        <yaw>-3.15140399999999987E+00</yaw>
+        <roll>-1.11999999999999998E-04</roll>
+        <pitch>-8.25169999999999931E-02</pitch>
+        <yawRate>2.23999999999999980E-03</yawRate>
+        <rollRate>-1.99999999999999991E-06</rollRate>
+        <pitchRate>-5.00000000000000041E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="114">
+        <timeUTC>2024-01-17T10:32:51.450800</timeUTC>
+        <yaw>-3.14691300000000007E+00</yaw>
+        <roll>-1.31000000000000013E-04</roll>
+        <pitch>-8.25049999999999950E-02</pitch>
+        <yawRate>2.23500000000000001E-03</yawRate>
+        <rollRate>-9.99999999999999955E-07</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="115">
+        <timeUTC>2024-01-17T10:32:53.451200</timeUTC>
+        <yaw>-3.14239500000000005E+00</yaw>
+        <roll>-8.39999999999999954E-05</roll>
+        <pitch>-8.25380000000000003E-02</pitch>
+        <yawRate>2.28500000000000014E-03</yawRate>
+        <rollRate>2.40000000000000006E-05</rollRate>
+        <pitchRate>-3.00000000000000008E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="116">
+        <timeUTC>2024-01-17T10:32:55.450900</timeUTC>
+        <yaw>-3.13782499999999986E+00</yaw>
+        <roll>-1.00000000000000008E-05</roll>
+        <pitch>-8.26319999999999971E-02</pitch>
+        <yawRate>2.27200000000000015E-03</yawRate>
+        <rollRate>2.69999999999999990E-05</rollRate>
+        <pitchRate>-6.99999999999999989E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="117">
+        <timeUTC>2024-01-17T10:32:57.450699</timeUTC>
+        <yaw>-3.13330200000000003E+00</yaw>
+        <roll>1.99999999999999991E-06</roll>
+        <pitch>-8.26059999999999989E-02</pitch>
+        <yawRate>2.27500000000000011E-03</yawRate>
+        <rollRate>2.09999999999999988E-05</rollRate>
+        <pitchRate>3.30000000000000025E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="118">
+        <timeUTC>2024-01-17T10:32:59.450999</timeUTC>
+        <yaw>-3.12868300000000010E+00</yaw>
+        <roll>1.90000000000000010E-05</roll>
+        <pitch>-8.25940000000000007E-02</pitch>
+        <yawRate>2.29700000000000000E-03</yawRate>
+        <rollRate>9.99999999999999955E-07</rollRate>
+        <pitchRate>1.29999999999999992E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="119">
+        <timeUTC>2024-01-17T10:33:01.450900</timeUTC>
+        <yaw>-3.12405100000000013E+00</yaw>
+        <roll>4.50000000000000028E-05</roll>
+        <pitch>-8.24700000000000016E-02</pitch>
+        <yawRate>2.30899999999999985E-03</yawRate>
+        <rollRate>3.10000000000000014E-05</rollRate>
+        <pitchRate>4.60000000000000000E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="120">
+        <timeUTC>2024-01-17T10:33:03.451100</timeUTC>
+        <yaw>-3.11933000000000016E+00</yaw>
+        <roll>1.12999999999999996E-04</roll>
+        <pitch>-8.23709999999999998E-02</pitch>
+        <yawRate>2.29700000000000000E-03</yawRate>
+        <rollRate>-2.30000000000000000E-05</rollRate>
+        <pitchRate>3.00000000000000008E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="121">
+        <timeUTC>2024-01-17T10:33:05.450900</timeUTC>
+        <yaw>-3.11445099999999986E+00</yaw>
+        <roll>2.05999999999999993E-04</roll>
+        <pitch>-8.23649999999999938E-02</pitch>
+        <yawRate>2.34799999999999983E-03</yawRate>
+        <rollRate>1.00000000000000008E-05</rollRate>
+        <pitchRate>3.39999999999999997E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="122">
+        <timeUTC>2024-01-17T10:33:07.450699</timeUTC>
+        <yaw>-3.10948000000000002E+00</yaw>
+        <roll>2.73000000000000022E-04</roll>
+        <pitch>-8.23389999999999955E-02</pitch>
+        <yawRate>2.36400000000000022E-03</yawRate>
+        <rollRate>3.00000000000000008E-06</rollRate>
+        <pitchRate>2.59999999999999984E-05</pitchRate>
+      </attitudeData>
+      <attitudeData num="123">
+        <timeUTC>2024-01-17T10:33:09.450999</timeUTC>
+        <yaw>-3.10463999999999984E+00</yaw>
+        <roll>3.55999999999999980E-04</roll>
+        <pitch>-8.23649999999999938E-02</pitch>
+        <yawRate>2.36900000000000001E-03</yawRate>
+        <rollRate>1.80000000000000005E-05</rollRate>
+        <pitchRate>6.00000000000000015E-06</pitchRate>
+      </attitudeData>
+      <attitudeData num="124">
+        <timeUTC>2024-01-17T10:33:11.450999</timeUTC>
+        <yaw>-3.09993000000000007E+00</yaw>
+        <roll>3.57999999999999974E-04</roll>
+        <pitch>-8.23500000000000065E-02</pitch>
+        <yawRate>2.34499999999999986E-03</yawRate>
+        <rollRate>-1.20000000000000003E-05</rollRate>
+        <pitchRate>3.49999999999999969E-05</pitchRate>
+      </attitudeData>
+    </attitude>
+  </platform>
+  <productQuality>
+    <auxDataQuality>
+      <orbitDataQualityLowFlag>false</orbitDataQualityLowFlag>
+      <attitudeDataQualityLowFlag>false</attitudeDataQualityLowFlag>
+      <DEMqualityLowFlag>false</DEMqualityLowFlag>
+      <missingAuxDataFlag>false</missingAuxDataFlag>
+    </auxDataQuality>
+    <processingParameterQuality>
+      <averageDopplerCentroidInfo>
+        <azimuthStart>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthStart>
+        <azimuthCenter>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthCenter>
+        <azimuthStop>
+          <nearRange>1.20039959661021967E+00</nearRange>
+          <midRange>1.39127735631122107E+00</midRange>
+          <farRange>1.56525255962178833E+00</farRange>
+        </azimuthStop>
+      </averageDopplerCentroidInfo>
+      <dopplerAmbiguityNotZeroFlag>false</dopplerAmbiguityNotZeroFlag>
+      <dopplerInconsistencyFlag>false</dopplerInconsistencyFlag>
+    </processingParameterQuality>
+    <imageDataQuality>
+      <polLayer>HH</polLayer>
+      <imageDataStatistics>
+        <mean>7.82286655016819002E-03</mean>
+        <max>1.50000000000000000E+02</max>
+        <min>0.00000000000000000E+00</min>
+        <stdDev>1.33036412670096915E-01</stdDev>
+      </imageDataStatistics>
+    </imageDataQuality>
+    <instrumentStateRemark>NULL</instrumentStateRemark>
+  </productQuality>
+  <geometricCalibration>
+    <taskID>006</taskID>
+    <sceneID>0000123546</sceneID>
+    <field>REMOVED</field>
+    <date>REMOVED</date>
+    <azimuthMeanSquareError units="meter">0.656</azimuthMeanSquareError>
+    <rangeMeanSquareError units="meter">0.583</rangeMeanSquareError>
+    <meanSquareError units="meter">0.878</meanSquareError>
+    <usePreciseOrbit>true</usePreciseOrbit>
+  </geometricCalibration>
+</level1Product>

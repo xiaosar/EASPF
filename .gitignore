@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- runtime products (generated when running the programs) ---
+*.offs
+*.offs.rg
+*.offs.az
+*.cc
+*.cc2
+*.int
+*.diff
+*.diff_sm*
+*.diff_quad
+*.unw
+*.unw.mask.bmp
+*.tmp
+.tmp_pool/
+*.bak.*
+
+# NOTE: raw/ and result*/ are sample data and are tracked on purpose.
+#       Do not add them here.

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Gamma Software (http://www.gamma-rs.ch/) -->
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name>LT1A_MONO_KSC_STRIP1_010732_E113.2_N25.6_20240117_SLC_HH_S2A_0000299168.slc_correct.kml</name>
+  <open>0</open>
+  <Style id="zn">
+    <IconStyle>
+      <color>00ffffff</color>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+        <x>128</x>
+        <w>32</w>
+        <h>32</h>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <scale>0</scale>
+    </LabelStyle>
+    <BalloonStyle>
+      <text>$[description]</text>
+    </BalloonStyle>
+    <LineStyle>
+      <color>ff0000ff</color>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff0000ff</color>
+      <fill>0</fill>
+    </PolyStyle>
+  </Style>
+  <Style id="zh">
+    <IconStyle>
+      <color>00ffffff</color>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+        <x>128</x>
+        <w>32</w>
+        <h>32</h>
+      </Icon>
+    </IconStyle>
+    <LineStyle>
+      <color>ff40ff00</color>
+      <width>2</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff40ff00</color>
+      <fill>0</fill>
+    </PolyStyle>
+  </Style>
+  <StyleMap id="MapRollOver">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#zn</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#zh</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Folder>
+    <name>Bursts</name>
+    <open>0</open>
+    <Snippet maxLines="2">Legend: Single Symbol</Snippet>
+    <Placemark>
+      <name>LT1A_MONO_KSC_STRIP1_010732_E113.2_N25.6_20240117_SLC_HH_S2A_0000299168.meta_co </name>
+      <Snippet maxLines="0"></Snippet>
+      <description><![CDATA[PROPERTIES<br><table border=0 cellpadding=0 cellspacing=0  width=250 style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;">      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Filename:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">LT1A_MONO_KSC_STRIP1_010732_E113.2_N25.6_20240117_SLC_HH_S2A_0000299168.meta_co</font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Title:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">LT1A_MONO_KSC_STRIP1_010732_E113.2_N25.6_20240117_SLC_HH_S2A_0000299168.meta_co</font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Sensor:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">LT1A</font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Mode:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"></font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Swath:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"></font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Pol:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000"></font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Date:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">2024 1 17 10 30 21.8978</font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Orbit:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">0</font></td></tr>      <tr><td bgcolor="#E3E1CA" align="right"><font COLOR="#000000"><b>Rel.&nbsp;Orbit:&nbsp;</b></font></td><td bgcolor="#E4E6CA"> <font COLOR="#008000">0</font></td></tr>      </table>]]></description>
+      <styleUrl>#MapRollOver</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                112.96020913,25.26810738,0 113.48565794,25.35426982,0 113.38541540,25.86103236,0 112.85763778,25.77503221,0 112.96020913,25.26810738,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                112.96020913,25.26810738,0 113.48565794,25.35426982,0 113.38541540,25.86103236,0 112.85763778,25.77503221,0 112.96020913,25.26810738,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
